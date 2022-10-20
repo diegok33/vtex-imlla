@@ -1,9 +1,9 @@
 {
   "list-context.image-list#carousel__main--mobile": {
     "title": "Seccion de Carrusel principal mobile",
-    "children": ["slider-layout#carousel__main--images-mobile"],
+    "children": ["slider-layout#carousel__main--images--mobile"],
     "props": {
-      "height": 500,
+      "height": "300 px",
       "preload": true,
       "images": [
         {
@@ -21,7 +21,7 @@
       ]
     }
   },
-  "slider-layout#carousel__main--images-mobile": {
+  "slider-layout#carousel__main--images--mobile": {
     "title": "Configuracion de Carrusel principal",
     "props": {
       "itemsPerPage": {
@@ -30,7 +30,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel__main--images",
+      "blockClass": "carousel__main--images--mobile",
       "autoplay": {
         "timeout": 4000,
         "stopOnHover": true

@@ -2,7 +2,7 @@
     "responsive-layout.mobile#home":{
         "title": "Home Mobile",
         "children":[
-          "list-context.image-list#carousel__main",
+          "list-context.image-list#carousel__main--mobile",
           //"info-card",
           "list-context.image-list#carousel__brands",
           "rich-text#productos mas vendidos-mobile",

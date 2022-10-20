@@ -24,11 +24,7 @@
   overflow-y: scroll;
   padding-left: 15px;
   white-space: pre-line;
-}
-.imageElement--carousel__main--images{
-  max-height: initial !important;
-  height: 300px;
-  width: 300px;
+
 }
 .infoCardCallActionContainer--info-card-home-sull{
 
