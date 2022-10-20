@@ -1,0 +1,9 @@
+.minicartIconContainer--minicart__mobile{
+  color: white;
+}
+
+@media screen and (min-width: 1030px){
+  .minicartIconContainer--minicart__mobile{
+    color: #373435;
+  }
+}

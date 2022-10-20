@@ -1,0 +1,52 @@
+{
+  "flex-layout.row#icons__socialmedia-hd": {
+    "title": "Contenido de social media",
+    "props": {
+      "blockClass": "icons__socialmedia-hd"
+    },
+    "children": [
+      "image#socialmedia__facebook",
+      "image#socialmedia__instagram",
+      "image#socialmedia__telegram"
+    ]
+  },
+  "image#socialmedia__facebook": {
+    "title": "Icono Facebook",
+    "props": {
+      "alt": "facebook",
+      "srcSet": "assets/icons/facebook.svg",
+      "maxWidth": 50,
+      "link": {
+        "url": "https://www.facebook.com/llantasdunlopcolombia",
+        "newTab": true
+      },
+      "blockClass": "icons__socialmedia"
+    }
+  },
+  "image#socialmedia__instagram": {
+    "title": "Icono Instagram",
+    "props": {
+      "alt": "instagram",
+      "srcSet": "assets/icons/instagram.svg",
+      "maxWidth": 50,
+      "link": {
+        "url": "https://www.instagram.com/toyotirescolombia",
+        "newTab": true
+      },
+      "blockClass": "icons__socialmedia"
+    }
+  },
+  "image#socialmedia__telegram": {
+    "title": "Icono Telegram",
+    "props": {
+      "alt": "telegram",
+      "srcSet": "assets/icons/telegram.svg",
+      "maxWidth": 50,
+      "link": {
+        "url": "https://t.me/+4wqKufWreacwOGJh",
+        "newTab": true
+      },
+      "blockClass": "icons__socialmedia"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+
+{
+
+  "info-card#col-left":{
+    "props":{
+      "id": "servicios1",
+      "imageUrl": "assets/img/desktop/cambiollanta.jpg",
+      "isFullMNodeStyle": true,
+      "headline": "Instalación Gratis con nuestros especialistas",
+      "subhead":"Retira tu producto en tienda y solicita la instalación en el momento, si pides que te llegue a casa llevalas a cualquiera de nuestra red de servitecas y te las instalamos.",
+      "callToActionText":"Mas info",
+      "callToActionUrl": "/institucional/servitecas",
+      "textPosition":"center",
+      "textAlignment": "center",
+      "CallToAactionMode": "link",
+      "blockClass":"servicios1"
+    }
+    },
+
+
+  "flex-layout.col#col-right":{
+  "children":[
+    "info-card#col-right-1",
+    "info-card#col-right-2"
+  ]
+} ,
+
+
+"info-card#col-right-1":{
+  "props":{
+    "id": "servicios2",
+    "isFullMNodeStyle": true,
+    "headline": "Conoce nuestra Red de Servitecas",
+    "subhead":"Toda una red a tu disposición",
+    "callToActionText":"Mas info",
+    "callToActionUrl": "/institucional/servitecas",
+    "textPosition":"right",
+    "textAlignment": "center",
+    "CallToAactionMode": "link",
+    "imageUrl": "assets/img/desktop/frentetd.jpg",
+    "blockClass":"servicios2"
+  }
+
+},
+
+"info-card#col-right-2":{
+"props":{
+  "id": "servicios3",
+
+  "imageUrl": "assets/img/desktop/cambio aceite.jpg",
+  "isFullMNodeStyle": true,
+  "headline": "Obten servicios adicionales",
+  "subhead":"Alineacion, Balanceo,Cambio de aceite, revisión punto a punto...",
+  "callToActionText":"Mas info",
+  "callToActionUrl": "/servicios",
+  "textPosition":"center",
+  "textAlignment": "center",
+  "CallToAactionMode": "link",
+  "blockClass":"servicios3"
+
+}}}

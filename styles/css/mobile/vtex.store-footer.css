@@ -1,0 +1,29 @@
+.footerLayout--footer__mobile {
+  background-color: #373435;
+  margin-top: 40px;
+}
+
+.socialNetworksContainer--container__network--items {
+  align-items: center;
+  height: 40px;
+}
+
+.socialNetworkLink--container__network--items--facebook {
+  width: 50px !important;
+}
+.socialNetworkLink--container__network--items--youtube {
+  width: 50px !important;
+}
+.socialNetworkLink--container__network--items--instagram {
+  width: 50px !important;
+}
+
+@media (max-width: 1024px) {
+  .socialNetworksContainer--container__network--items {
+    position: fixed;
+    bottom: 32px;
+    right: calc(50% - 62px);
+    height: auto;
+    margin-right: 0px;
+  }
+}

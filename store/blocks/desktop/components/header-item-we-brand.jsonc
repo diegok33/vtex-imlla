@@ -1,0 +1,86 @@
+{
+  "menu-item#department-desktop-item-we-brand": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "blockClass": "item-menu-desktop",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "we-brand",
+        "text": "Nuestras marcas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#submenu-desktop-we-brands"]
+  },
+  "vtex.menu@2.x:submenu#submenu-desktop-we-brands": {
+    "children": ["vtex.menu@2.x:menu#category-desktop-brands"],
+    "props": {
+      "blockClass": "container-menu"
+    }
+  },
+  "vtex.menu@2.x:menu#category-desktop-brands": {
+    "children": [
+      "menu-item#desktop-TOYO-TIRES",
+      "menu-item#desktop-DUNLOP",
+      "menu-item#desktop-FALKEN"
+      // "menu-item#desktop-MIRAGE"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#desktop-TOYO-TIRES": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-marcas/toyo-tire",
+        "noFollow": true,
+        "tagTitle": "TOYO-TIRES",
+        "text": "TOYO-TIRES"
+      }
+    }
+  },
+  "menu-item#desktop-DUNLOP": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-marcas/dunlop",
+
+        "noFollow": true,
+        "tagTitle": "DUNLOP",
+        "text": "DUNLOP"
+      }
+    }
+  },
+  "menu-item#desktop-FALKEN": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-marcas/falken",
+        "noFollow": true,
+        "tagTitle": "FALKEN",
+        "text": "FALKEN"
+      }
+    }
+  },
+  "menu-item#desktop-MIRAGE": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-marcas/mirage",
+        "noFollow": true,
+        "tagTitle": "MIRAGE",
+        "text": "MIRAGE"
+      }
+    }
+  }
+}

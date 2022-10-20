@@ -1,0 +1,9 @@
+{
+  "responsive-layout.desktop#usuario-no-reconocido": {
+    "title": "Usuario No Reconocido Desktop",
+    "children": [
+      "rich-text#usuario_no_reconocido__title",
+      "rich-text#usuario_no_reconocido__subtitle"
+    ]
+  }
+}

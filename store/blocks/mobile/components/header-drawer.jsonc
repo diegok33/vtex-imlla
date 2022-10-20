@@ -1,0 +1,33 @@
+{
+  "drawer": {
+    "title": "Contenedor Menu hamburguesa",
+    "children": [
+      "flex-layout.col#drawer"
+
+    ],
+    "props": {
+      "blockClass": "header__container-menu"
+    }
+  },
+  "flex-layout.col#drawer":{
+    "children":[
+      "vtex.menu@2.x:menu#menu-mobile",
+      // "social-networks"
+      "flex-layout.row#icons__socialmedia"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-mobile": {
+    "children": [
+      "menu-item#department-desktop-item-home",
+          "menu-item#department-mobile-item-product-services",
+          "menu-item#department-desktop-servitecas",
+          "menu-item#department-mobile-item-we-brand",
+          //"menu-item#department-desktop-item-about-us"
+          "menu-item#department-desktop-item-contact"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header__menu-drawer"
+    }
+  }
+}

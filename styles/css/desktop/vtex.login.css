@@ -1,0 +1,26 @@
+.sendButton :global(.vtex-button) {
+  border: 0;
+}
+
+.sendButton :global(.vtex-button__label),
+.button :global(.vtex-button__label) {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.button :global(.vtex-button) {
+  background-color: #424242;
+}
+
+.button :global(.vtex-button__label) {
+  color: rgb(255, 255, 255);
+}
+
+.box{
+  right: -100px !important;
+}
+
+.accountOptions :global(.vtex-button) :global(.vtex-button__label){
+  color: #424242;
+  font-weight: 700;
+}

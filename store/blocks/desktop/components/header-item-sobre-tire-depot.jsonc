@@ -1,0 +1,96 @@
+{
+  "menu-item#department-desktop-item-about-us": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "blockClass": "item-menu-desktop",
+      "itemProps": {
+        "type": "internal",
+        //"href": "/",
+        "noFollow": true,
+        "text": "Sobre Nosotros"
+      }
+    },
+
+    "blocks": ["vtex.menu@2.x:submenu#submenu-desktop-sobre-tire-depot"]
+      },
+      "vtex.menu@2.x:submenu#submenu-desktop-sobre-tire-depot": {
+        "children": ["vtex.menu@2.x:menu#category-desktop-sobretd"],
+        "props": {
+          "blockClass": "container-menu"
+        }
+      },
+      "vtex.menu@2.x:menu#category-desktop-sobretd": {
+        "children":
+        ["menu-item#department-desktop-item-about-ust",
+        "menu-item#faq",
+        "menu-item#policies",
+        "menu-item#terms"
+      ],
+
+
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+
+      "menu-item#department-desktop-item-about-ust": {
+        "props": {
+          "id": "menu-item-department",
+          "type": "custom",
+          "blockClass": "item-menu-desktop",
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/quienes-somos",
+            "noFollow": true,
+            "text": "Quiénes somos"
+          }
+        }
+        },
+
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "blockClass": "item-menu-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": true,
+        "text": "Preguntas Frecuentes"
+      }
+    }
+    },
+
+    "menu-item#policies": {
+      "props": {
+        "id": "menu-item-department",
+        "type": "custom",
+       // "blockClass": "item-menu-desktop",
+        "itemProps": {
+          "type": "internal",
+          "href": "/institucional/politicas",
+          "noFollow": true,
+          "text": "Políticas"
+        }
+      }
+      },
+
+      "menu-item#terms": {
+        "props": {
+          "id": "menu-item-department",
+          "type": "custom",
+          //"blockClass": "item-menu-desktop",
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/terminos-y-condiciones",
+            "noFollow": true,
+            "text": "Términos y Condiciones"
+          }
+
+        }
+        }
+      }
+
+
+

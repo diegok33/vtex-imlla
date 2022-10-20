@@ -1,0 +1,8 @@
+{
+  "store.custom#usuario-no-reconocido": {
+    "blocks": [
+      "responsive-layout.desktop#usuario-no-reconocido",
+      "responsive-layout.mobile#usuario-no-reconocido"
+    ]
+  }
+}

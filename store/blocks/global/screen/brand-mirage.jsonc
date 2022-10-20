@@ -1,0 +1,51 @@
+{
+
+
+  // "store.custom#desktop__brand--mirage": {
+  //   "path": "/nuestras-marcas/mirage"
+  // },
+
+
+  // "store.custom#desktop__brand--mirage": {
+  //   "blocks": ["flex-layout.row#container__brand--mirage"]
+  // },
+  // "flex-layout.row#container__brand--mirage": {
+  //   "children": [
+  //     "rich-text#mirage__brand-title",
+  //     "rich-text#mirage__brand-content",
+  //     "image#img__mirage",
+  //     "rich-text#mirage__brand-content2"
+  //   ],
+  //   "props": {
+  //     "blockClass": "container__content--tpyo-tire"
+  //   }
+  // },
+  // "rich-text#mirage__brand-title": {
+  //   "props": {
+  //     "text": "MIRAGE",
+  //     "font": "t-heading-2",
+  //     "textAlignment": "LEFT",
+  //     "textPosition": "LEFT",
+  //     "blockClass": "width-articles--title"
+  //   }
+  // },
+  // "rich-text#mirage__brand-content": {
+  //   "props": {
+  //     "text": "DESDE 1995, Shandong Hengfeng, fabricante de Mirage, se ha ido consolidando como uno de los principales fabricantes de neumáticos de Asia, registrando notables tasas de crecimiento por la excelente relación calidad precio de sus productos.\n Mirage posee unas instalaciones de última generación que ocupan un área total de 1,6 km2, con 6.000 empleados y 3 plantas de producción que la sitúan a la vanguardia de la tecnología con una capacidad anual de 19 millones de neumáticos de PCR y 4 millones en TBR.",
+  //     "blockClass": "width-articles"
+  //   }
+  // },
+  // "image#img__mirage": {
+  //   "props": {
+  //     "src": "https://imllaco.vteximg.com.br/arquivos/57451434_2297105417020478_2540843320640256471_n%20copia.jpg?v=637638627836000000",
+  //     "maxHeight": "600px",
+  //     "blockClass": "width-articles-img"
+  //   }
+  // },
+  // "rich-text#mirage__brand-content2": {
+  //   "props": {
+  //     "text": "La alta cualificación de su equipo humano y los profesionales especializados en investigación y desarrollo dan como resultado una excelente y amplia gama de neumáticos de turismo, UHP, furgoneta, 4x4/SUV, camión y autobús que ex-portan a más de 80 países del mundo.\n La marca Mirage es comercializada de forma exclusiva por el grupo internacional de distribución de neumáticos Tiresur, en la mayoría de los países de América Central y Sudamérica, España, Portugal, así como en África. La dimensión internacional de Tiresur, la experiencia de servicio en el mercado y nuestra amplia base de clientes, garantizan la disponibilidad y el suministro de Mirage en los países donde la marca está presente de forma exclusiva, ofreciendo tecnología y prestaciones al mejor precio.\n Los productos de Mirage han obtenido todos los certificados de calidad DOT, ECE, CCC, INMETRO, ISO 9001 y TS16949.",
+  //     "blockClass": "width-articles"
+  //   }
+  // }
+}

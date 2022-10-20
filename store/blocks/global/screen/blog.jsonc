@@ -1,0 +1,93 @@
+{
+    "store.custom#blog":{
+        "blocks":[
+            "flex-layout.row#blog"
+        ]
+    },
+    "flex-layout.row#blog":{
+        "props": {
+            "blockClass": "container__content--tpyo-tire"
+        },
+        "children":[
+            "flex-layout.col#blog"
+        ]
+    },
+    "flex-layout.col#blog":{
+        "children":[
+            "rich-text#blog__title",
+            "image#blog__img",
+            "rich-text#blog__subtitle",
+            "rich-text#blog__subtitle--content",
+            "rich-text#blog__subtitle2",
+            "rich-text#blog__subtitle2--content",
+            "rich-text#blog__list",
+            "rich-text#blog__subtitle2--content2",
+            "rich-text#blog__title2",
+            "image#blog__img--pinchazo",
+            "rich-text#blog__subtitle3",
+            "rich-text#blog__subtitle3--content"
+        ]
+    },
+    "rich-text#blog__title":{
+        "props":{
+            "text": "¿CUÁL ES LA MEJOR BATERÍA DE AUTOMÓVIL?",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "image#blog__img":{
+        "props": {
+            "src": "assets/img/desktop/blog_bateria.jpg"
+        }
+    },
+    "rich-text#blog__subtitle":{
+        "props":{
+            "text":"### DESCUBRE LAS BATERÍAS MOURA."
+        }
+    },
+    "rich-text#blog__subtitle--content":{
+        "props":{
+            "text":"Elegir las mejores piezas es muy importante para utilizar su vehículo con cuidado y seguridad. ¡Descubra cómo elegir la mejor batería de automóvil!\n \n Con tantos dispositivos electrónicos en los automóviles modernos, ¡la batería del automóvil se vuelve más importante que nunca! Como propietario de un vehículo, debe saber cuál es la mejor batería de automóvil para garantizar el mejor funcionamiento posible de su automóvil. Sin embargo, ¿sabes cómo hacer esto?\n \nEn este post, vamos a hablar sobre cómo elegir la mejor batería de coche. Además, explicaremos cómo la batería puede interferir con el funcionamiento de los automóviles, por qué **Moura** es uno de los mayores fabricantes de baterías del mundo y qué **baterías de automóvil** fabrica la empresa. Entonces, ¿quieres estar al tanto del tema de nuestro artículo? ¡Así que sigue leyendo!"
+        }
+    },
+    "rich-text#blog__subtitle2":{
+        "props":{
+            "text":"### ¿CÓMO PUEDE LA MEJOR BATERÍA DE AUTOMÓVIL CAMBIAR EL FUNCIONAMIENTO DEL AUTOMÓVIL?"
+        }
+    },
+    "rich-text#blog__subtitle2--content":{
+        "props":{
+            "text":"Como ya sabrá, todos los sistemas electrónicos del automóvil dependen de la batería. En el pasado, esto significaba, en la mayoría de los casos, ventanas eléctricas, luces, radio y seguros eléctricos. Hoy en día, los automóviles modernos tienen numerosas características que dependen de la mejor batería de automóvil para brindar mayor seguridad, manejo, conveniencia y comodidad. Por lo tanto, **cuanto mejor sea la batería, mejor funcionará su automóvil**.\n \nSi la batería no funciona bien, es posible que tenga problemas con:"
+        }
+    },
+    "rich-text#blog__list":{
+        "props":{
+            "text":"- Ordenador de a bordo.\n- GPS.\n- Piloto automático.\n- Central multimedia.\n- Ajuste automático de faros.\n- Desempañadores de vidrio.\n- Mando de apertura del maletero.\n- Bancos eléctricos.\n- Calefacción del banco.\n- Espejos retrovisores electrocrómicos.\n- Sensores de estacionamiento.\n- Techo solar."
+        }
+    },
+    "rich-text#blog__subtitle2--content2":{
+        "props":{
+            "text":"Además de todos estos dispositivos, la batería puede afectar las tecnologías de asistencia eléctrica para algunas funciones del motor del automóvil, que el conductor a menudo ni siquiera sabe que están en funcionamiento. Entonces, como puede ver, la lista es grande y cuantas más funciones tenga su automóvil, más funciones dependerán de la batería.\n \nSin embargo, incluso un automóvil más simple tiene muchas de las características que enumeramos anteriormente. Por lo tanto, nunca olvide lo importante que es tener la mejor batería de automóvil y piense en comprar la pieza considerando la rentabilidad."
+        }
+    },
+    "rich-text#blog__title2":{
+        "props":{
+            "text": "¿QUÉ SUCEDE CUANDO SE CONDUCE CON UN NEUMÁTICO PINCHADO?",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "image#blog__img--pinchazo":{
+        "props":{
+            "src": "assets/img/desktop/pinchazo.jpg"
+        }
+    },
+    "rich-text#blog__subtitle3":{
+        "props":{
+            "text":"### DAÑOS A LA CONDUCCIÓN AUTOMOTRIZ"
+        }
+    },
+    "rich-text#blog__subtitle3--content":{
+        "props":{
+            "text":"Conducir con una llanta desinflada es peligroso tanto para el conductor como para los pasajeros del vehículo. Esto se debe a que la baja presión de los neumáticos afecta la dirección del automóvil, especialmente al tomar curvas y al frenar.\n \nEn las curvas, por ejemplo, el coche entra de forma lenta y desigual, ya que hay una falta de adherencia al suelo. Esta condición puede ser muy peligrosa en situaciones en las que se requiere un movimiento rápido de los neumáticos."
+        }
+    }
+}

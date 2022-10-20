@@ -1,0 +1,13 @@
+.homeIcon--breadcrumb,
+.link--breadcrumb {
+  color: #ba0001;
+}
+
+.homeIcon--breadcrumb:hover,
+.link--breadcrumb:hover {
+  color: #373435;
+}
+
+.link--breadcrumb {
+  font-size: 1.3rem;
+}

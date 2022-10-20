@@ -1,0 +1,110 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#desktop__product-page--container",
+      "flex-layout.row#product__description-specs",
+      "shelf.relatedProducts"
+    ],
+    "props": {
+      "blockClass": "Container__product"
+    },
+    "parent": {
+      "challenge": "challenge.trade-policy-condition#b2b"
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb#product-page"]
+  },
+  "breadcrumb#product-page": {
+    "props": {
+      "showOnMobile": true,
+      "caretIconSize": 14,
+      "blockClass": "breadcrumb"
+    }
+  },
+  "flex-layout.row#desktop__product-page--container": {
+    "props": {
+      "marginTop": 6,
+      "marginBottom": 8,
+      "blockClass": "desktop__container--product"
+    },
+    "children": [
+      "flex-layout.col#product-page__left",
+      "flex-layout.col#product-page__right"
+    ]
+  },
+  "flex-layout.col#product-page__left": {
+    "children": ["product-images"],
+    "props": {
+      "blockClass": "desktop__product--left"
+    }
+  },
+  "product-images": {
+    "props": {
+      "zoomMode": "in-place-hover",
+      "blockClass": "desktop__product--left-image"
+    }
+  },
+  "flex-layout.col#product-page__right": {
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle",
+      "blockClass": "desktop__product--right"
+    },
+    "children": [
+      "vtex.store-components:product-name#product-page",
+      "product-price",
+      "product-quantity",
+      "add-to-cart-button"
+    ]
+  },
+  "vtex.store-components:product-name#product-page": {
+    "props": {
+      "showSku": true,
+      "showBrandName": true
+    }
+  },
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": true
+    }
+  },
+  "flex-layout.row#product__description-specs": {
+    "children": [
+      "product-specifications", 
+      "product-description#page__product"
+    ],
+    "props": {
+      "marginBottom": 7,
+      "blockClass": "product__description-specs"
+    }
+  },
+  "product-description#page__product":{
+    "props":{
+      "blockClass": "description__page--product"
+    }
+  },
+  "shelf.relatedProducts": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "recommendation": "view",
+      "showPaginationDots": "never",
+      "blockClass": "related-products",
+      "productList": {
+        "itemsPerPage": 3,
+        "titleText": "Productos relacionados"
+      }
+    }
+  },
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 9999999,
+      "showUnit": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.biggy-autocomplete {
+  border-radius: 10px;
+  z-index: 10;
+}
+
+@media (max-width: 1025px) {
+  .biggy-autocomplete {
+    width: 100%;
+    right: 250px;
+  }
+}
+
+@media (max-width: 770px) {
+  .biggy-autocomplete {
+    right: 350px;
+  }
+}
+
+@media (max-width: 435px) {
+  .biggy-autocomplete {
+    right: 190px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .biggy-autocomplete {
+    right: 150px;
+  }
+}

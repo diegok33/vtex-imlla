@@ -1,0 +1,17 @@
+{
+  "menu-item#department-mobile-item-contact": {
+    "title": "Item Drawer Contact",
+    "props": {
+      "id": "menu-item-department",
+      "blockClass": "item-drawer-mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/contactenos",
+        "noFollow": true,
+        "tagTitle": "contact",
+        "text": "Contáctenos"
+      }
+    }
+  }
+}

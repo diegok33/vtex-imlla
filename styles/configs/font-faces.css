@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Arial, Helvetica,"Roboto","Roboto-Black","Quicksand-Bold", sans-serif,"BebasNeue-Regular","Helvetica-Bold","Nunito-Light";
+  font-weight: 700;
+  font-style: regular;
+  src: url(assets/fonts/Helvetica.ttf), url(assets/fonts/Helvetica-Bold.ttf), url(assets/fonts/Nunito-Light.ttf),url(assets/fonts/Roboto-Black.ttf),
+  url(assets/fonts/Quicksand-Bold.ttf);
+
+
+}

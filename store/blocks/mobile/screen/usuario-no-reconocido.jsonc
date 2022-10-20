@@ -1,0 +1,25 @@
+{
+  "responsive-layout.mobile#usuario-no-reconocido":{
+      "title": "Usuario No Reconocido Desktop",
+      "children":[
+          "rich-text#usuario_no_reconocido__title",
+          "rich-text#usuario_no_reconocido__subtitle"
+      ]
+  },
+  "rich-text#usuario_no_reconocido__title": {
+      "props": {
+        "text": "# Usuario No Reconocido",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "home__title_usuario_no_reconocido"
+      }
+    },
+    "rich-text#usuario_no_reconocido__subtitle": {
+      "props": {
+        "text": "Ingresa con tu usuario y contraseña o registrate!!!",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "home__paragraph_usuario_no_reconocido"
+      }
+    }
+}

@@ -1,0 +1,191 @@
+{
+  "store.custom#contact-us": {
+    "title":"Pagina Contáctenos",
+    "children": [
+      "flex-layout.row#contact-us"
+    ]
+  },
+
+  "flex-layout.row#contact-us": {
+    "title": "Seccion Informacion y Formulario",
+    "props": {
+      "blockClass": "container-static"
+    },
+    "children": [
+      "flex-layout.col#contact-info",
+      "flex-layout.col#contact-us"
+    ]
+  },
+
+/* INFORMACION DE CONTACTO */
+  "flex-layout.col#contact-info":{
+    "title":"Contenedor Informacion de contacto",
+    "children": [
+      "rich-text#contact-info",
+      "flex-layout.col#content-info-contact"
+    ],
+    "props":{
+      "blockClass":"col-contact-info"
+    }
+  },
+
+  "rich-text#contact-info":{
+    "title":"Titulo Informacion de contacto",
+    "props": {
+      "text": "### INFORMACION DE CONTACTO",
+      "blockClass":"title-contact-us"
+    }
+  },
+
+  "flex-layout.col#content-info-contact":{
+    "children":[
+      "rich-text#contact-info-content",
+      "rich-text#contact-info-address",
+      "rich-text#contact-info-phone",
+      "rich-text#contact-info-coordinadora",
+      "rich-text#contact-info-email",
+      "rich-text#contact-info-web"
+    ]
+  },
+
+  "rich-text#contact-info-content":{
+    "title":"Contenido Infomracion de contacto",
+    "props": {
+      "text": "Queremos brindarte la mejor atención. \n ¿Tienes comentarios o dudas sobre nuestros productos? \n \n Te invitamos a que te pongas en contacto con nosotros a través del siguiente formulario. Nuestro equipo de asesores se pondrá en contacto con contigo y te daremos respuesta lo antes posible."
+    }
+  },
+
+  "rich-text#contact-info-address":{
+    "title":"Direccion Informacion de contacto",
+    "props": {
+      "text": "- Calle 98 # 22-64, Oficina 214",
+      "blockClass":["list-contact-info","address"]
+    }
+  },
+
+  "rich-text#contact-info-phone":{
+    "title":"PBX Informacion de contacto",
+    "props": {
+      "text": "- PBX:[(601) 642 88 23](tel:6428823) ext 101",
+      "blockClass":["list-contact-info","phone"]
+    }
+  },
+  "rich-text#contact-info-coordinadora":{
+    "title":"PBX Coordinadora Central",
+    "props": {
+      "text": "- SAC -  [3157006112](tel:3157006112)",
+      "blockClass":["list-contact-info","phone"]
+    }
+  },
+
+  "rich-text#contact-info-email":{
+    "title":"Correo Informacion de contacto",
+    "props": {
+      "text": "- store@tiredepot.com.co",
+      "blockClass":["list-contact-info","email"]
+    }
+  },
+
+  "rich-text#contact-info-web":{
+    "title":"Web Informacion de contacto",
+    "props": {
+      "text": "- http://www.tiredepot.com.co",
+      "blockClass":["list-contact-info","web"]
+    }
+  },
+
+
+  /* FORMULARIO */
+  "flex-layout.col#contact-us": {
+    "title":"Contenedor Formulario de contacto",
+    "children": [
+      "rich-text#contact-us",
+      "form#contact-us"
+    ],
+    "props":{
+      "blockClass":"col-contact-us"
+    }
+  },
+  "rich-text#contact-us": {
+    "title":"Titulo Formulario de contacto",
+    "props": {
+      "text": "### FORMULARIO DE CONTACTO",
+      "blockClass":"title-contact-us"
+    }
+  },
+
+  "form#contact-us": {
+    "title":"Formulario",
+    "props": {
+      "entity": "CT",
+      "schema": "contactenos",
+      "blockClass": "form__contact--us"
+    },
+    "blocks": [
+      "form-success#contact-us"
+    ],
+    "children": [
+      "form-input.text#email",
+      "form-input.text#number__phone",
+      "form-input.text#direccion",
+      "form-input.textarea#message",
+      "form-submit#contact"
+    ]
+  },
+
+  "form-success#contact-us": {
+    "children": [
+      "rich-text#success-submit"
+    ]
+  },
+  "rich-text#success-submit": {
+    "title":"Mensaje de envio exitoso",
+    "props": {
+      "text": "¡Gracias por contactarnos! volveremos en breve.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "form-input.text#email": {
+    "title":"Campo email",
+    "props": {
+      "pointer": "#/properties/correo",
+      "placeholder":"Correo",
+      "label":""
+    }
+  },
+  "form-input.text#number__phone": {
+    "title":"Campo telefono",
+    "props": {
+      "pointer": "#/properties/telefono",
+      "placeholder":"Telefono",
+      "label":"",
+      "blockClass": "input__number--phone"
+    }
+  },
+  "form-input.text#direccion": {
+    "title":"Campo direccion",
+    "props": {
+      "pointer": "#/properties/direccion",
+      "placeholder":"Direccion",
+      "label":"",
+      "blockClass": "otra__direccion"
+    }
+  },
+  "form-input.textarea#message": {
+    "title":"Campo comentarios",
+    "props": {
+      "pointer": "#/properties/mensaje",
+      "placeholder":"Escribe tu Mensaje",
+      "label":""
+    }
+  },
+
+  "form-submit#contact": {
+    "title":"Boton enviar formulario",
+    "props": {
+      "label": "ENVIAR"
+    }
+  }
+}

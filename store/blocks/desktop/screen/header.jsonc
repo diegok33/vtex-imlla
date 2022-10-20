@@ -1,0 +1,173 @@
+{
+    "header-layout.desktop":{
+        "title":"Header Desktop",
+        "children":[
+
+          "sticky-layout.stack-container#header__desktop",
+          "chatbot-whatsapp"
+        ]
+      },
+
+      "sticky-layout.stack-container#header__desktop":{
+        "title": "Seccion de busqueda y menu",
+        "props":{
+          "position": "top"
+        },
+        "children":[
+          "sticky-layout#header__desktop--search&cart",
+          "sticky-layout#header__desktop--logo&menu"
+        ]
+      },
+      "sticky-layout#header__desktop--search&cart":{
+        "title": "Seccion de PBX, busqueda, red social e icono de carrito",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "flex-layout.row#desktop__search&cart"
+        ]
+      },
+      "flex-layout.row#desktop__search&cart":{
+        "props":{
+          "blockClass": "header__search__cart"
+        },
+        "children":[
+          "flex-layout.col#logo-desktop",
+          "search-bar",
+          "flex-layout.row#icons&minicart"
+        ]
+      },
+      "flex-layout.row#text__pbx":{
+        "children": [
+          "rich-text#pbx"
+        ],
+        "props":{
+          "blockClass": "text__pbx--section"
+        }
+      },
+      "rich-text#pbx":{
+        "title": "Número de PBX",
+        "props":{
+          "text": "PBX: [(606) 642 88 23](tel:(606)6428823)",
+          "blockClass": "text__header--phone"
+        }
+      },
+      "flex-layout.row#icons&minicart":{
+        "title": "Seccion de Iconos and Minicart",
+        "props":{
+          "blockClass":"flex__iconsMinicart"
+        },
+        "children":[
+
+          "challenge-block#description__login",
+          "minicart.v2"
+          // "rich-text#mycart__header"
+        ]
+      },
+
+      "challenge-block#description__login":{
+        "props":{
+          "blockClass": "description__login"
+        },
+        "blocks": [
+          "challenge-content#description__login--content",
+          "challenge-fallback#description__login--fallback"
+        ]
+      },
+      "challenge-content#description__login--content": {
+        "props": {
+          "blockClass": "description__login--content"
+        },
+        "children": ["login"]
+      },
+      "login":{
+        "props":{
+          "blockClass": "login__content"
+        }
+      },
+      "challenge-fallback#description__login--fallback":{
+        "children":[
+          "link#login__fallback--text"
+        ]
+      },
+      "link#login__fallback--text":{
+        "props":{
+          "label": "Iniciar sesión",
+          "href": "/login-page",
+          "blockClass": "login__fallback--text"
+        }
+      },
+
+      "rich-text#mycart__header":{
+        "title": "Texto de Mi Carrito",
+        "props":{
+          "text": "Mi Carrito",
+          "blockClass": "text__header--mycart"
+        }
+      },
+      "sticky-layout#header__desktop--logo&menu":{
+        "title": "Seccion de logo y menú",
+        "children":[
+          "flex-layout.row#logo&menu"
+        ],
+        "props":{
+          "blockClass": "sticky__header--logo-menu"
+        }
+      },
+      "flex-layout.row#logo&menu":{
+        "props":{
+          "fullWidth": true,
+          "colSizing": "auto",
+          "blockClass": "flex__logo__menu"
+        },
+        "children":[
+
+          "flex-layout.col#menu__header"
+        ]
+      },
+      "flex-layout.col#logo-desktop": {
+        "title": "Contenedor de Logo",
+        "props": {
+          "verticalAlign": "middle"
+        },
+        "children": [
+          "logo#desktop"
+        ]
+      },
+      "logo#desktop": {
+        "title":"Logo en Desktop",
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/img/desktop/tire depot DEFINITIVO ROJO BLANCO.png",
+          "width": "280",
+
+
+          "blockClass": "logo__desktop"
+
+        }
+      },
+      "flex-layout.col#menu__header":{
+        "title":"Contenedor del Menu",
+        "children":[
+          "vtex.menu@2.x:menu#menu__desktop"
+        ]
+      },
+      "vtex.menu@2.x:menu#menu__desktop":{
+        "children": [
+          "menu-item#department-desktop-item-home",
+          "menu-item#department-desktop-item-product-services",
+          "menu-item#department-desktop-servitecas",
+          "menu-item#department-desktop-item-we-brand",
+          //"menu-item#department-desktop-item-about-us",
+          "menu-item#department-desktop-item-contact"
+        ],
+        "props": {
+          "blockClass": "container__items-menu"
+        }
+      }
+}

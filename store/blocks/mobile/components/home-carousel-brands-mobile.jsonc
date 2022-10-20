@@ -1,0 +1,58 @@
+{
+  "list-context.image-list#carousel__brands--mobile": {
+    "title": "Seccion de Carrusel de marcas",
+    "children": [
+      "slider-layout#carousel-images-mobile"
+    ],
+    "props": {
+      "height": 340,
+      "images": [
+        {
+          "image": "#",
+          "mobileImage": "#",
+          "link": {
+            // "url": "/toyo-tires?_q=toyo-tires&map=ft"
+            "url": "/nuestras-marcas/toyo-tire"
+          }
+        },
+        {
+          "image": "#",
+          "mobileImage": "#",
+          "link": {
+            // "url": "/dunlop?_q=dunlop&map=ft"
+            "url": "/nuestras-marcas/dunlop"
+          }
+        },
+        {
+          "image": "#",
+          "mobileImage": "#",
+          "link": {
+            // "url": "/dunlop?_q=dunlop&map=ft"
+            "url": "/nuestras-marcas/llantafalken"
+          }
+        },
+        {
+          "image": "#",
+          "mobileImage": "#",
+          "link": {
+            // "url": "/flanken?_q=flanken&map=ft"
+            "url": "/nuestras-marcas/maxxisfalken"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#carousel-images-mobile": {
+    "title": "Configuracion de Carrusel de marcas",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-mobile"
+    }
+  }
+}

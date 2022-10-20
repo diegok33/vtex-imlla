@@ -1,0 +1,72 @@
+{
+  "list-context.image-list#carousel__brands": {
+    "title": "Seccion de Carrusel de marcas",
+    "children": [
+      "slider-layout#carousel-images"
+    ],
+    "props": {
+      "height": 200,
+
+
+
+      "images": [
+        {
+          "image": "assets/img/global/dunlop.png",
+          "mobileImage": "assets/img/global/dunlop.png",
+          "link": {
+            // "url": "/toyo-tires?_q=toyo-tires&map=ft"
+            "url": "/dunlop?_q=dunlop&map=ft"
+          }
+        },
+        {
+          "image": "assets/img/global/llantatoyotires.jpg",
+          "mobileImage": "assets/img/global/llantatoyotires.jpg",
+          "link": {
+            // "url": "/dunlop?_q=dunlop&map=ft"
+            "url": "/toyo?_q=toyo&map=ft"
+          }
+        },
+        {
+          "image": "assets/img/global/llantafalken.png",
+          "mobileImage": "assets/img/global/llantafalken.png",
+          "link": {
+            // "url": "/dunlop?_q=dunlop&map=ft"
+            "url": "/falken?_q=falken&map=ft"
+          }
+        },
+        {
+          "image": "assets/img/global/llantamaxxis.png",
+          "mobileImage": "#",
+          "link": {
+            "url": "/nuestras-marcas/maxxis"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#carousel-images": {
+    "title": "Configuracion de Carrusel de marcas",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+
+      },
+      "display": "flex",
+      "slide transition":{
+      "speed":5800,
+      "delay":5800
+      },
+      "autoplay":{
+        "timeout":4800,
+        "stopOnHover": true
+
+      },
+      "infinite": true,
+      "showPaginationDots":"false",
+      "showNavigationArrows": "always",
+      "blockClass": "carousel-llantas"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "responsive-layout.mobile#home":{
+        "title": "Home Mobile",
+        "children":[
+          "list-context.image-list#carousel__main",
+          //"info-card",
+          "list-context.image-list#carousel__brands",
+          "rich-text#productos mas vendidos-mobile",
+          "shelf",
+          //"rich-text#selecciona-mobile",
+          //"flex-layout.row#home",
+          "info-card#col-left",
+          "info-card#col-right-1",
+          "info-card#col-right-2",
+          "info-card#sullmobile"
+        ]
+
+
+      },
+      "rich-text#productos mas vendidos-mobile": {
+        "title": "PRODUCTOS MÁS VENDIDOS",
+        "props": {
+          "text": "Productos mas vendidos",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "Roboto-Black",
+          "blockClass": "title-brands"
+        }
+      },
+      "rich-text#selecciona-mobile": {
+        "title": "Selecciona tu producto",
+        "props": {
+          "text": "¨Selecciona tu producto y escoge si quieres que te llegué a casa o prefieres retirarlo en cualquiera de nuestras servitecas, como sea te las instalamos gratis¨",
+          "textAlignment": "center",
+          "textPosition": "center",
+          "font": "helvetica",
+          "blockClass": "selecciona"
+
+
+          }
+
+
+
+
+        }}
+
+

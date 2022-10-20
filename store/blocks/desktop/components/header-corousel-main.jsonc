@@ -1,0 +1,69 @@
+{
+  "list-context.image-list#carousel__main": {
+    "title": "Seccion de Carrusel principal",
+    "children": ["slider-layout#carousel__main--images"],
+    "props": {
+      "height": 500,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/desktop/tdbanner.jpg"
+        },
+        {
+          "image": "assets/img/desktop/web-carrodunlop.jpg"
+        },
+        {
+          "image": "assets/img/desktop/bannertoyo.jpg"
+        },
+        {
+          "image": "assets/img/desktop/casco moto.png"
+         }
+      ]
+    }
+  },
+  "slider-layout#carousel__main--images": {
+    "title": "Configuracion de Carrusel principal",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel__main--images",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      },
+      "rich-text#shelf-title": {
+        "props": {
+          "text": "## Summmmer",
+          "blockClass": "shelfTitle"
+        }
+      },
+      "flex-layout.row#shelf": {
+        "children": ["list-context.product-list#demo1"]
+      },
+      "list-context.product-list#demo1": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#demo-products"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+      },
+      "slider-layout#demo-products": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf"
+        }
+      }
+
+
+}}}

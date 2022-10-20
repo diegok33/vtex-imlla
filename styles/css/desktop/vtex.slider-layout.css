@@ -1,0 +1,49 @@
+.sliderLayoutContainer--carousel-promotions {
+  margin-bottom: 32px;
+}
+
+.sliderLayoutContainer--main--images {
+  background-color:#ffffff;
+  margin: 20px;
+  height: 600px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.sliderLayoutContainer--carousel {
+
+  margin: 20px;
+  height: 1000px;
+  padding-top: 10px;
+  margin-top: 1px;
+}
+.imageElement--carousel__main--images {
+height: 600px;
+}
+.imageElement--carousel-llantas {
+
+
+  height: 204px;
+  width: 280px;
+  margin: 10px;
+  padding-right: 150px;
+
+}
+
+.caretIcon--products-more-sells {
+  color: #ffffff;
+}
+.slide--carousel__header--images {
+  height: 500px;
+}
+.paginationDotsContainer--carousel__main--images {
+  bottom: -20px;
+}
+
+.slideChildrenContainer--carousel-llantas {
+  margin:15px;
+  height: 150;
+  width: 250;
+}
+
+

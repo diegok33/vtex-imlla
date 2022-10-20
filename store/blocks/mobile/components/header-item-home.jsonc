@@ -1,0 +1,16 @@
+{
+  "menu-item#department-mobile-item-home": {
+    "title": "Item Drawer Home",
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "blockClass": "item__drawer--mobile-home",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "home",
+        "text": "Inicio"
+      }
+    }
+  }
+}

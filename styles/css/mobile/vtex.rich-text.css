@@ -1,0 +1,52 @@
+.container--tiredepot__mobile {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+
+.paragraph--tiredepot__mobile {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin: 0px;
+}
+
+/* TERMS AND CONDITIONS - CONTACT INFORMATION */
+@media (max-width: 820px) {
+  .listItem--terms__content2--fifteen {
+    line-height: 26px;
+  }
+}
+/*END TERMS AND CONDITIONS - CONTACT INFORMATION */
+
+@media only screen and (min-width: 600px) and (max-width: 820px) {
+  .container--tiredepot__mobile {
+    margin: 40px 0 20px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper--title-brands-mobile,
+  .wrapper--title-promotions-mobile {
+    width: 100%;
+  }
+  .wrapper--title-promotions-mobile {
+    margin-top: 16px;
+  }
+  .paragraph--title-brands-mobile,
+  .paragraph--title-promotions-mobile {
+    text-align: center;
+    border: 1px solid #373435;
+  }
+  .container--title-brands-mobile,
+  .container--title-promotions-mobile {
+    font-size: 28px;
+    margin: 0;
+    margin-top: 0;
+  }
+
+  .container--row-breadcrumb {
+    display: flex;
+    justify-content: center;
+  }
+}

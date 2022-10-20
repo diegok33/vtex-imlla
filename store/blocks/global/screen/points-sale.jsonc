@@ -1,0 +1,490 @@
+{
+    "store.custom#servitecas":{
+        "blocks":[
+          "info-card",
+            "flex-layout.row#points__sale"
+
+        ]
+    },
+    "flex-layout.row#points__sale":{
+        "children":[
+            "flex-layout.col#points__sale--container"
+        ],
+        "props": {
+            "blockClass": "container__content--tpyo-tire"
+        }
+    },
+    "flex-layout.col#points__sale--container":{
+        "children":[
+            "rich-text#points__sale--main-title",
+            "flex-layout.row#points__sale--content"
+        ]
+    },
+    "rich-text#points__sale--main-title":{
+        "props":{
+            "text":"Servitecas",
+            "font": "t-heading-1"
+            // "blockClass": "width-articles--sub-title"
+        }
+    },
+    "flex-layout.row#points__sale--content":{
+        "children":[
+            "flex-layout.col#points__sale--info",
+            "flex-layout.col#points__sale--photos"
+        ]
+    },
+    "flex-layout.col#points__sale--info":{
+        "children":[
+            "rich-text#points__sale--subtitle-bogota",
+            "disclosure-layout-group#points__sale--group"
+
+        ]
+    },
+    "rich-text#points__sale--subtitle-bogota":{
+        "props":{
+            "text":"**EN BOGOTÁ TENEMOS 6 PUNTOS UBICADOS EN:**"
+        }
+    },
+    "disclosure-layout-group#points__sale--group":{
+        "children":[
+            "disclosure-layout#points__sale--group-first",
+            "disclosure-layout#points__sale--group-second",
+            "disclosure-layout#points__sale--group-third",
+            "disclosure-layout#points__sale--group-fourth",
+            "disclosure-layout#points__sale--group-fifth",
+            "disclosure-layout#points__sale--group-sixth"
+        ]
+    },
+    "disclosure-layout#points__sale--group-first":{
+        "props": {
+            "animated": true
+        },
+        "children":[
+            "disclosure-trigger#points__sale--group-first",
+            "disclosure-content#points__sale--group-first"
+        ]
+    },
+    "disclosure-trigger#points__sale--group-first":{
+        "props":{
+            "as": "div",
+            "blockClass": "question"
+        },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#points__group--first-title"
+        ]
+    },
+    "rich-text#points__group--first-title":{
+        "props":{
+            "text": "**BODEGA PRINCIPAL PALOQUEMAO**"
+        }
+    },
+    "disclosure-content#points__sale--group-first":{
+        "props": {
+            "blockClass": "answer"
+          },
+        "children":[
+            "rich-text#points__group--first-content-address",
+            "rich-text#points__group--first-content-phone"
+        ]
+    },
+    "rich-text#points__group--first-content-address":{
+        "props":{
+            "text": "- Calle 15 N° 25 - 35, Paloquemao",
+            "blockClass": ["points__content", "points__content--address"]
+        }
+    },
+    "rich-text#points__group--first-content-phone":{
+        "props":{
+            "text":"- Cel: [320 488 2766](tel:3204882766)",
+            "blockClass": ["points__content", "points__content--phone"]
+        }
+    },
+
+
+    "disclosure-layout#points__sale--group-second":{
+        "props": {
+            "animated": true
+        },
+        "children":[
+            "disclosure-trigger#points__sale--group-second",
+            "disclosure-content#points__sale--group-second"
+        ]
+    },
+    "disclosure-trigger#points__sale--group-second":{
+        "props":{
+            "as":"div",
+            "blockClass": "question"
+        },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#points__group--second-title"
+        ]
+    },
+    "rich-text#points__group--second-title":{
+        "props":{
+            "text":"PEPE SIERRA"
+        }
+    },
+    "disclosure-content#points__sale--group-second":{
+        "props":{
+            "blockClass": "answer"
+        },
+        "children":[
+            "rich-text#points__group--second-content-address",
+            "rich-text#points__group--second-content-phone"
+        ]
+    },
+    "rich-text#points__group--second-content-address":{
+        "props":{
+            "text":"- Calle 116 N° 60-31 San Nicolás (Diagonal al colegio Agustiniano Norte)",
+            "blockClass": ["points__content", "points__content--address"]
+        }
+    },
+    "rich-text#points__group--second-content-phone":{
+        "props":{
+            "text":"- Cel: [320 488 2767](tel:3204882767)",
+            "blockClass": ["points__content", "points__content--phone"]
+        }
+    },
+
+
+    "disclosure-layout#points__sale--group-third":{
+        "props":{
+            "animated":true
+        },
+        "children":[
+            "disclosure-trigger#points__sale--group-third",
+            "disclosure-content#points__sale--group-third"
+        ]
+    },
+    "disclosure-trigger#points__sale--group-third":{
+        "props":{
+            "as":"div",
+            "blockClass": "question"
+        },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#points__group--third-title"
+        ]
+    },
+    "rich-text#points__group--third-title":{
+        "props":{
+            "text":"CALLE 80"
+        }
+    },
+    "disclosure-content#points__sale--group-third":{
+        "props":{
+            "blockClass": "answer"
+        },
+        "children":[
+            "rich-text#points__group--third-content-address",
+            "rich-text#points__group--third-content-phone"
+        ]
+    },
+    "rich-text#points__group--third-content-address":{
+        "props":{
+            "text":"- Av Calle 80 N° 27A – 31, Frente a la Estación Polo",
+            "blockClass": ["points__content", "points__content--address"]
+        }
+    },
+    "rich-text#points__group--third-content-phone":{
+        "props":{
+            "text":"- Cel: [320 816 5744](tel:3208165744)",
+            "blockClass": ["points__content", "points__content--phone"]
+        }
+    },
+
+
+    "disclosure-layout#points__sale--group-fourth":{
+        "props":{
+            "animated":true
+        },
+        "children":[
+            "disclosure-trigger#points__sale--group-fourth",
+            "disclosure-content#points__sale--group-fourth"
+        ]
+    },
+    "disclosure-trigger#points__sale--group-fourth":{
+        "props":{
+            "as":"div",
+            "blockClass": "question"
+        },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#points__group--fourth-title"
+        ]
+    },
+    "rich-text#points__group--fourth-title":{
+        "props":{
+            "text":"SAN ANDRESITO"
+        }
+    },
+    "disclosure-content#points__sale--group-fourth":{
+        "props":{
+            "blockClass": "answer"
+        },
+        "children":[
+            "rich-text#points__group--fourth-content-address",
+            "rich-text#points__group--fourth-content-phone"
+        ]
+    },
+    "rich-text#points__group--fourth-content-address":{
+        "props":{
+            "text":"- Carrera 38 N° 6 – 15",
+            "blockClass": ["points__content", "points__content--address"]
+        }
+    },
+    "rich-text#points__group--fourth-content-phone":{
+        "props":{
+            "text":"- Cel: [311 866 8361](tel:3118668361)",
+            "blockClass": ["points__content", "points__content--phone"]
+        }
+    },
+
+
+    "disclosure-layout#points__sale--group-fifth":{
+        "props":{
+            "animated":true
+        },
+        "children":[
+            "disclosure-trigger#points__sale--group-fifth",
+            "disclosure-content#points__sale--group-fifth"
+        ]
+    },
+    "disclosure-trigger#points__sale--group-fifth":{
+        "props":{
+            "as":"div",
+            "blockClass": "question"
+        },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#points__group--fifth-title"
+        ]
+    },
+    "rich-text#points__group--fifth-title":{
+        "props":{
+            "text":"CARVAJAL"
+        }
+    },
+    "disclosure-content#points__sale--group-fifth":{
+        "props":{
+            "blockClass": "answer"
+        },
+        "children":[
+            "rich-text#points__group--fifth-content-address",
+            "rich-text#points__group--fifth-content-phone"
+        ]
+    },
+    "rich-text#points__group--fifth-content-address":{
+        "props":{
+            "text":"- Avenida Boyacá 36 - 92 Sur",
+            "blockClass": ["points__content", "points__content--address"]
+        }
+    },
+    "rich-text#points__group--fifth-content-phone":{
+        "props":{
+            "text":"- Cel: [320 333 0951](tel:3203330951)",
+            "blockClass": ["points__content", "points__content--phone"]
+        }
+    },
+
+
+    "disclosure-layout#points__sale--group-sixth":{
+        "props":{
+            "animated":true
+        },
+        "children":[
+            "disclosure-trigger#points__sale--group-sixth",
+            "disclosure-content#points__sale--group-sixth"
+        ]
+    },
+    "disclosure-trigger#points__sale--group-sixth":{
+        "props":{
+            "as":"div",
+            "blockClass": "question"
+        },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#points__group--sixth-title"
+        ]
+    },
+    "rich-text#points__group--sixth-title":{
+        "props":{
+            "text":"TERMINAL"
+        }
+    },
+    "disclosure-content#points__sale--group-sixth":{
+        "props":{
+            "blockClass": "answer"
+        },
+        "children":[
+            "rich-text#points__group--sixth-content-address",
+            "rich-text#points__group--sixth-content-phone"
+        ]
+    },
+    "rich-text#points__group--sixth-content-address":{
+        "props":{
+            "text":"- Diagonal 23 # 69 - 11 Modulo Amarillo Local 1 – 233",
+            "blockClass": ["points__content", "points__content--address"]
+        }
+    },
+    "rich-text#points__group--sixth-content-phone":{
+        "props":{
+            "text":"- Cel: [321 407 2399](tel:3214072399)",
+            "blockClass": ["points__content", "points__content--phone"]
+        }
+    },
+
+    "rich-text#points__sale--subtitle-cartagena":{
+        "props":{
+            "text":"**EN CARTAGENA:**"
+        }
+    },
+    "rich-text#points__sale--cartagena-address":{
+        "props":{
+            "text": "- Av. el lago N° 17 - 214 Al frente del Complejo de Raquetas",
+            "blockClass": ["points__content", "points__content--address"]
+        }
+    },
+    "rich-text#points__sale--cartagena-phone":{
+        "props":{
+            "text":"- Cel: [321 503 7730](tel:3215037730)",
+            "blockClass": ["points__content", "points__content--phone"]
+        }
+    },
+    "rich-text#points__sale--subtitle-barranquilla":{
+        "props":{
+            "text": "**EN BARRANQUILLA:**"
+        }
+    },
+    "rich-text#points__sale--barranquilla-address":{
+        "props":{
+            "text":"- Carrera 43 N° 65B - 04",
+            "blockClass": ["points__content", "points__content--address"]
+        }
+    },
+    "rich-text#points__sale--barranquilla-phone":{
+        "props":{
+            "text":"- Cel: [315 612 6452](tel:3156126452)",
+            "blockClass": ["points__content", "points__content--phone"]
+        }
+    },
+    "rich-text#points__sale--subtitle-cucuta":{
+        "props":{
+            "text": "**EN CÚCUTA TENEMOS 2 PUNTOS UBICADOS EN:**"
+        }
+    },
+
+
+    "disclosure-layout-group#points__sale--group2":{
+        "children":[
+            "disclosure-layout#points__sale--group2-principal",
+            "disclosure-layout#points__sale--group2-camionero"
+        ]
+    },
+    "disclosure-layout#points__sale--group2-principal":{
+        "props":{
+            "animated":true
+        },
+        "children":[
+            "disclosure-trigger#points__sale--group2-principal",
+            "disclosure-content#points__sale--group2-principal"
+        ]
+    },
+    "disclosure-trigger#points__sale--group2-principal":{
+        "props":{
+            "as":"div",
+            "blockClass":"question"
+        },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#points__group2--principal-title"
+        ]
+    },
+    "rich-text#points__group2--principal-title":{
+        "props":{
+            "text": "PRINCIPAL"
+        }
+    },
+    "disclosure-content#points__sale--group2-principal":{
+        "props":{
+            "blockClass":"answer"
+        },
+        "children":[
+            "rich-text#points__group2--principal-address",
+            "rich-text#points__group2--principal-phone"
+        ]
+    },
+    "rich-text#points__group2--principal-address":{
+        "props":{
+            "text":"- Diagonal Santander #4E-95",
+            "blockClass": ["points__content", "points__content--address"]
+        }
+    },
+    "rich-text#points__group2--principal-phone":{
+        "props":{
+            "text":"- Cel: [321 426 3522](tel:3214263522)",
+            "blockClass": ["points__content", "points__content--phone"]
+        }
+    },
+
+    "disclosure-layout#points__sale--group2-camionero":{
+        "props":{
+            "animated":true
+        },
+        "children":[
+            "disclosure-trigger#points__sale--group2-camionero",
+            "disclosure-content#points__sale--group2-camionero"
+        ]
+    },
+    "disclosure-trigger#points__sale--group2-camionero":{
+        "props":{
+            "as":"div",
+            "blockClass":"question"
+        },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#points__group2--camionero-title"
+        ]
+    },
+    "rich-text#points__group2--camionero-title":{
+        "props":{
+            "text": "CENTRO CAMIONERO"
+        }
+    },
+    "disclosure-content#points__sale--group2-camionero":{
+        "props":{
+            "blockClass":"answer"
+        },
+        "children":[
+            "rich-text#points__group2--camionero-address",
+            "rich-text#points__group2--camionero-phone"
+        ]
+    },
+    "rich-text#points__group2--camionero-address":{
+        "props":{
+            "text":"- Avenida 7 # 0-32 (Barrio La Insula)",
+            "blockClass": ["points__content", "points__content--address"]
+        }
+    },
+    "rich-text#points__group2--camionero-phone":{
+        "props":{
+            "text":"- Cel: [320 836 1043](tel:3208361043)",
+            "blockClass": ["points__content", "points__content--phone"]
+        }
+    },
+
+    // Columna Dos
+    "flex-layout.col#points__sale--photos":{
+        "children":[
+          "rich-text#points__sale--subtitle-cartagena",
+          "rich-text#points__sale--cartagena-address",
+          "rich-text#points__sale--cartagena-phone",
+          "rich-text#points__sale--subtitle-barranquilla",
+          "rich-text#points__sale--barranquilla-address",
+          "rich-text#points__sale--barranquilla-phone"
+
+        ]
+    }}
+

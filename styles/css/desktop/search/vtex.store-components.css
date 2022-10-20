@@ -1,0 +1,12 @@
+.productBrandName--summaryListDesktop {
+  text-decoration: none;
+  font-weight: 500;
+  color: #b2cefa;
+  font-size: .875rem;
+}
+
+.productBrandName--summaryListMobile {
+  text-decoration: none;
+  color: #b2cefa;
+  font-size: .875rem;
+}

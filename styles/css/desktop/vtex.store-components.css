@@ -1,0 +1,186 @@
+.productDescriptionText--description__product {
+  color: rgb(37, 34, 35);
+  font-weight: 600;
+  height: 90px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-left: 15px;
+  white-space: pre-line;
+}
+
+/* PDP specs */
+.productDescriptionText--description-product {
+  width: 100%;
+  padding-left: 15px;
+}
+
+.flexRowContent--product__description-specs
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 45%;
+  margin-right: 15px;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1480px;
+  height: 550px;
+  display: flex;
+  margin: 50px;
+  background-color: #ffffff;
+  padding: 0px;
+
+
+}
+.infoCardTextContainer--info-card-home {
+
+
+  display: flex;
+  margin-left:0px;
+  margin-bottom: 5px;
+  max-width: 1500px;
+  text-align: center;
+
+
+
+}
+
+.infoCardHeadline--info-card-home{
+
+  font-size: 4.5rem;
+  color: rgb(255, 255, 255);
+  font-family: Helvetica bold;
+  padding-right: -10;
+  max-width: 1500px;
+
+
+
+}
+
+.infoCardSubhead--info-card-home{
+
+  font-size: 1.5rem;
+  color: rgb(255, 216, 49);
+  font-family: Helvetica-ligth;
+  padding-right: -10;
+  line-height: 10%;
+}
+.infoCardCallActionContainer--info-card-home-sull{
+
+  margin-left:260px;
+  margin-top: 330px;
+
+}
+
+
+
+.infoCardContainer--info-card-home-sull {
+  max-width: 1480px;
+  height: 550px;
+  display: flex;
+  margin: 50px;
+  background-color: #ffffff;
+  padding: 0px;
+
+
+}
+.infoCardTextContainer--info-card-home-sull {
+
+
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+  margin-left:0px;
+  margin-bottom: 5px;
+  max-width: 1500px;
+  text-align: center;
+
+
+
+}
+
+.infoCardHeadline--info-card-home-sull {
+
+  font-size: 4.5rem;
+  color: rgb(255, 255, 255);
+  font-family: Helvetica bold;
+  padding-right: -10;
+  max-width: 1500px;
+
+
+
+}
+
+.infoCardSubhead--info-card-home-sull{
+
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-family: Helvetica-ligth;
+  padding-right: -10;
+  line-height: 10%;
+}
+
+.infoCardHeadline--info-card-toyo{
+
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.infoCardHeadline--info-card-dunlop{
+
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.infoCardHeadline--info-card-falken{
+
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.infoCardHeadline--info-card-who{
+
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.sellingPriceLabel{
+  color: rgb(255, 255, 255)
+}
+
+.imageElement--carousel {
+
+
+height: 200px;
+width: 100px;
+margin: 10px;
+padding-right: 75px;
+
+}
+.paginationDotsContainer--carousel
+{
+  display: false;
+}
+
+
+@media screen and (min-width: 1025px) {
+  .productImage--desktop__product--left-image {
+    width: 400px !important;
+    height: auto !important;
+    margin: auto;
+  }
+}

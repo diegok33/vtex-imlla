@@ -1,0 +1,139 @@
+.galleryLayoutOptionButton {
+  background-color: #f0f0f0;
+  color: #3f3f40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3f3f40;
+  color: #ffffff;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center;
+}
+
+.galleryItem--list {
+  border-bottom: 1px #e7e9ee solid;
+}
+
+.filtersWrapper {
+  background-color: rgb(254, 254, 254);
+  color: rgb(54, 49, 51);
+  padding: 15px;
+  
+}
+
+.filterTitle {
+  font-weight: "regular";
+  font-size: 0.5 rem;
+  
+}
+
+.galleryItem--normal {
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+
+.totalProductsMessage {
+  color: white;
+}
+
+:global(.vtex-slider__base) {
+  background-color: #979899;
+}
+:global(.vtex-search-result-3-x-filterTemplateOverflow)
+  :global(.vtex-slider__selector),
+:global(.vtex-search-result-3-x-filterTemplateOverflow)
+  :global(.vtex-slider__base-internal) {
+  background-color: white;
+}
+
+:global(.vtex-checkbox__line-container) {
+  display: flex;
+  align-items: center;
+  
+}
+
+:global(.vtex-checkbox__label),
+:global(.vtex-slider__left-value),
+:global(.vtex-slider__right-value),
+.filterPopupButton {
+  color: rgb(54, 49, 51);
+}
+
+:global(.vtex-search-result-3-x-filterTitle) {
+  text-transform: uppercase;
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore) {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.filterAccordionItemBox :global(.vtex-checkbox__label) {
+  color: rgb(37, 34, 35);
+  font-weight: 600;
+}
+
+.filterAccordionBreadcrumbs {
+  justify-content: center;
+}
+
+.filterBreadcrumbsItem :global(.vtex-search-result-3-x-caretIcon) {
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.filterBreadcrumbsItemName,
+.filterBreadcrumbsText {
+  font-size: 1.3rem;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button) {
+  background-color: #353333;
+  color: white;
+  border-radius: 10px;
+}
+
+.filterClearButtonWrapper :global(.vtex-button) {
+  color: #3a3838;
+}
+
+/* VISTA MOBILE */
+@media only screen and (max-width: 640px) {
+  .orderByButton {
+    height: 20px;
+  }
+
+  .orderByButton .filterPopupTitle {
+    font-size: 0.7rem;
+  }
+
+  .orderByOptionItem {
+    font-size: 0.9rem;
+  }
+
+  .filters--layout .filterPopupTitle {
+    color: white;
+  }
+
+  .totalProducts--layout {
+    border-top-style: none;
+  }
+}
+
+/* VISTA TABLET */
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .filtersWrapperMobile {
+    padding-top: 5px;
+  }
+
+  .filtersWrapperMobile .filterPopupTitle {
+    color: white;
+  }
+}

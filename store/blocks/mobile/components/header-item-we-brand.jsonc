@@ -1,0 +1,111 @@
+{
+  "menu-item#department-mobile-item-we-brand": {
+    "title": "Item Drawer We Brands",
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "blockClass": "item-drawer-mobile",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "we-brand",
+        "text": "Nuestras marcas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#submenu-we-brands"]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-we-brands": {
+    "children": ["vtex.menu@2.x:menu#category-mobile-brands"]
+  },
+  "vtex.menu@2.x:menu#category-mobile-brands": {
+    "children": [
+      "menu-item#mobile-TOYO-TIRES",
+      "menu-item#mobile-DUNLOP",
+      "menu-item#mobile-FALKEN"
+      // "menu-item#mobile-MIRAGE"
+      // "menu-item#mobile-MAXXIS",
+      // "menu-item#mobile-MOURA"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-TOYO-TIRES": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-marcas/toyo-tire",
+        "noFollow": true,
+        "tagTitle": "TOYO-TIRES",
+        "text": "TOYO-TIRES"
+      }
+    }
+  },
+  "menu-item#mobile-DUNLOP": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-marcas/dunlop",
+        "noFollow": true,
+        "tagTitle": "DUNLOP",
+        "text": "DUNLOP"
+      }
+    }
+  },
+  "menu-item#mobile-FALKEN": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-marcas/falken",
+        "noFollow": true,
+        "tagTitle": "FALKEN",
+        "text": "FALKEN"
+      }
+    }
+  },
+  "menu-item#mobile-MAXXIS": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-marcas/maxxis",
+        "noFollow": true,
+        "tagTitle": "MAXXIS",
+        "text": "MAXXIS"
+      }
+    }
+  },
+  "menu-item#mobile-MIRAGE": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-marcas/mirage",
+        "noFollow": true,
+        "tagTitle": "MIRAGE",
+        "text": "MIRAGE"
+      }
+    }
+  },
+  "menu-item#mobile-MOURA": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-marcas/moura",
+        "noFollow": true,
+        "tagTitle": "MIRAGE",
+        "text": "MOURA"
+      }
+    }
+  }
+}

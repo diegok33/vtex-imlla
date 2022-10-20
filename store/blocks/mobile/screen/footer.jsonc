@@ -1,0 +1,45 @@
+{
+    "footer-layout.mobile": {
+      "title": "Footer Mobile",
+        "children": [
+          "flex-layout.row#col1__footer",
+          "flex-layout.row#col2__footer"
+        ],
+        "props": {
+          "blockClass": "footer__mobile"
+        }
+      },
+      "flex-layout.row#col1__footer":{
+        "children":[
+          "flex-layout.col#conocenos",
+          "flex-layout.col#nuestras-politicas"
+        ],
+        "props":{
+          "blockClass":"col1__footer--mobile"
+        }
+      },
+      "flex-layout.row#col2__footer":{
+        "children":[
+          "flex-layout.col#col2__pagos"
+
+        ],
+        "props":{
+          "blockClass":"col2__footer--mobile"
+        }
+      },
+      "flex-layout.col#col2__pagos":{
+        "children":[
+          "flex-layout.col#col__pagos",
+          "rich-text#tiredepot__mobile"
+        ]
+      },
+      "rich-text#tiredepot__mobile":{
+        "title": "tiredepot Footer Mobile",
+        "props":{
+          "textAlignment": "CENTER",
+          "text": "© TireDepot 2021  DK",
+          "blockClass": "tiredepot__mobile"
+          // "width": "100%"
+        }
+      }
+}

@@ -1,0 +1,52 @@
+.imageElement--container-image {
+  border-radius: 20px;
+}
+.imageElement--carousel-promotions {
+  border-radius: 20px;
+  max-width: 90%;
+}
+.imageElement--carousel {
+  width: 186% !important;
+}
+
+.container--description__mobile
+  :global(.vtex-store-components-3-x-pointerEventsNone) {
+  display: none;
+}
+
+.productDescriptionText--description__mobile {
+  color: #999;
+  font-weight: 600;
+  height: 90px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-left: 15px;
+  white-space: pre-line;
+}
+.imageElement--carousel__main--images{
+  max-height: initial !important;
+  height: 300px;
+  width: 300px;
+}
+.infoCardCallActionContainer--info-card-home-sull{
+
+  width:378px;
+  height:161px;
+
+}
+
+@media screen and (min-width: 1026px){
+  .imageElement--icons__socialmedia{
+    width: 30px;
+    height: 30px;
+  }
+
+  .imageElement--icons__socialmedia {
+    transition: all 0.3s ease-in-out;
+  }
+  .imageElement--icons__socialmedia:hover {
+    filter: brightness(1.5)
+  }
+}

@@ -1,0 +1,202 @@
+/* SEARCH BAR */
+.stretchChildrenWidth :global(.vtex-store-components-3-x-searchBarContainer) {
+  /* width: 320px; */
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+/* ICONS SOCIALMEDIA */
+.flexRowContent--icons__socialmedia{
+  width: 100%;
+  /* border: 1px solid red; */
+  /* width: 100%; */
+}
+
+/* OUR BRANDS */
+.flexRowContent--container__content--tpyo-tire {
+  flex-wrap: wrap;
+}
+.flexRowContent--container__content--tpyo-tire
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+  padding: 0 48px;
+}
+
+.flexRowContent--about__us--characterize-section
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd) {
+  padding: 0;
+}
+
+@media (max-width: 1024px) {
+  .flexRowContent--container__content--tpyo-tire
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    padding: 0 8px;
+  }
+}
+
+/* ORDER PLACED */
+.flexRowContent--confirmationButtons :global(.vtex-button) {
+  background: #ba0001;
+  color: white;
+  font-weight: 600;
+  border-radius: 20px;
+  border-color: none;
+}
+
+.flexRowContent--confirmationButtons :global(.vtex-button):hover {
+  background: #51a351;
+  transition: 0.3s ease;
+  border-color: none;
+}
+
+.flexRowContent--confirmationButtons {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.flexRowContent--confirmation-notices {
+  border-bottom: 1px solid #e3e4e6;
+}
+
+.flexRowContent--confirmation-notices
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd) {
+  width: 50%;
+  padding: 30px;
+}
+
+.flexRowContent--confirmation-notices
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even) {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow--confirmationButtons {
+  margin-bottom: 10px;
+}
+
+.flexRowContent--customer-pay-options {
+  flex-direction: column;
+}
+
+.flexColChild--order-header-info {
+  height: auto !important;
+}
+
+.flexRowContent--order-delivery {
+  flex-direction: column;
+}
+
+.flexRowContent--order-delivery
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100%;
+}
+
+.flexRowContent--customer-pay-options
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--order-delivery
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+.flexRow--customer-pay-options :global(.vtex-store-components-3-x-container) {
+  height: 100%;
+}
+
+.flexRowContent--customer-pay-options {
+  height: 100%;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.flexRow--divider-vertical {
+  width: 2px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.flexRow--customer-pay-options {
+  margin-right: 10px;
+}
+.flexRow--order-delivery {
+  margin-left: 15px;
+}
+
+.flexRowContent :global(.vtex-breadcrumb-1-x-container) {
+  margin: 12px 32px;
+}
+.flexRowContent :global(.vtex-breadcrumb-1-x-homeIcon) {
+  transform: scale(1.3);
+  color: #ba0001;
+}
+.flexRowContent :global(.vtex-breadcrumb-1-x-homeIcon):hover {
+  transform: scale(1.5);
+  color: #373435;
+}
+
+/* CONTACTENOS  */
+
+@media only screen and (min-width: 1200px) {
+  .flexRow--container-static :global(.vtex-store-components-3-x-container) {
+    width: 1170px;
+  }
+}
+
+.flexCol--col-contact-info,
+.flexCol--col-contact-us {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flexCol--col-contact-info .flexColChild--col-contact-info:nth-child(even),
+.flexCol--col-contact-us .flexColChild--col-contact-us:nth-child(even) {
+  background: #fafafa;
+  padding: 30px;
+}
+
+.flexCol--col-contact-us .flexColChild--col-contact-us:nth-child(odd),
+.flexCol--col-contact-info .flexColChild--col-contact-info:nth-child(odd) {
+  height: auto !important;
+}
+
+.flexRowContent--container-static {
+  padding-bottom: 30px;
+}
+
+.flexColChild--col-contact-info {
+  height: 100% !important;
+}
+
+.flexColChild--col-contact-us :global(.vtex-input-prefix__group),
+.flexColChild--col-contact-us :global(.vtex-textarea__input) {
+  margin-bottom: 20px;
+  border-width: 1px;
+}
+
+.flexColChild--col-contact-us
+  :global(.vtex-styleguide-9-x-input)::-webkit-inner-spin-button,
+.flexColChild--col-contact-us
+  :global(.vtex-styleguide-9-x-input)::-webkit-outer-spin-button {
+  display: none;
+}
+
+.flexColChild--col-contact-us :global(.vtex-textarea__input) {
+  resize: none !important;
+  width: 100% !important;
+}
+
+/* PREGUNTAS FRECUENTES  */
+
+.flexRowContent--content-faq {
+  flex-direction: column;
+}
+
+.flexRowContent--content-faq
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+.flexRowContent--flex_logo_menu{
+
+  padding-left: 800px
+}

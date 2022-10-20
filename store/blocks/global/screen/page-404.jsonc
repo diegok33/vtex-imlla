@@ -1,0 +1,102 @@
+{
+  "flex-layout.row#global__not-found": {
+    "children": [
+      "flex-layout.row#not-found__message",
+      "flex-layout.row#not-found__content-interest"
+    ],
+    "props": {
+      "blockClass": "container__page-not-found"
+    }
+  },
+  "flex-layout.row#not-found__message": {
+    "children": [
+      "rich-text#not-found__message--text-title",
+      "rich-text#not-found__message--text"
+    ],
+    "props": {
+      "blockClass": "page-not-found__message"
+    }
+  },
+  "rich-text#not-found__message--text-title": {
+    "title": "Not Found Title",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Producto no encontrado**",
+      "font": "t-heading-2",
+      "blockClass": "not-found__message--text-title"
+    }
+  },
+  "rich-text#not-found__message--text": {
+    "title": "Not Found Text",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lo sentimos el producto que buscas no se encuentra disponible",
+      "font": "t-heading-6",
+      "blockClass": "not-found__message--text"
+    }
+  },
+  "flex-layout.row#not-found__content-interest": {
+    "title": "Not Found Content Interest Section",
+    "children": [
+      "rich-text#product-more-sells--title",
+      "list-context.product-list#product-more-sells"
+    ],
+    "props": {
+      "blockClass": "page-not-found__content-interest"
+    }
+  },
+  "rich-text#product-more-sells--title": {
+    "title": "Products More Sells Title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Tal ves te pueda interesar",
+      "font": "t-heading-3",
+      "blockClass": "product-more-sells--title"
+    }
+  },
+  "list-context.product-list#product-more-sells": {
+    "title": "Products More Sells Section",
+    "blocks": [
+      "product-summary.shelf#default"
+    ],
+    "children": [
+      "slider-layout#slider-products-more-sells"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "products-licores"
+    }
+  },
+  "product-summary.shelf#default": {
+    "children": [
+      "product-summary-image#shelf",
+      // "product-summary-add-to-list-button",
+      "product-summary-name",
+      // "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      // "product-identifier.summary",
+      "add-to-cart-button"
+    ],
+    "props":{
+      "blockClass": "shelf__default"
+    }
+  },
+  "slider-layout#slider-products-more-sells": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "products-more-sells"
+    }
+  }
+}

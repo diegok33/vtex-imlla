@@ -1,0 +1,30 @@
+.flexRow--orderByAndSwitcher {
+  padding-right: 1.5em;
+}
+
+.flexRowContent--savingsSummaryListDesktop {
+  justify-content: flex-start;
+}
+
+.flexCol--summaryRightListDesktop {
+  justify-content: space-around;
+}
+
+.flexRow--buyNowButton :global(.vtex-button) {
+  background: #373435;
+  border-color:#eef3f7;
+  color: #ffffff;
+}
+
+.flexRow--buyNowButton:hover :global(.vtex-button) {
+  background: #3f3f3f;
+  border-color:#878787;
+}
+
+.flexCol--summaryDetailsListMobile {
+  justify-content: space-between;
+}
+
+.flexCol--summaryUpDetailsListMobile {
+  margin-bottom: 0.25rem
+}

@@ -1,0 +1,517 @@
+{
+  "store.custom#desktop__brand--dunlop": {
+    "blocks": ["info-card#dunlop","flex-layout.row#container__brand--dunlop","image#dunlop5","image#dunlop6","image#dunlop7","image#dunlop8","image#dunlop9","image#dunlop10","image#dunlop11","image#dunlop12","image#dunlop13","image#dunlop14","image#dunlop15","image#dunlop16","image#dunlop17","image#dunlop18","image#dunlop19","image#dunlop20","image#dunlop21","image#dunlop22","image#dunlop23","image#dunlop24","image#dunlop25","image#dunlop26","image#dunlop27","image#dunlop28","image#dunlop29","image#dunlop30","image#dunlop31","image#dunlop32","image#dunlop33","image#dunlop34","image#dunlop35","image#dunlop36","image#dunlop37","image#dunlop38","image#dunlop39","image#dunlop40","image#dunlop41","image#dunlop42","image#dunlop43","image#dunlop44","image#dunlop45","image#dunlop46","image#dunlop47","image#dunlop48","image#dunlop49","image#dunlop50","image#dunlop51","image#dunlop52","image#dunlop53","image#dunlop54","image#dunlop55","image#dunlop56","image#dunlop57","image#dunlop58","image#dunlop59","image#dunlop60","image#dunlop61","image#dunlop62","image#dunlop63"]
+  },
+  "flex-layout.row#container__brand--dunlop": {
+    "title":"Pagina Dunlop",
+    "children": [
+     // "rich-text#dunlop__brand-title",
+      //"rich-text#dunlop__brand-content",
+      //"video#video__dunlop",
+      //"rich-text#dunlop__brand-sub-title",
+      //"rich-text#dunlop__brand-content2",
+      //"image#img__dunlop",
+      //"rich-text#dunlop__brand-sub-title2",
+      //"rich-text#dunlop__brand-content3",
+      //"image#img__dunlop2"
+    ],
+    "props": {
+      "blockClass": "container__content--tpyo-tire"
+    }
+  },
+  "rich-text#dunlop__brand-title": {
+    "title":"Titulo Nuestra historia",
+    "props": {
+      "text": "A LO LARGO DE NUESTRA HISTORIA, SIEMPRE MIRAMOS HACIA EL FUTURO",
+      "font": "t-heading-1",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "width-articles--title"
+    }
+  },
+
+  "rich-text#dunlop__brand-content": {
+    "title":"Contenido Nuestra historia",
+    "props": {
+      "text": "John Boyd Dunlop, veterinario escocés, inventó el primer neumático con cámara de aire. Él observó a su hijo conducir un triciclo sobre un pavimento en mal estado. Este estaba equipado con neumáticos de goma dura, lo que impedía tomar velocidad y hacía la conducción incómoda. Con la intención de mejorar la vida de su hijo, Dunlop infló unos tubos de goma con una bomba de aire para inflar balones. Después envolvió los tubos de goma con una lona para protegerlos y los pegó sobre las llantas de las ruedas del triciclo. A partir de ese momento, la forma en que giraría el mundo, cambió.\n El 7 de diciembre de 1888 recibe la patente del neumático con cámara de aire.",
+      "blockClass": "width-articles"
+    }
+  },
+  "video#video__dunlop": {
+    "title":"Video Nuestra historia",
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=ux9NS4_Tmbk",
+      "blockClass": "video__dunlop"
+    }
+  },
+  "rich-text#dunlop__brand-sub-title": {
+    "title":"Titulo Placer de Conducir",
+    "props": {
+      "text": "EL PLACER DE CONDUCIR",
+      "font": "t-heading-3",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "width-articles--sub-title"
+    }
+  },
+  "rich-text#dunlop__brand-content2": {
+    "title":"Contenido Placer de Conducir",
+    "props": {
+      "text": "Cuanto más siente la carretera, más control tiene sobre su vehículo, y cuanto mayor es su control, mayores son sus posibilidades de explorar nuevas cotas de rendimiento. En este preciso momento, la conducción se convierte en un auténtico placer.\n La necesidad de alcanzar nuevas cotas de rendimiento es el reto que motiva a Dunlop en la fabricación de cada nuevo neumático. Por eso, nuestra marca hace lo posible por maximizar la sensación de control de los conductores en todos sus productos, desde nuestros neumáticos de competición hasta nuestros modelos más conocidos por el cliente.\n Los principales fabricantes de automóviles instalan nuestros neumáticos de serie porque conocen el rendimiento que ofrece Dunlop, y el hecho de que nunca dejamos de introducir nuevas tecnologías en el sector con el fin de mejorar la eficiencia, el control y el placer en la conducción.",
+      "blockClass": "width-articles"
+    }
+  },
+  "image#img__dunlop": {
+    "title":"Imagen Placer de Conducir",
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/dunlop-banner-15.jpg?v=637474645304000000",
+      "maxHeight": "600px",
+      "blockClass": "width-articles-img"
+    }
+  },
+  "rich-text#dunlop__brand-sub-title2": {
+    "title":"Titulo Pasion por rendimiento",
+    "props": {
+      "text": "PASIÓN POR EL RENDIMIENTO",
+      "font": "t-heading-3",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "width-articles--sub-title"
+    }
+  },
+  "rich-text#dunlop__brand-content3": {
+    "title": "Contenido Pasion por el rendimiento",
+    "props": {
+      "text": "Desde que fabricamos el primer neumático hace más de 125 años, no hemos dejado de trabajar en el desarrollo de nuevas tecnologías. Hoy en día, seguimos empujando nuestros límites y utilizando los conocimientos y la experiencia que con tanto esfuerzo hemos acumulado para mejorar nuestros productos.\n Nuestra pasión por el rendimiento nos ha permitido continuar innovando y ganarnos una buena reputación como una de las principales marcas de la competición automovilística, y los resultados de nuestras diversas investigaciones pueden apreciarse en toda nuestra gama (le animamos a que visite nuestra página sobre tecnologías e innovación para conocer más de cerca nuestros avances).\n Nuestra búsqueda incansable de nuevas formas de ofrecer a los conductores una inigualable sensación de control y rendimiento hará que Dunlop se encuentre siempre a la vanguardia de las tecnologías de neumáticos.",
+      "blockClass": "width-articles"
+    }
+  },
+  "image#img__dunlop2": {
+    "title": "Imagen Pasion por el rendimiento",
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/dunlop-banner-3.jpg?v=637474645716530000",
+      "maxHeight": "600px",
+      "blockClass": "width-articles-img"
+    }
+  },
+
+  "image#dunlop5": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop5.jpg"
+
+
+    }
+  },
+
+  "image#dunlop6": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop6.jpg"
+
+
+    }
+  },
+
+  "image#dunlop7": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop7.jpg"
+
+
+    }
+  },
+  "image#dunlop8": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop8.jpg"
+
+
+    }
+  },
+  "image#dunlop9": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop9.jpg"
+
+
+    }
+  },
+  "image#dunlop10": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop10.jpg"
+
+
+    }
+  },
+  "image#dunlop11": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop11.jpg"
+
+
+    }
+  },
+  "image#dunlop12": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop12.jpg"
+
+
+    }
+  },
+  "image#dunlop13": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop13.jpg"
+
+
+    }
+  },
+  "image#dunlop14": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop14.jpg"
+
+
+    }
+  },
+  "image#dunlop15": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop15.jpg"
+
+
+    }
+  },
+  "image#dunlop16": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop16.jpg"
+
+
+    }
+  },
+  "image#dunlop17": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop17.jpg"
+
+
+    }
+  },
+  "image#dunlop18": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop18.jpg"
+
+
+    }
+  },
+  "image#dunlop19": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop19.jpg"
+
+
+    }
+  },
+  "image#dunlop20": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop20.jpg"
+
+
+    }
+  },
+  "image#dunlop21": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop21.jpg"
+
+
+    }
+  },
+  "image#dunlop22": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop22.jpg"
+
+
+    }
+  },
+  "image#dunlop23": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop23.jpg"
+
+
+    }
+  },
+  "image#dunlop24": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop24.jpg"
+
+
+    }
+  },
+  "image#dunlop25": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop25.jpg"
+
+
+    }
+  },
+  "image#dunlop26": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop26.jpg"
+
+
+    }
+  },
+  "image#dunlop27": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop27.jpg"
+
+
+    }
+  },
+  "image#dunlop28": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop28.jpg"
+
+
+    }
+  },
+  "image#dunlop29": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop29.jpg"
+
+
+    }
+  },
+  "image#dunlop30": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop30.jpg"
+
+
+    }
+  },
+  "image#dunlop31": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop31.jpg"
+
+
+    }
+  },
+  "image#dunlop32": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop32.jpg"
+
+
+    }
+  },
+  "image#dunlop33": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop33.jpg"
+
+
+    }
+  },
+  "image#dunlop34": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop34.jpg"
+
+
+    }
+  },
+  "image#dunlop35": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop35.jpg"
+
+
+    }
+  },
+  "image#dunlop36": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop36.jpg"
+
+
+    }
+  },
+  "image#dunlop37": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop37.jpg"
+
+
+    }
+  },
+  "image#dunlop38": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop38.jpg"
+
+
+    }
+  },
+  "image#dunlop39": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop39.jpg"
+
+
+    }
+  },
+  "image#dunlop40": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop40.jpg"
+
+
+    }
+  },
+  "image#dunlop41": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop41.jpg"
+
+
+    }
+  },
+  "image#dunlop42": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop42.jpg"
+
+
+    }
+  },
+  "image#dunlop43": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop43.jpg"
+
+
+    }
+  },
+  "image#dunlop44": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop44.jpg"
+
+
+    }
+  },
+  "image#dunlop45": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop45.jpg"
+
+
+    }
+  },
+  "image#dunlop46": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop46.jpg"
+
+
+    }
+  },
+  "image#dunlop47": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop47.jpg"
+
+
+    }
+  },
+  "image#dunlop48": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop48.jpg"
+
+
+    }
+  },
+  "image#dunlop49": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop49.jpg"
+
+
+    }
+  },
+  "image#dunlop50": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop50.jpg"
+
+
+    }
+  },
+  "image#dunlop51": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop51.jpg"
+
+
+    }
+  },
+  "image#dunlop52": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop52.jpg"
+
+
+    }
+  },
+  "image#dunlop53": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop53.jpg"
+
+
+    }
+  },
+  "image#dunlop54": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop54.jpg"
+
+
+    }
+  },
+  "image#dunlop55": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop55.jpg"
+
+
+    }
+  },
+  "image#dunlop56": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop56.jpg"
+
+
+    }
+  },
+  "image#dunlop57": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop57.jpg"
+
+
+    }
+  },
+  "image#dunlop58": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop58.jpg"
+
+
+    }
+  },
+  "image#dunlop59": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop59.jpg"
+
+
+    }
+  },
+  "image#dunlop60": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop60.jpg"
+
+
+    }
+  },
+  "image#dunlop61": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop61.jpg"
+
+
+    }
+  },
+  "image#dunlop62": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop62.jpg"
+
+
+    }
+  },
+  "image#dunlop63": {
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/catalogodunlop63.jpg"
+
+
+    }
+  }}

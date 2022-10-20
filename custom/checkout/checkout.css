@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 60%;
+}
+
+th {
+  font-size: large;
+}
+.btn-place-order {
+  text-indent: -9999px;
+  line-height: 0;
+}
+.btn-place-order:after {
+  content: "FINALIZAR COMPRA";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+#payment-group-debitPaymentGroup .payment-group-item-text {
+  text-indent: -9999px;
+  line-height: 0 !important;
+}
+#payment-group-debitPaymentGroup .payment-group-item-text:after {
+  content: "Débito / Transferencia";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+
+.monetary {
+  width: auto;
+}
+#go-to-shipping,
+#btn-client-pre-email,
+#find-pickups-manualy-button-denied,
+#btn-go-to-payment {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.emailInfo > h3 {
+  color: #468847 !important;
+  text-transform: uppercase;
+}
+.icon-ok {
+  color: #468847 !important;
+}
+input.success:not([invalid="true"]) {
+  background-position: right center;
+}
+body.js-vcustom-hideEmailStep
+  .client-profile-data
+  .accordion-toggle
+  > span:before,
+body.v-custom-step-payment
+  .payment-data
+  .accordion-toggle
+  > span:not(.payment-edit-link):before,
+body.v-custom-step-shipping .shipping-data .accordion-toggle:before,
+body.v-custom-step-profile .client-profile-data .accordion-toggle > span:before,
+body.v-custom-step-email .client-pre-email h3.client-pre-email-h span:before,
+body.v-custom-step-profile .client-pre-email h3.client-pre-email-h span:before,
+body.v-custom-step-payment .client-pre-email h3.client-pre-email-h span:before,
+body.v-custom-step-payment .client-profile-data .accordion-toggle > span:before,
+body.v-custom-step-payment .shipping-data .accordion-toggle:before,
+body.v-custom-step-shipping .client-pre-email h3.client-pre-email-h span:before,
+body.v-custom-step-shipping
+  .client-profile-data
+  .accordion-toggle
+  > span:before {
+  background-color: #ba0001;
+  border-color: #ba0001;
+}
+.container-header {
+  align-items: center;
+  background-color: #ba0001;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+.logo-header {
+  width: 0;
+}
+header {
+  margin-bottom: 50px;
+}
+.summary-template-holder tfoot tr td.monetary,
+.orderform-template
+  .cart-template.mini-cart
+  .summary-totalizers
+  tfoot
+  tr
+  td.monetary {
+  color: #468847;
+}
+.orderform-template .cart-template.mini-cart #go-to-cart-button {
+  padding-top: 17px;
+  padding-right: 15px;
+  text-decoration: none;
+  font-size: larger;
+}
+a:hover,
+a:focus {
+  color: #005580 !important;
+  text-decoration: none;
+}
+
+.srp-pickup-my-location__button {
+  background-color: #e81e28;
+  border-color: #e81e28;
+}
+
+.orderform-template-holder
+  .step.shipping-data
+  .vtex-omnishipping-1-x-leanShippingGroupList {
+  margin-bottom: 15px;
+}
+.orderform-template-holder #payment-data p.link.link-gift-card.active,
+.orderform-template-holder #payment-data p.link.link-gift-card:hover {
+  border: 1px solid #00b92e;
+}
+#show-gift-card-group {
+  color: #468847;
+}
+
+.link-payment-discounts-cod:hover {
+  color: #00b92e !important;
+}
+
+.sight {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.sight span:nth-child(even) {
+  color: #468847;
+}
+
+body {
+  min-height: 100vh !important;
+}
+
+/* FOOTER */
+.container__footer {
+  align-items: center;
+  background-color: #222222;
+  bottom: 0;
+  color: #ffffff;
+  display: flex;
+  font-weight: bold;
+  height: 60px;
+  justify-content: center;
+  margin-bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .logo-header {
+    width: 50vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  .logo-header {
+    width: 50vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container-header {
+    height: auto;
+    background-color: white;
+    background-image: none;
+  }
+  .container {
+    max-width: 100%;
+  }
+  header {
+    margin-bottom: 15px;
+  }
+  p.ship-number,
+  p.ship-city,
+  p.ship-state {
+    width: 100%;
+  }
+  body:before {
+    background: #ba0001;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .container-header {
+    height: 120px;
+  }
+  .payment-mercadopago-flags {
+    padding: 80px;
+  }
+}
+
+@media screen and (min-height: 1440px) {
+  .payment-mercadopago-flags {
+    padding: 60px;
+  }
+}

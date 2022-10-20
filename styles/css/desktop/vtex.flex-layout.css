@@ -1,0 +1,292 @@
+/* HEADER */
+.flexRow--welcome__layout {
+  background-color: #373435;
+  height: 40px;
+  font-size: 0.9rem;
+}
+
+.flexRow--header__search__cart {
+  background-color: #373435;
+  height: 90px;
+  align-items: center;
+  display: flex;
+
+}
+
+/* .flexRow--header__search__cart :global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-flexRowContent--header__search__cart) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(0n+2) {
+  width: 70% !important;
+  border: 1px solid red;
+} */
+
+/* .flexRowContent--header__search__cart :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 70% !important;
+  width: 20% !important;
+  border: 1px solid blue;
+} */
+
+.flexRowContent--items__stretch {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  width: inherit;
+}
+
+.flexRow--flex__logo__menu {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+}
+
+.flexRowContent--flex__logo__menu {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: left;
+  padding-left: 510px;
+  padding-right: 40px;
+}
+
+.flexRow--header__search__cart :global(.vtex-store-components-3-x-container) {
+  width: 100%;
+
+  padding-right: 0px;
+}
+
+/* SOCIAL MEDIA AND MINICART SECTION */
+.flexRow--flex__iconsMinicart {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.flexRowContent--flex__iconsMinicart
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.flexRow--flex__iconsMinicart
+  :global(.vtex-flex-layout-0-x-flexRowContent--flex__iconsMinicart) {
+  /* width: 260px; */
+  margin-left: 310px;
+  /* border: 1px solid red; */
+}
+
+/* .flexRow--flex__iconsMinicart
+  :global(.vtex-flex-layout-0-x-flexRowContent--flex__iconsMinicart)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  border: 1px solid blue;
+  width: 23% !important;
+} */
+
+.flexRowContent--flex__iconsMinicart
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2n) {
+  width: 68px;
+}
+/*END SOCIAL MEDIA AND MINICART SECTION */
+/* END HEADER */
+
+/* END PREGUNTAS FRECUENTES */
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.flexRow--row-order-productCount {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 4rem;
+}
+
+.flexRowContent--row-order-productCount {
+  background-color: rgb(37, 34, 35);
+  height: 70px;
+}
+
+.flexRow--orderByAndSwitcher {
+  align-items: center;
+  display: flex;
+}
+
+.flexRow--row-order-productCount {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 4rem;
+}
+
+.flexRowContent--row-order-productCount {
+  background-color: rgb(65, 61, 62);
+  height: 70px;
+}
+
+.flexColChild--productCountCol {
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flexRow--search-filter-mobile,
+.flexRow--productCountMobileRow {
+  background-color: rgb(37, 34, 35);
+  color: white;
+}
+
+/* Not Found */
+.flexRowContent--container__page-not-found,
+.flexRowContent--page-not-found__message {
+  flex-wrap: wrap;
+}
+.flexRowContent--container__page-not-found
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+.flexRowContent--page-not-found__content-interest {
+  flex-wrap: wrap;
+  margin: 32px auto;
+  width: 90%;
+}
+.flexRowContent :global(.vtex-breadcrumb-1-x-container) {
+  margin: 12px 32px;
+}
+.flexRowContent :global(.vtex-breadcrumb-1-x-homeIcon) {
+  color: #373435;
+  transform: scale(1.3);
+}
+.flexRowContent :global(.vtex-breadcrumb-1-x-homeIcon):hover {
+  color: #373435;
+  transform: scale(1.5);
+}
+
+/* SOURCE PAGE */
+.flexRow--name-price-productList
+  :global(.vtex-flex-layout-0-x-flexRowContent--name-price-productList) {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--name-price-productList
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+.flexColChild--detailsProductList :global(.vtex-button) {
+  border: none;
+  width: 200px;
+}
+
+/* PDP */
+.flexRowContent--desktop__container--product
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  overflow: hidden;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* MODAL PDP */
+.flexCol--page__modal--description {
+  margin-top: 10px;
+}
+
+/* FOOTER */
+.flexRow--container-logo-PBX {
+  width: 100%;
+}
+.flexRow--footer {
+  background-color: rgb(56, 55, 55);
+  color: rgb(37, 34, 35);
+  height: 400px;
+}
+
+.flexRowContent--footer {
+  display: flex;
+  flex-direction: column;
+  /* width: 1170px; */
+}
+.flexRowContent--container__promotions {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  gap: 16px;
+  display: flex;
+
+}
+.flexRowContent--footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow--footer-row1 {
+  height: 260.59px;
+}
+
+.flexRow--footer-row2 {
+  height: 68px;
+}
+
+.flexRow--footer :global(.vtex-store-components-3-x-container) {
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--footer :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flexCol--col-footer {
+  height: fit-content;
+}
+
+.flexRowContent--footer-row2 {
+  height: 100%;
+}
+
+.flexRowContent--footer-row2
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even) {
+  padding-bottom: 0px;
+}
+
+.flexCol--col__pagos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexColChild--col__pagos {
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
+}
+.flexColChild--col__pagos
+  :global(.vtex-store-components-3-x-imageElement--img-bancolombia) {
+  margin-right: 0px;
+}
+.flexColChild--col__pagos
+  :global(.vtex-store-components-3-x-imageElement--img-dinner) {
+  margin-bottom: 0px;
+}
+
+.flexRowContent--footer-row2
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd) {
+  align-items: center;
+}
+/* END FOOTER */
+
+@media screen and (min-width: 1050px) {
+  .flexRowContent--footer-row2
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd) {
+    width: 50% !important;
+  }
+  .flexRowContent--footer-row2
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even) {
+    width: 50% !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+  }
+}

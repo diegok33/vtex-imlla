@@ -1,0 +1,46 @@
+/* About us */
+.imageElementLink--container-image {
+  display: flex;
+  justify-content: center;
+}
+.imageElement--container-image {
+  border-radius: 20px;
+}
+
+.content--description__page--product {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin: 15px 0;
+  padding-left: 15px;
+  white-space: pre-line;
+}
+
+/* .imageElement--about__us--img{
+  margin-bottom: 50px;
+} */
+
+/* Arrows and Button circle PDP */
+.caretIcon--desktop__product--left-image {
+  color: #373435;
+}
+
+.swiperBullet--active {
+  color: #ba0001;
+}
+
+/* Arrows and Button circle QUICKVIEW */
+.caretIcon--quickview {
+  color: #373435;
+}
+.imageElement--icons__socialmedia {
+  transition: all 0.3s ease-in-out;
+}
+.imageElement--icons__socialmedia:hover {
+  filter: brightness(1.5)
+}
+
+@media (max-width: 1025px) {
+  .searchBarContainer {
+    width: 100% !important;
+  }
+}

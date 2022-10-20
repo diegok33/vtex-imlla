@@ -1,0 +1,288 @@
+/* Login */
+.heading--home__title {
+  margin-top: 80px;
+
+}
+
+@media (min-width: 760px) {
+  .heading--home__title {
+    margin-top: 150px;
+  }
+}
+
+/* Usuario No Reconocido */
+.heading--home__title_usuario_no_reconocido {
+  margin-top: 50px;
+}
+
+@media (min-width: 760px) {
+  .heading--home__title_usuario_no_reconocido {
+    margin: 40px 0px 10px 0px;
+  }
+}
+
+.paragraph--home__paragraph_usuario_no_reconocido{
+  margin: 20px 0px 60px 0px;
+  padding: 0px 30px;
+}
+
+@media (min-width: 760px) {
+  .heading--home__paragraph_usuario_no_reconocido {
+    margin: 20px 0px 60px 0px;
+  }
+}
+
+.wrapper--welcome__text {
+  color: rgb(37, 34, 35);
+}
+
+.container--welcome__text {
+  height: 40px;
+}
+
+.paragraph--text__header--phone {
+  color: rgb(253, 253, 253);
+  font-style: italic;
+  font-weight: 700;
+  margin: 20px 0 0 100px;
+}
+
+.paragraph--text__header--mycart {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-style: "regular";
+  width: 138px;
+}
+
+
+
+.link--text__header--phone {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.link--text__header--phone:hover {
+  color: #ffffff;
+}
+
+/* HOME */
+.paragraph--title-brands {
+  color: rgb(255, 255, 255);
+  padding-left: 350px;
+  font-size: 28px;
+  margin-left: 48px;
+  width: 0.2;
+}
+
+.container--title-brands{
+  background-color: #2a2a2f;
+  padding-left:200px;
+
+}
+
+.paragraph--title-promotions {
+  padding-left: 350px;
+  font-size: 48px;
+  margin-left: 48px;
+  width: 0.2;
+
+}
+
+.paragraph--selecciona {
+  color: rgb(191, 8, 17);
+  font-weight: 900;
+  font-style: "light";
+  font-size: 20px;
+  width: 938px;
+  text-align: center;
+  text-justify: center;
+
+}
+
+.container--selecciona {
+  padding-left: 300px;
+  height: 150px;
+  width: 800px;
+}
+
+/* FOOTER */
+.wrapper--title-footer {
+  border-bottom: 2px solid #373435;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.heading--title-footer {
+  border-bottom: 2px solid #373435;
+  color: #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: -2px;
+}
+
+.paragraph--link-footer {
+  margin: 10px 0;
+}
+
+.link--link-footer {
+  color: #ccc;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.link--link-footer::before {
+  content: url("assets/img/footer/right.png");
+  padding-right: 5px;
+  top: 2px;
+}
+
+.link--link-footer:hover {
+  color: #ba0001;
+}
+
+.wrapper--link-footer {
+  width: 100%;
+}
+
+.wrapper--not-found__message--text-title
+  :global(.vtex-rich-text-0-x-paragraph) {
+  margin: 0;
+}
+
+.wrapper--product-more-sells--title :global(.vtex-rich-text-0-x-paragraph) {
+  border-bottom: solid 3px rgb(37,34,35);
+  font-size: 1.7rem;
+  margin: 0 4px;
+}
+
+.container--layout-option {
+  margin-left: 0.3em;
+}
+
+.paragraph--layout-option {
+  margin: 0;
+}
+
+.paragraph--tiredepot__text {
+  color: rgb(255, 255, 255);
+}
+
+/* Ours Brands */
+.paragraph--width-articles {
+  font-size: 1rem;
+}
+.wrapper--width-articles {
+  font-size: 1.8rem;
+  line-height: 40px;
+}
+.paragraph--width-articles--sub-title {
+  border-bottom: 3px solid #373435;
+  font-size: 1.8rem;
+}
+
+/* ACERCA DE NOSOTROS */
+
+.listItem--about__us--icon-list {
+  font-size: 1rem;
+  line-height: 40px;
+  list-style-image: url("assets/icons/diamond2.svg");
+  list-style-position: outside;
+  text-decoration: none;
+}
+
+.listItem--about__us--question:hover {
+  color: #373435;
+}
+
+/* PUNTOS DE VENTAS */
+
+.listItem--points__content {
+  color: #373435;
+  list-style: none;
+}
+
+.listItem--points__content--address::before {
+  content: url("assets/icons/location.png");
+  padding-right: 10px;
+}
+
+.listItem--points__content--phone::before {
+  content: url("assets/icons/llamada.png");
+  padding-right: 10px;
+}
+
+.link--points__content--phone {
+  color: #373435;
+  text-decoration: none;
+}
+
+.link--points__content--phone:hover {
+  font-weight: 700;
+}
+
+/* CONTACTENOS */
+.heading--title-contact-us {
+  margin-bottom: 30px;
+}
+
+.list--list-contact-info {
+  padding-left: 0;
+  margin: 0;
+}
+
+.listItem--list-contact-info {
+  list-style: none;
+  font-size: 18px;
+  padding: 10px 0px;
+  color: #333;
+}
+
+.link--list-contact-info {
+  text-decoration: none;
+  color: #333;
+}
+
+.link--list-contact-info:hover {
+  color: #373435;
+}
+
+.listItem--address::before {
+  content: url("assets/icons/location.png");
+  padding-right: 10px;
+}
+
+.listItem--phone::before {
+  content: url("assets/icons/llamada.png");
+  padding-right: 10px;
+}
+
+.listItem--email::before {
+  content: url("assets/icons/email.png");
+  padding-right: 10px;
+}
+
+.listItem--web::before {
+  content: url("assets/icons/world.png");
+  padding-right: 10px;
+}
+
+.heading--title-contact-us,
+.headingLevel1--title-faq {
+  border-bottom: 4px solid #373435;
+}
+
+.listItem--faq__answer--list {
+  line-height: 26px;
+}
+
+/* ORDER PLACE */
+.headingLevel2--tu-orden {
+  border-bottom: 4px solid #373435;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1024px) {
+  .paragraph--width-articles--title {
+    font-size: 1.8rem;
+  }
+}

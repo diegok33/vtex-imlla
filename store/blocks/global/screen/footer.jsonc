@@ -1,0 +1,27 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  }
+  // "footer-layout.desktop": {
+  //   "children": [
+  //     "flex-layout.row#global__footer"
+  //   ]
+  // },
+  // "footer-layout.mobile": {
+  //   "children": [
+  //     "flex-layout.row#global__footer"
+  //   ]
+  // },
+  // "flex-layout.row#global__footer": {
+  //   "children": [
+  //     "rich-text#global__footer--text"
+  //   ]
+  // },
+  // "rich-text#global__footer--text": {
+  //   "props": {
+  //     "text": "© All rights reserved - IT Globers - 2021",
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER"
+  //   }
+  // }
+}

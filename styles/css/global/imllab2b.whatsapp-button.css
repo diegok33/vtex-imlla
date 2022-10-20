@@ -1,0 +1,10 @@
+.containerChatBot {
+  width: 70px;
+  z-index: 11;
+}
+
+@media (max-width: 1024px) {
+  .containerChatBot {
+    width: 50px;
+  }
+}

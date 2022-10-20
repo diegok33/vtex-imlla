@@ -1,0 +1,74 @@
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+.productBrand--summaryListDesktop:hover{
+  color: rgb(37, 34, 35);
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  }
+}
+
+.price_installmentContainer{
+  display: none;
+}
+
+.element--shelf__default :global(.vtex-product-summary-2-x-priceContainer){
+  align-items: flex-start;
+  display: flex;
+}
+
+.price_sellingPriceContainer{
+  color: #373435;
+  font-size: 1.5625rem;
+  font-weight: 600;
+}
+
+.element--shelf__default :global(.vtex-button){
+  background-color: #373435;
+  outline: none;
+  border: none;
+}
+
+.element--shelf__default :global(.vtex-button):hover{
+  background-color: #373435;
+}
+
+.nameContainer {
+  justify-content: start;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.brandName {
+  font-weight: 600;
+  
+  font-family: "Helvetica";
+  font-size: 15px;
+  color: #2E2E2E;
+}
+
+.container {
+  text-align: start;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+
+.image {
+  border-radius: 0.25rem;
+}

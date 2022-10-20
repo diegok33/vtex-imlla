@@ -1,0 +1,76 @@
+.menuItem :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin-left: 0;
+  margin-right: 0;
+}
+.menuItem :global(.vtex-menu-2-x-styledLinkContent) {
+  color: rgb(37, 34, 35);
+  font-size: 0.9rem;
+}
+.menuItem :global(.vtex-menu-2-x-styledLinkContent):hover {
+  /* transform: scale(1.1); */
+  color: #ba0001;
+}
+.menuItem :global(.vtex-menu-2-x-submenuWrapper) {
+  width: 100%;
+}
+.submenuContainer--header__submenu-container {
+  background-color: white;
+  width: 240px;
+  right: -46px;
+  top: -33px;
+}
+.submenuWrapper--header__submenu-container {
+  box-shadow: 2px 5px 8px rgb(55, 52, 53);
+  padding: 0;
+  left: 139px;
+  top: -7px;
+}
+.submenuWrapper--container-menu {
+  top: -20px;
+  padding: 50;
+}
+.submenu--container-menu {
+  justify-content: flex-start;
+}
+.submenu--container-menu :global(.vtex-menu-2-x-styledLinkContent) {
+  padding-left: 40px;
+}
+.submenu--container-menu :global(.vtex-menu-2-x-menuItem) {
+  padding: 8px 0;
+  width: 400%;
+  border-bottom: 1px solid #e6e6e6;
+}
+  .submenu--container-menu :global(.vtex-menu-2-x-menuItem){
+    background-color: #ffffff;
+    
+
+  
+}
+.submenu--container-menu :global(.vtex-menu-2-x-menuContainerNav) {
+  width: 100%;
+}
+
+.menuItem .styledLinkContent--item-menu-desktop {
+  color: rgb(55, 52, 53);
+  font-weight: 1700;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+.menuItem .styledLinkContent--item-menu-desktop:hover {
+  color: rgb(55, 52, 53);
+  /* transform: scale(1.1); */
+}
+.menuContainerNav--header__menu-drawer {
+  width: 100%;
+}
+.menuContainer--header__menu-drawer {
+  padding: 16px 36px;
+  width: 100%;
+}
+.styledLinkContent--item-drawer-mobile {
+  font-size: 1.5rem;
+}
+.menuContainer--container__items-menu {
+  align-items: flex;
+  justify-content: center;
+}

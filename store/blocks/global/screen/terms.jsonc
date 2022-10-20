@@ -1,0 +1,343 @@
+{
+    "store.custom#terms":{
+        "blocks":[
+            "flex-layout.row#terms"
+        ]
+    },
+    "flex-layout.row#terms":{
+        "children":[
+            "rich-text#terms__title--main",
+            "rich-text#terms__content--main",
+            "rich-text#terms__content2--main",
+            "rich-text#terms__title--one",
+            "rich-text#terms__content--one",
+            "rich-text#terms__title--two",
+            "rich-text#terms__content--two",
+            "rich-text#terms__content2--two",
+            "rich-text#terms__content3--two",
+            "rich-text#terms__title--three",
+            "rich-text#terms__content--three",
+            "rich-text#terms__title--four",
+            "rich-text#terms__content--four",
+            "rich-text#terms__title--five",
+            "rich-text#terms__content--five",
+            "rich-text#terms__title--six",
+            "rich-text#terms__content--six",
+            "rich-text#terms__title--seven",
+            "rich-text#terms__content--seven",
+            "rich-text#terms__title--eight",
+            "rich-text#terms__content--eight",
+            "rich-text#terms__title--nine",
+            "rich-text#terms__content--nine",
+            "rich-text#terms__title--ten",
+            "rich-text#terms__content--ten",
+            "rich-text#terms__title--eleven",
+            "rich-text#terms__content--eleven",
+            "rich-text#terms__content2--eleven",
+            "rich-text#terms__content3--eleven",
+            "rich-text#terms__title--twelve",
+            "rich-text#terms__content--twelve",
+            "rich-text#terms__title--thirteen",
+            "rich-text#terms__content--thirteen",
+            "rich-text#terms__title--fourteen",
+            "rich-text#terms__content--fourteen",
+            "rich-text#terms__title--fifteen",
+            "rich-text#terms__content--fifteen",
+            "rich-text#terms__content2--fifteen"
+        ],
+        "props": {
+            "blockClass": "container__content--tpyo-tire"
+          }
+    },
+    "rich-text#terms__title--main":{
+        "title":"Titulo Principal Terminos y Condiciones",
+        "props":{
+            "text":"TÉRMINOS Y CONDICIONES DE USO Y VENTA",
+            "font": "t-heading-1",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--main":{
+        "title":"Titulo Principal Terminos y Condiciones",
+        "props":{
+            "text":"A continuación, le ofrecemos de manera detallada y precisa los términos y condiciones de uso y venta a nuestro sitio web Tiredepot.com.co. **Le pedimos que lea detenidamente para que tenga claro los servicios prestados en nuestro sitio web Tiredepot.com.co** Cualquier persona que desee acceder, usar y/o comprar en este sitio web podrá hacerlo sujeto a los términos y condiciones de uso y venta, junto con las demás políticas y principios que rigen Tiredepot.com.co incorporados en el presente documento.\nLos Términos y Condiciones de uso y venta aquí presentes son de carácter obligatorio, por lo que cualquier persona que NO los acepte, deberá abstenerse de utilizar este sitio web y los servicios prestados.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__content2--main":{
+        "props":{
+            "text":"Nuestra tienda web es operada por Tire Depot S.A.S NIT. 800.252.827-7. En todo el sitio, los términos “nosotros”, “nos” y “nuestro” se refieren a Tiredepot.com.co Cualquier función nueva o herramienta que se añada a la tienda web actual, también estará sujeta a estos términos. Puede revisar la versión actualizada en cualquier momento en esta página. Nos reservamos el derecho de cambiar o reemplazar cualquier parte de los términos mediante la publicación de actualizaciones y/o cambios en nuestro sitio web. Es su responsabilidad verificar cambios. Su uso continúo o el acceso al sitio web después de la publicación de cualquier modificación constituye la aceptación de dichos cambios.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--one":{
+        "title":"Primer Titulo Terminos y Condiciones",
+        "props":{
+            "text":"I. TÉRMINOS DE LA TIENDA",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        }
+    },
+    "rich-text#terms__content--one":{
+        "props":{
+            "text":"- Al utilizar nuestro sitio web, el usuario admite haber leído y entendido los términos y condiciones de uso y venta. Por consiguiente, asume la obligación de respetar su contenido, política de privacidad, notificaciones legales y todas las cláusulas de exención de responsabilidad..\n- Asimismo, declara que tiene las facultades de edad y legales para el buen uso del sitio.\n- No puede usar nuestros productos con ningún propósito ilegal o no autorizado. Está prohibido transmitir gusanos informáticos, virus o cualquier código de naturaleza destructiva. El incumplimiento o violación de estos términos darán lugar al cese inmediato de sus servicios y se actuará de acuerdo con las medidas legales correspondientes.",
+            "blockClass": ["about__us--icon-list", "terms__content2--fifteen"]
+        }
+    },
+    "rich-text#terms__title--two":{
+        "title":"Segundo Titulo Terminos y Condiciones",
+        "props":{
+            "text":"II. REGISTRO DE USUARIO Y USO DEL SITIO WEB",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--two":{
+        "props":{
+            "text":"- Nuestro sitio web podrá recoger información personal, por ejemplo: Nombre, información de contacto como su dirección de correo electrónico e información demográfica. Así mismo cuando sea necesario podrá ser requerida información específica para procesar algún pedido o realizar una entrega o facturación.\n- Para realizar compras, los usuarios deberán registrarse en nuestro sitio web y será obligatorio completar los formularios con datos personales de manera exacta, precisa y verdadera, y asumir la responsabilidad de actualizar los datos en el momento en que se requiera. tiredepot.com.co no será responsable por datos inexactos o falsos proporcionados por los usuarios, los usuarios son los únicos responsables por la veracidad de la información diligenciada. tiredepot.com.co se reserva el derecho de solicitar algún documento y/o información adicional con el fin de rectificar la información proporcionada, así como suspender temporal o definitiva la suscripción a usuarios que no se les hayan podido confirmar los datos.\n tiredepot.com.co podrá cancelar las compras sin que se genere derecho a resarcimiento, pago o indemnización, al igual que rechazar o cancelar solicitudes de registro previamente aceptadas, sin que esté obligado a comunicarlo o dar razones de la decisión.\n Cabe resaltar que los datos que se obtienen a través de los formularios de la página web tienen un consentimiento para su uso comercial y legar, dicho consentimiento se autoriza en el momento que el usuario ingresa su información personal.",
+            "blockClass": ["about__us--icon-list", "terms__content2--fifteen"]
+        }
+    },
+    "rich-text#terms__content2--two":{
+        "props":{
+            "text":"**COOKIES.** Una cookie se refiere a un fichero que es enviado con la finalidad de solicitar permiso para almacenarse en su ordenador, al aceptar dicho fichero se crea y la cookie sirve entonces para tener información respecto al tráfico web, y también facilita las futuras visitas a una web recurrente. Otra función que tienen las cookies es que con ellas las webs pueden reconocerte individualmente y por tanto brindarte el mejor servicio personalizado de su web. Nuestro sitio web emplea las cookies para poder identificar las páginas que son visitadas y su frecuencia. Esta información es empleada únicamente para análisis estadístico y después la información se elimina de forma permanente. Usted puede eliminar las cookies en cualquier momento desde su ordenador. Sin embargo, las cookies ayudan a proporcionar un mejor servicio de los sitios web, estás no dan acceso a información de su ordenador ni de usted, a menos de que usted así lo quiera y la proporcione directamente. Usted puede aceptar o negar el uso de cookies, sin embargo, la mayoría de navegadores aceptan cookies automáticamente pues sirve para tener un mejor servicio web. También usted puede cambiar la configuración de su ordenador para declinar las cookies. Si se declinan es posible que no pueda utilizar algunos de nuestros servicios.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__content3--two":{
+        "props":{
+            "text":"**ENLACES A TERCEROS.** Este sitio web pudiera contener enlaces a otros sitios que pudieran ser de su interés. Una vez que usted de clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre al sitio al que es redirigido y por lo tanto no somos responsables de los términos o privacidad ni de la protección de sus datos en esos otros sitios terceros. Dichos sitios están sujetos a sus propias políticas de privacidad por lo cual es recomendable que los consulte para confirmar que usted está de acuerdo con estas.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--three":{
+        "title":"Tercer Titulo Terminos y Condiciones",
+        "props":{
+            "text":"III. PRODUCTOS Y SERVICIOS",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        }
+    },
+    "rich-text#terms__content--three":{
+        "props":{
+            "text":"- En nuestro sitio web vendemos llantas para automóvil, camioneta, camión, y camión liviano.\n- En nuestro sitio web vendemos baterías para automóvil, camionetas, camión y camión liviano.\n- En nuestro sitio web solo se venden y envían productos en territorio colombiano.\n- Aunque en las imágenes de producto se vean rines, en esta tienda en línea solo se venden llantas y baterías las cuales son de uso automotriz para los segmentos camioneta, camión y camión liviano, **EL RIN NO SE INCLUYE EN LA COMPRA**, es solo ilustrativo.",
+            "blockClass": ["about__us--icon-list", "terms__content2--fifteen"]
+        }
+    },
+    "rich-text#terms__title--four":{
+        "title":"Cuarto Titulo Terminos y Condiciones",
+        "props":{
+            "text":"IV. VISUALIZACIÓN DE PRODUCTO",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--four":{
+        "props":{
+            "text":"Las imágenes utilizadas son ilustrativas, pueden variar respecto al color, la iluminación y la textura, su visualización también dependerá del dispositivo que se utilice.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--five":{
+        "title":"Quinto Titulo Terminos y Condiciones",
+        "props":{
+            "text":"V. PRECIOS Y MODIFICACIONES EN VENTAS",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--five":{
+        "props":{
+            "text":"Los precios publicados de las llantas incluyen IVA del 19%. Estos precios están sujetos a cambios sin previo aviso. Nos reservamos el derecho de modificar o descontinuar algunos productos (o cualquier parte del contenido) en cualquier momento.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--six":{
+        "title":"Sexto Titulo Terminos y Condiciones",
+        "props":{
+            "text":"VI. PROMOCIONES",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--six":{
+        "props":{
+            "text":"Las promociones que se ofrezcan en nuestro sitio web no son necesariamente las mismas que ofrezcan otros canales de venta utilizados por las empresas, tales como tienda física, venta telefónica, redes sociales, u otros, a menos que se señale expresamente en nuestro sitio web",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--seven":{
+        "title":"Septimo Titulo Terminos y Condiciones",
+        "props":{
+            "text":"VII. FORMAS DE PAGO DE LOS PRODUCTOS",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--seven":{
+        "props":{
+            "text":"Cada producto, servicio y/o promoción que se ofrezca a través de nuestro sitio web incluye expresamente su precio e impuestos, los costos de envío, si aplicara al destino, se discriminará en la orden de compra.\n \n**Los medios de pago autorizados son los expresamente indicados al momento de efectuar el pago:** Tarjetas de crédito, (las franquicias que se encuentren disponibles en el momento de la transacción), botón PSE, pagos en efectivo a través de los corresponsales bancarios (que se encuentren disponibles en el momento de la transacción), así como consignación en efectivo a la cuenta indicada en el momento de elegir el método de pago.\n \nEn ningún caso nuestro sitio web Tiredepot.com.co será responsable por los fallos o deficiencias que se generen en los sistemas de comunicaciones de entidades financieras utilizados por el USUARIO para hacer los pagos respectivos. La oferta realizada a través del portal solo será vinculante para Tiredepot.com.co una vez sea verificado, a su entera satisfacción, el pago efectuado por el USUARIO a través de alguno de los medios o mecanismos autorizados en la respectiva oferta. En caso de pago con tarjetas de crédito el sistema puede acreditar el pago si la identidad del cliente fue confirmada, o bien rechazar el pago si la tarjeta ha sido denunciada, si está asociada a otro usuario, si la tarjeta es extrajera, si excede el monto autorizado en el portal, si esta vencida, si existen dudas sobre la identidad del comprador. En caso de que su transacción no sea aprobada comuníquese con nosotros para verificar qué puede estar pasando. (Correo electrónico: auxiliar@tiredepot.com.co Número PBX328 91 05).\n \n**NOTA:** EN CASO DE PÉRDIDA O ROBO DE SUS TARJETAS: El usuario se obliga a notificar oportunamente a la entidad correspondiente del sector financiero o cooperativo, la pérdida o robo de su tarjeta de crédito y demás instrumentos facilitados por las mismas para realizar transacciones, tales como tarjetas débito, claves personales, etc., con el fin de que tales instrumentos sean inhabilitados.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--eight":{
+        "title":"Octavo Titulo Terminos y Condiciones",
+        "props":{
+            "text":"VIII. ENVÍO DE LOS PRODUCTOS",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--eight":{
+        "props":{
+            "text":"Al hacer la compra, el usuario elige dónde quiere recibir sus llantas, si en su domicilio o en uno de nuestros puntos de venta (nuestros puntos de venta de Tiredepot se encuentran ubicadas en Bogotá, Cartagena, Barranquilla y Cúcuta, cuando esté realizando la transacción y deba elegir el lugar de entrega, puede verificar si hay un punto de venta cerca de su ubicación).\n \n**EL ENVÍO TIENE COSTO**, los otros destinos deben pagar el costo de envío que se especifica en el pedido, en el momento de elegir el lugar de entrega, si no aparece en el listado el lugar donde usted requiere recibir el producto, por favor comuníquese al número PBX 328 91 05 escriba a la cuenta al correo electrónico auxiliar@tiredepot.com.co\n \nSe entiende que cualquier persona que se encuentre en el domicilio donde debe realizarse la entrega, está autorizada por el USUARIO para recibir su pedido. En caso de que nadie reciba el pedido en la dirección indicada, el producto será devuelto a su lugar de origen y el USUARIO estará en la obligación de ponerse en contacto con Tiredepot.com para coordinar una nueva entrega. Los costos del nuevo envío correrán por cuenta del USUARIO y mientras no sean pagados, Tiredepot.com.co no estará obligado a realizar dicho envío.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--nine":{
+        "title":"Noveno Titulo Terminos y Condiciones",
+        "props":{
+            "text":"IX. INSTALACIÓN DE LAS LLANTAS",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--nine":{
+        "props":{
+            "text":"La instalación de las llantas es gratis, si la compra es realizada por nuestra página oficial Tiredepot.com.co y si el cliente acude a alguna de las tiendas Tire Depot o tiendas con convenios divulgadas dentro de la misma página. Para recoger las llantas en las tiendas físicas de Tire Depot es obligación del cliente llevar el soporte impreso o en su dispositivo móvil de la compra a el punto de Tiredepot donde solicitó la entrega del pedido.\n \n**En caso de elegir en los datos de envío “domicilio”, los cargos de instalación de las llantas correrán por cuenta del comprador a menos que se presente en las tiendas Tire Depot con el soporte de la compra y podrá tener el montaje gratis de sus llantas o baterías.**\nSugerimos al comprador validar la disponibilidad de atención, y al momento de ir, sea lo más oportuno y ágil posible la instalación de las llantas.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--ten":{
+        "title":"Decimo Titulo Terminos y Condiciones",
+        "props":{
+            "text":"X. RETRACTO",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--ten":{
+        "props":{
+            "text":"Por Ley, el usuario tiene derecho al retracto, el cual aplica 5 días después de recibido el producto por el usuario. (fecha que se verificará con la fecha en que se firmó el recibido en la guía de la transportadora). El comprador no podrá retractarse si ha manipulado las llantas, ni mucho menos si las ha instalado en algún vehículo. Lo anterior avalados en el Artículo 47 de la Ley 1480 Así mismo, las llantas y baterías que quiere devolver deben conservar su etiquetado original y no haber sido usadas, montadas y/o rodadas. El comprador deberá informar por escrito su intención de devolver las llantas a través del correo electrónico Td@tiredepot.com.co\n \n Al resolverse el contrato por la simple voluntad del consumidor, éste deberá devolver el producto al proveedor por los mismos medios y en las mismas condiciones que lo recibió. Lo que quiere decir que ponerlo a disposición del proveedor no es suficiente, pues el consumidor tiene la carga de regresar el producto tal y como lo recibió al proveedor, asumiendo los costos respectivos”. Ver Artículo 47 de la Ley 1480.\n \n Enviar el producto a la ciudad de Bogotá, a la calle 15 # 25 – 35, acompañado de la factura de compra respectiva, (si la factura es electrónica, debe ser impresa y enviada con las llantas). Una vez recibidas las llantas, el personal de tiredepot.com.co procederá a revisarlas y verificar que estén en perfectas condiciones. Si el retracto es aprobado, tiredepot.com.co procederá a abonar el dinero correspondiente al usuario por la compra del producto, mediante consignación en la cuenta bancaria que indique por escrito. El plazo para la devolución del dinero será de máximo 30 días calendario contados a partir de la fecha en que fueron recibidas a Tire Depot S.A.S en nuestro domicilio. Concluido el plazo de 5 días hábiles después de la entrega del producto al usuario, no se aceptarán devoluciones por retracto. Pasado este término, se entiende que el USUARIO está conforme con el estado del producto entregado. Cualquier reclamación por falla o idoneidad del producto, posterior al término del ejercicio de este derecho, deberá hacerse conforme a los términos de la garantía (VER Garantía y Devoluciones).\n**NOTA:** Los productos con condiciones de reclamación de producto errado, les aplica las mismas condiciones de devolución del retracto.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--eleven":{
+        "title":"Undecimo Titulo Terminos y Condiciones",
+        "props":{
+            "text":"XI. REVERSIÓN DEL PAGO",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--eleven":{
+        "props":{
+            "text":"La reversión del pago se podrá solicitar si: el cliente fue objeto de fraude, o corresponda a una operación no solicitada, o las llantas adquiridas no sean recibidas, o las llantas entregadas no correspondan a lo solicitado, o las llantas estén defectuosas. En caso que el cliente haya solicitado la reversión del pago y se determine mala fe por parte de este, se cargará definitivamente la transacción reclamada al consumidor y la Superintendencia de Industria y Comercio podrá imponerle sanciones de hasta cincuenta (50) salarios mínimos mensuales legales vigentes.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__content2--eleven":{
+        "props":{
+            "text":"Para solicitar la reversión del pago, el cliente deberá presentar por escrito ante Tiredepot.com.co la queja que deberá contener: 1. Las razones para sustentar la solicitud de reversión. 2. La causal invocada. 3. El valor por el cual solicita la reversión. 4. Indicación del instrumento de pago al cual fue cargada la operación; enviándola al correo electrónico auxiliar@tiredepot.com.co o a la calle 15 #25-35 en Bogotá, y devolver las llantas en las mismas condiciones en que las recibió, cuando sea procedente, dentro de los cinco (5) días hábiles siguientes a la fecha en que tuvo conocimiento de la operación fraudulenta, o no solicitada, o que debió haber recibido el producto o lo recibió defectuoso o sin que correspondiera a lo solicitado; también deberá notificar de la reclamación al emisor del instrumento de pago electrónico utilizado para realizar la compra, el cual, en conjunto con los demás participantes del proceso de pago, procederán a reversar la transacción.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__content3--eleven":{
+        "props":{
+            "text":"En caso que el cliente que dese la reversión del pago no sea el mismo titular del instrumento de pago, la solicitud al emisor deberá ser presentada por el titular del producto financiero. Cuando el pago corresponda a varios productos, el cliente podrá solicitar la reversión parcial del pago de aquellos respecto de los cuales realiza la solicitud, el cliente en este caso deberá expresar de manera clara cuál es el producto y el valor por el cual solicita la reversión. Una vez presentada la queja ante LasLlantas.com y la solicitud de reversión ante el emisor del instrumento de pago, se contará con un término de quince (15) días hábiles para hacer efectiva la reversión.\nEl cliente podrá solicitar que se reverse el pago de un producto comprado en el portal directamente con su entidad bancaria.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--twelve":{
+        "title":"Duodecimo Titulo Terminos y Condiciones",
+        "props":{
+            "text":"XII. ERRORES, INEXACTITUDES U OMISIONES",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--twelve":{
+        "props":{
+            "text":"Es posible que pueda haber información en nuestro sitio web que contenga errores tipográficos, inexactitudes u omisiones que puedan estar relacionadas con las descripciones de productos, precios, promociones, ofertas, gastos de envío del producto, el tiempo de tránsito y la disponibilidad. Nos reservamos el derecho sin previo aviso de corregir los errores, inexactitudes u omisiones y de cambiar o actualizar la información o cancelar pedidos si alguna información en el sitio Tiredepot.com es inexacta.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--thirteen":{
+        "title":"Decimo tercero Titulo Terminos y Condiciones",
+        "props":{
+            "text":"XIII. CAMBIOS EN LOS TÉRMINOS Y CONDICIONES DE USO Y VENTA",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--thirteen":{
+        "props":{
+            "text":"Puede revisar la versión más actualizada de los Términos y condiciones de uso y venta en cualquier momento. Nos reservamos el derecho, de actualizar, modificar o reemplazar cualquier parte de estos términos y condiciones de uso y venta mediante la publicación de las actualizaciones y los cambios en esta tienda en línea o sitio web. Es responsabilidad del usuario revisar periódicamente para verificar los cambios. El uso continuo de o el acceso a esta tienda en línea o sitio web, después de la publicación de cualquier cambio en estas condiciones de servicio, implica la aceptación de dichos cambios.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--fourteen":{
+        "title":"Decimo cuarto Titulo Terminos y Condiciones",
+        "props":{
+            "text":"XIV. LEGISLACIÓN APLICABLE Y JURISDICCIÓN",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--fourteen":{
+        "props":{
+            "text":"Los presentes Términos y Condiciones de Uso y Venta se regirán e interpretarían de acuerdo con las leyes de la República de Colombia. Cualquier controversia que derive de este documento se someterá a las leyes aplicables y a los jueces competentes de acuerdo con la legislación colombiana.",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__title--fifteen":{
+        "title":"Decimo quinto Titulo Terminos y Condiciones",
+        "props":{
+            "text":"XV. INFORMACIÓN DE CONTACTO",
+            "font": "t-heading-2",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "width-articles--sub-title"
+        }
+    },
+    "rich-text#terms__content--fifteen":{
+        "props":{
+            "text":"Las preguntas acerca de los Términos y Condiciones de Uso y Venta deben ser enviadas a  auxiliar@tiredepot.com.co\nAsí mismo, Tiredepot.com pone a su disposición para cualquier inquietud:",
+            "blockClass": "width-articles"
+        }
+    },
+    "rich-text#terms__content2--fifteen":{
+        "props":{
+            "text":"- El correo electrónico auxiliar@tiredepot.com.co\n- Las redes sociales: [WhatsApp](https://api.whatsapp.com/send/?phone=%2B573118109329&text=Hola%2C+me+gustar%C3%ADa+conocer+m%C3%A1s+sobre+ImllaB2B&app_absent=0) [Facebook](https://www.facebook.com/TireDepotColombia) [Instagram](https://www.instagram.com/tiredepotcolombia/)",
+            "blockClass": ["about__us--icon-list", "terms__content2--fifteen"]
+        }
+    }
+}

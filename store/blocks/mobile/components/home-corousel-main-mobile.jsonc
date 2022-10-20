@@ -1,0 +1,40 @@
+{
+  "list-context.image-list#carousel__main--mobile": {
+    "title": "Seccion de Carrusel principal mobile",
+    "children": ["slider-layout#carousel__main--images-mobile"],
+    "props": {
+      "height": 500,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/desktop/tdbanner.jpg"
+        },
+        {
+          "image": "assets/img/desktop/web-carrodunlop.jpg"
+        },
+        {
+          "image": "assets/img/desktop/bannertoyo.jpg"
+        },
+        {
+          "image": "assets/img/desktop/casco moto.png"
+         }
+      ]
+    }
+  },
+  "slider-layout#carousel__main--images-mobile": {
+    "title": "Configuracion de Carrusel principal",
+    "props": {
+      "itemsPerPage": {
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel__main--images",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

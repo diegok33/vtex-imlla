@@ -1,0 +1,195 @@
+{
+  "menu-item#department-mobile-item-product-services": {
+    "title": "Item Drawer Product and Services",
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "blockClass": "item-drawer-mobile",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "product-services",
+        "text": "Tienda"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-product-services"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-product-services": {
+    "children": [
+      "vtex.menu@2.x:menu#category-product-service"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-product-service": {
+    "title": "SubItem Tires",
+    "children": [
+      "menu-item#mobile-tires",
+      "menu-item#mobilebaterias",
+      "menu-item#mobileaceites-y-liquidos",
+      "menu-item#mobileServicios"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobilebaterias": {
+    "props": {
+      "id": "menu-item-category",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "baterias?_q=baterias&map=ft",
+        "noFollow": true,
+        "tagTitle": "baterias",
+        "text": "Baterias▸"
+      }
+    }
+    },
+    "menu-item#mobileaceites-y-liquidos": {
+      "props": {
+        "id": "menu-item-category",
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "motul?_q=motul&map=ft",
+          "noFollow": true,
+          "tagTitle": "aceites",
+          "text": "Aceites y Liquidos▸"
+        }}
+      },
+
+      "menu-item#mobileServicios": {
+        "props": {
+          "id": "menu-item-category",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/Servicios",
+            "noFollow": true,
+            "tagTitle": "Servicios",
+            "text": "Servicios▸"
+          }}
+        },
+
+      "menu-item#mobile-tires": {
+        "props": {
+          "id": "menu-item-category",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "tires",
+            "text": "Llantas▸"
+          }
+
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-tires-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-tires-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#category-mobile-tire"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-mobile-tire": {
+    "title": "SubItem Category Tires",
+    "children": [
+      "menu-item#mobile-car",
+      "menu-item#mobile-pickup-truck",
+      "menu-item#mobile-suv",
+      "menu-item#mobile-van-carga",
+      "menu-item#mobile-camion-ligero",
+      "menu-item#mobile-camion-pesado"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-car": {
+    "title": "Item Car Tire",
+    "props": {
+      "id": "menu-item-category",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/carros",
+        "noFollow": true,
+        "tagTitle": "car",
+        "text": "Automóvil"
+      }
+    }
+  },
+  "menu-item#mobile-pickup-truck": {
+    "title": "Item Pickup Truck Tire",
+    "props": {
+      "id": "menu-item-category",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/camionetas",
+        "noFollow": true,
+        "tagTitle": "pickup-truck",
+        "text": "Camioneta"
+      }
+    }
+  },
+  "menu-item#mobile-suv": {
+    "title": "Item Suv Tire",
+    "props": {
+      "id": "menu-item-category",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/suv",
+        "noFollow": true,
+        "tagTitle": "suv",
+        "text": "SUV"
+      }
+    }
+  },
+  "menu-item#mobile-van-carga": {
+    "title": "Item Van Tire",
+    "props": {
+      "id": "menu-item-category",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/van",
+        "noFollow": true,
+        "tagTitle": "van-carga",
+        "text": "VAN/Carga"
+      }
+    }
+  },
+  "menu-item#mobile-camion-ligero": {
+    "title": "Item Light Truck Tire",
+    "props": {
+      "id": "menu-item-category",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/camion%20ligero",
+        "noFollow": true,
+        "tagTitle": "camion-ligero",
+        "text": "Camion Ligero"
+      }
+    }
+  },
+  "menu-item#mobile-camion-pesado": {
+    "title": "Item Heavy Truck Tire",
+    "props": {
+      "id": "menu-item-category",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/camion",
+        "noFollow": true,
+        "tagTitle": "camion-pesado",
+        "text": "Camion Pesado"
+      }
+    }
+  }
+}

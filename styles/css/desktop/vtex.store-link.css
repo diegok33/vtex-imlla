@@ -1,0 +1,8 @@
+.link--login__fallback--text{
+  color: #979899;
+  text-decoration: none;
+}
+
+.link--login__fallback--text:hover{
+  color: white;
+}

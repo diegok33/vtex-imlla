@@ -1,0 +1,41 @@
+{
+  "header-layout.mobile": {
+    "title": "Header Mobile",
+    "children": [
+      "sticky-layout#mobile",
+      "flex-layout.row#search__bar",
+      "chatbot-whatsapp"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "title": "Seccion de menu, Logo e icono de carrito",
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    // "title": "Drawer, Logo and Minicart Section",
+    "children": ["drawer", "logo#mobile", "minicart.v2"],
+    "props": {
+      "blockClass": "header__mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "logo#mobile": {
+    "title": "Logo en Mobile",
+    "props": {
+      "title": "Logo",
+      "color": "red",
+      "href": "/",
+      "url": "assets/img/desktop/tire depot DEFINITIVO.png",
+      "width": "160"
+    }
+  },
+  "flex-layout.row#search__bar": {
+    "title": "Search Bar Section",
+    "children": ["search-bar"],
+    "props": {
+      "blockClass": "search__bar--section"
+    }
+  }
+}

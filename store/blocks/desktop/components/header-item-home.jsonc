@@ -1,0 +1,16 @@
+{
+  "menu-item#department-desktop-item-home": {
+    "title": "Inicio",
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "blockClass": "item-menu-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Inicio"
+      }
+    }
+  }
+}

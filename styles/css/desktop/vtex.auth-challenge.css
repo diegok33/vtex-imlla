@@ -1,0 +1,20 @@
+.challengeContentWrapper--description__login--content :global(.vtex-login-2-x-container) :global(.vtex-button){
+  width: 130px !important;
+  background-color: transparent;
+}
+.challengeContentWrapper--description__login--content :global(.vtex-login-2-x-container) :global(.vtex-button):hover{
+  background-color: transparent;
+}
+.challengeContentWrapper--description__login--content :global(.vtex-login-2-x-container) :global(.vtex-button):active{
+  background-color: transparent;
+  color: white;
+}
+.challengeContentWrapper--description__login--content :global(.vtex-login-2-x-container) :global(.vtex-button):visited{
+  background-color: transparent;
+  color: white;
+}
+
+
+.challengeContentWrapper--description__login--content :global(.vtex-login-2-x-container) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-login-2-x-profile):hover{
+  color: white;
+}

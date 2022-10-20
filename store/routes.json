@@ -1,0 +1,38 @@
+{
+  "store.custom#login-page":{
+    "path": "/login-page"
+  },
+  "store.custom#usuario-no-reconocido": {
+    "path": "/user-not-found"
+  },
+  "store.custom#desktop__brand--toyo-tire": {
+    "path": "/nuestras-marcas/toyo-tire"
+  },
+  "store.custom#desktop__brand--dunlop": {
+    "path": "/nuestras-marcas/dunlop"
+  },
+  "store.custom#desktop__brand--falken": {
+    "path": "/nuestras-marcas/falken"
+  },
+  "store.custom#blog": {
+    "path": "/blog"
+  },
+  "store.custom#policies": {
+    "path": "/institucional/politicas"
+  },
+  "store.custom#terms": {
+    "path": "/institucional/terminos-y-condiciones"
+  },
+  "store.custom#servitecas": {
+    "path": "/institucional/servitecas"
+  },
+  "store.custom#contact-us": {
+    "path": "/institucional/contactenos"
+  },
+  "store.custom#about-us": {
+    "path": "/institucional/quienes-somos"
+  },
+  "store.custom#faq": {
+    "path": "/preguntas-frecuentes"
+  }
+}

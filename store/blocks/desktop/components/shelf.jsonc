@@ -1,0 +1,16 @@
+
+{
+
+"shelf": {
+  "blocks":["product-summary.shelf"],
+  "props":{
+    "orderBy":"OrderbyBestDiscountDESC",
+    "paginationDotsVisibility":"desktop only",
+    "productlist":{
+      "maxItems": 5,
+      "itemsPerPage":5,
+      "minitemsPerPage":1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "titleText":"Más Vendidos"
+    }}}}

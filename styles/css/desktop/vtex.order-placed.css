@@ -1,0 +1,173 @@
+.noticesList{
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 15%);
+  font-size: 15px;
+  background-color: white;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.noticeListItem{
+  color: #5C5C5C;
+  width: 90%;
+
+}
+
+.confirmationMessage{
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.orderPlacedWrapper{
+  background-color: #f5f5f5;
+  padding-bottom: 1px;
+}
+
+.section--confirmation{
+  margin: 0;
+  background: white;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 15%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section--notices{
+  margin: 0;
+  height: 100%;
+  padding: 30px;
+}
+
+.confirmationIconWrapper{
+  margin-top:10px;
+}
+.confirmationTitle{
+  margin:10px;
+}
+
+.orderPlacedMainWrapper{
+  padding:20px;
+  margin-top:0;
+}
+
+.orderList{
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 15%);
+  padding: 20px;
+}
+
+.orderWrapper{
+  display: flex;
+}
+
+.orderWrapper
+:global(.vtex-flex-layout-0-x-flexRow--customer-pay-options),
+.orderWrapper
+:global(.vtex-flex-layout-0-x-flexRow--order-delivery){
+  width: 50%;
+}
+
+.totalList
+:global(.vtex-order-placed-2-x-totalListItem):nth-child(even){
+  font-size: 1.5rem;
+}
+
+.package--delivery{
+  margin: 0;
+}
+.packageHeaderColumn{
+  width: 28%;
+}
+.packageAddressWrapper{
+  margin: 0;
+}
+.productList{
+  width: auto;
+}
+
+.totalList{
+  margin: 0;
+  margin-top: 10px;
+}
+
+.productInfoColumn{
+  justify-content: flex-start;
+}
+
+.orderOptionsWrapper{
+  justify-content: flex-start;
+}
+
+.section--paymentMethods{
+  border: none;
+}
+
+.updateOrderButton
+:global(.vtex-button),
+.myOrdersButton
+:global(.vtex-button){
+  color: white;
+  background-color: #BA0001;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  border-width: 0;
+}
+.updateOrderButton
+:global(.vtex-button):hover,
+.myOrdersButton
+:global(.vtex-button):hover{
+  background-color: #51a351;
+  border-color: none
+}
+.updateOrderButton
+:global(.vtex-button__label),
+.myOrdersButton
+:global(.vtex-button__label),
+.cancelOrderButton
+:global(.vtex-button){
+  padding-top:3px!important;
+  padding-bottom: 0!important;
+}
+
+.cancelOrderButton
+:global(.vtex-button){
+  background-color: #5C5C5C;
+  color: #FFF;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+.cancelOrderButton
+:global(.vtex-button):hover{
+  background-color: #767676 ;
+  border-color: #767676;
+ 
+}
+
+.customerInfoListContainer{
+  margin-top:20px;
+}
+
+.productImageColumn{
+  width: 15%;
+  margin: 0;
+  margin-right: 10px;
+  height: auto;
+}
+
+.productImageWrapper{
+  width: auto;
+  height: auto;
+}
+
+.productPrice{
+  margin-top:3px;
+  font-weight: 600;
+}

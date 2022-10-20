@@ -1,0 +1,366 @@
+{
+  "store.custom#desktop__brand--falken": {
+    "blocks": ["info-card#falken","flex-layout.row#container__brand--falken","image#falken3","image#falken4","image#falken6","image#falken7","image#falken8","image#falken9","image#falken10","image#falken11","image#falken12","image#falken13","image#falken14","image#falken15","image#falken16","image#falken17","image#falken18","image#falken19","image#falken20","image#falken21","image#falken22","image#falken23","image#falken24","image#falken25","image#falken26","image#falken27","image#falken28","image#falken29","image#falken30","image#falken31","image#falken32","image#falken33","image#falken34","image#falken35","image#falken36","image#falken37","image#falken38","image#falken39","image#falken40","image#falken41","image#falken42","image#falken43","image#falken44","image#falken45","image#falken46","image#falken47","image#falken48","image#falken49","image#falken50"]
+  },
+  "flex-layout.row#container__brand--falken": {
+    "title": "Pagina Falken",
+    "children": [
+      //"rich-text#falken__brand-title"
+      //"rich-text#falken__brand-content",
+      //"image#img__falken",
+     // "rich-text#falken__brand-content2",
+      //"rich-text#falken__brand-sub-title",
+     // "rich-text#falken__brand-content3"
+    ],
+    "props": {
+      "blockClass": "container__content--tpyo-tire"
+    }
+  },
+  "rich-text#falken__brand-title": {
+    "title": "Titulo Principal",
+    "props": {
+      "text": "ASÍ COMENZÓ TODO",
+      "font": "t-heading-2",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "width-articles--title"
+    }
+  },
+  "rich-text#falken__brand-content": {
+    "title": "Contenido Asi comenzo todo",
+    "props": {
+      "text": "La marca Falken nace en el año 1983, y nace su primera llanta. En 1988 se hace la inauguración de la sede de Offebach, en Europa.\n En el año 1991 se establece en Estados Unidos, y en el año 1999 Falken presenta el diseño FK451, en este mismo año el equipo Falken comienza a competir en la carrera ADAC 24h de Nürburgring.\n En el 2001 Falken se convierte en el patrocinador principal en el Nürbur-gring. En el año 2005 obtiene vitoria de clase y 5° puesto en la clasificación total de la carrera del 24 h en el Nürburgring. \n Falken empieza a participar en la carrera de 24 h con el Nissan Z33, en el año 2007.",
+      "blockClass": "width-articles"
+    }
+  },
+  "image#img__falken": {
+    "title": "Imagen Asi comenzo todo",
+    "props": {
+      "src": "https://imllaco.vteximg.com.br/arquivos/falken-banner-2.jpg?v=637474645237830000",
+      "maxHeight": "600px",
+      "blockClass": "width-articles-img"
+    }
+  },
+  "rich-text#falken__brand-content2": {
+    "title": "Segundo Contenido Asi comenzo todo",
+    "props": {
+      "text": "Cuanto más siente la carretera, más control tiene sobre su vehículo, y cuanto mayor es su control, mayores son sus posibilidades de explorar nuevas cotas de rendimiento. En este preciso momento, la conducción se convierte en un auténtico placer.\n La necesidad de alcanzar nuevas cotas de rendimiento es el reto que motiva a Dunlop en la fabricación de cada nuevo neumático. Por eso, nuestra marca hace lo posible por maximizar la sensación de control de los conductores en todos sus productos, desde nuestros neumáticos de competición hasta nuestros modelos más conocidos por el cliente.\n Los principales fabricantes de automóviles instalan nuestros neumáticos de serie porque conocen el rendimiento que ofrece Dunlop, y el hecho de que nunca dejamos de introducir nuevas tecnologías en el sector con el fin de mejorar la eficiencia, el control y el placer en la conducción.\n Se crea la fundación de Falken Tyre Europe GmbH en el año 2008. Se inicia la distribución de Falken Europe en el 2010.\n En el año 2011 se hace una cooperación entre Falken y Porshe. En el siguiente año (2012) se hace la presentación del nuevo EUROALL AS200, la primera llanta para todo el año. Falken hace su primera llanta Runflat en el año 2014, y en el año siguiente Falken ocupa el 3° puesto en la carrera de 24 h.\n Falken presenta una nueva llanta de invierno para furgonetas, la EUROWINTER VAN01.\n Durante el 2017 ocurren varios eventos importantes, Falken se convierte en el patrocinador oficial global de llantas del Liverpool FC y también en colaborador oficial de la supercopa DFL 2017. En este mismo año Falken se convierte en fabricante del equipamiento original del Volkswagen Tiguan. Falken vuelve a colaborar en los partidos de ascenso y descenso de la Bundesliga y la Supercopa 2017.\n Falken Tire Europa vence de nuevo en los premios VRÖ, en el mismo año 2017 Falken usa un segundo vehículo por primera vez en la temporada 2017- Falken BMW M6 GT3.\n Durante el año 2018 Falken Sincera SN832 con la clasificación más alta en la prueba de llantas de verano ADAC, y por cuarto año consecutivo Falken patrocina al piloto de la Red Bull Air Race, que compite en el deporte de motor más rápido del mundo.\n Por primera vez, Falken colabora en la presentación de los Audi Nines en Sölden. En este año también Falken suministra llantas para la nueva Clase G de Mercedez – Benz. El nuevo vehículo todoterreno de alta gama viene equipado de fábrica con llantas Falken Wildpeak A/T3WA y AS210A en la medida 265/60 R18.\n Con WILDPEAK M/T Falken lanza una llanta offroad de vanguardia, capaz de garantizar, incluso bajo las condiciones todoterreno más duras, con gran satisfacción en la conducción, seguridad y fiabilidad.\n En el año 2018 Falken también se hace patrocinador de las llantas oficiales del club de fútbol FC Liverpool, donde 4 de sus jugadores son los rostros de la campaña mundial. Una pieza musical única plasma el lema de Falken «On the Pulse».",
+      "blockClass": "width-articles"
+    }
+  },
+  "rich-text#falken__brand-sub-title": {
+    "title": "Titulo Una historia llena",
+    "props": {
+      "text": "UNA HISTORIA LLENA DE LOGROS",
+      "font": "t-heading-3",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "width-articles--sub-title"
+    }
+  },
+  "rich-text#falken__brand-content3": {
+    "title": "Contenido Una historia llena",
+    "props": {
+      "text": "Cuanto más siente la carretera, más control tiene sobre su vehículo, y cuanto mayor es su control, mayores son sus posibilidades de explorar nuevas cotas de rendimiento. En este preciso momento, la conducción se convierte en un auténtico placer.\n La necesidad de alcanzar nuevas cotas de rendimiento es el reto que motiva a Dunlop en la fabricación de cada nuevo neumático. Por eso, nuestra marca hace lo posible por maximizar la sensación de control de los conductores en todos sus productos, desde nuestros neumáticos de competición hasta nuestros modelos más conocidos por el cliente.\n Los principales fabricantes de automóviles instalan nuestros neumáticos de serie porque conocen el rendimiento que ofrece Dunlop, y el hecho de que nunca dejamos de introducir nuevas tecnologías en el sector con el fin de mejorar la eficiencia, el control y el placer en la conducción.\n Se crea la fundación de Falken Tyre Europe GmbH en el año 2008. Se inicia la distribución de Falken Europe en el 2010.\n En el año 2011 se hace una cooperación entre Falken y Porshe. En el siguiente año (2012) se hace la presentación del nuevo EUROALL AS200, la primera llanta para todo el año. Falken hace su primera llanta Runflat en el año 2014, y en el año siguiente Falken ocupa el 3° puesto en la carrera de 24 h.\n Falken presenta una nueva llanta de invierno para furgonetas, la EUROWINTER VAN01.\n Durante el 2017 ocurren varios eventos importantes, Falken se convierte en el patrocinador oficial global de llantas del Liverpool FC y también en colaborador oficial de la supercopa DFL 2017. En este mismo año Falken se convierte en fabricante del equipamiento original del Volkswagen Tiguan. Falken vuelve a colaborar en los partidos de ascenso y descenso de la Bundesliga y la Supercopa 2017.\n Falken Tire Europa vence de nuevo en los premios VRÖ, en el mismo año 2017 Falken usa un segundo vehículo por primera vez en la temporada 2017- Falken BMW M6 GT3.\n Durante el año 2018 Falken Sincera SN832 con la clasificación más alta en la prueba de llantas de verano ADAC, y por cuarto año consecutivo Falken patrocina al piloto de la Red Bull Air Race, que compite en el deporte de motor más rápido del mundo.\n Por primera vez, Falken colabora en la presentación de los Audi Nines en Sölden. En este año también Falken suministra llantas para la nueva Clase G de Mercedez – Benz. El nuevo vehículo todoterreno de alta gama viene equipado de fábrica con llantas Falken Wildpeak A/T3WA y AS210A en la medida 265/60 R18.\n Con WILDPEAK M/T Falken lanza una llanta offroad de vanguardia, capaz de garantizar, incluso bajo las condiciones todoterreno más duras, con gran satisfacción en la conducción, seguridad y fiabilidad.\n En el año 2018 Falken también se hace patrocinador de las llantas oficiales del club de fútbol FC Liverpool, donde 4 de sus jugadores son los rostros de la campaña mundial. Una pieza musical única plasma el lema de Falken «On the Pulse».",
+      "blockClass": "width-articles"
+    }
+  },
+
+
+
+"image#falken2": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_02.jpg"
+}},
+
+
+"image#falken3": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_03.jpg"
+}},
+
+
+"image#falken4": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_04.jpg"
+}},
+
+
+"image#falken5": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_05.jpg"
+}},
+
+
+"image#falken6": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_06.jpg"
+}},
+
+
+
+"image#falken7": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_07.jpg"
+}},
+
+
+"image#falken8": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_08.jpg"
+}},
+
+
+"image#falken9": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_09.jpg"
+}},
+
+
+"image#falken10": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_10.jpg"
+}},
+
+
+"image#falken11": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_11.jpg"
+}},
+
+
+"image#falken12": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_12.jpg"
+}},
+
+
+
+"image#falken13": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_13.jpg"
+}},
+
+
+"image#falken14": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_14.jpg"
+}},
+
+
+"image#falken15": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_15.jpg"
+}},
+
+
+"image#falken16": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_16.jpg"
+}},
+
+
+"image#falken17": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_17.jpg"
+}},
+
+
+"image#falken18": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_18.jpg"
+}},
+
+
+"image#falken19": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_19.jpg"
+}},
+
+
+"image#falken20": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_20.jpg"
+}},
+
+
+"image#falken21": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_21.jpg"
+}},
+
+
+"image#falken22": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_22.jpg"
+}},
+
+
+"image#falken23": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_23.jpg"
+}},
+
+
+"image#falken24": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_24.jpg"
+}},
+
+
+"image#falken25": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_25.jpg"
+}},
+
+
+"image#falken26": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_26.jpg"
+}},
+
+
+"image#falken27": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_27.jpg"
+}},
+
+
+"image#falken28": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_28.jpg"
+}},
+
+
+"image#falken29": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_29.jpg"
+}},
+
+
+"image#falken30": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_30.jpg"
+}},
+
+
+"image#falken31": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_31.jpg"
+}},
+
+
+"image#falken32": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_32.jpg"
+}},
+
+
+"image#falken33": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_33.jpg"
+}},
+
+
+"image#falken34": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_34.jpg"
+}},
+
+
+"image#falken35": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_35.jpg"
+}},
+
+
+"image#falken36": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_36.jpg"
+}},
+
+
+"image#falken37": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_37.jpg"
+}},
+
+
+"image#falken38": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_38.jpg"
+}},
+
+
+"image#falken39": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_39.jpg"
+}},
+
+
+"image#falken40": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_40.jpg"
+}},
+
+
+"image#falken41": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_41.jpg"
+}},
+
+
+"image#falken42": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_42.jpg"
+}},
+
+
+"image#falken43": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_43.jpg"
+}},
+
+
+"image#falken44": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_44.jpg"
+}},
+
+
+"image#falken45": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_45.jpg"
+}},
+
+
+"image#falken46": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_46.jpg"
+}},
+
+
+"image#falken47": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_47.jpg"
+}},
+
+
+"image#falken48": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_48.jpg"
+}},
+
+
+"image#falken49": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_49.jpg"
+}},
+
+
+"image#falken50": {
+  "props": {
+    "src": "https://imllaco.vteximg.com.br/arquivos/CATALOGO_FALKEN_2021_Página_50.jpg"
+}}
+
+}

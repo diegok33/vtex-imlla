@@ -1,0 +1,34 @@
+.nameContainer--summaryListDesktop {
+  padding-top: 0.25rem;
+  padding-bottom: 0.75rem;
+  justify-content: start;
+}
+
+.nameContainer--summaryListMobile {
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  justify-content: start;
+}
+
+.brandName--summaryListMobile {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: rgb(37, 34, 35);
+}
+
+.container--listLayout {
+  max-width: none !important;
+}
+
+.image--summaryListDesktop {
+  width: 650px !important;
+  max-height: 100%!important;
+}
+
+.image--summaryListMobile {
+ max-height: unset!important;
+}
+
+.imageContainer--summaryListMobile{
+  width: 100%;
+}

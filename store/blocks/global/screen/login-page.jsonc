@@ -1,0 +1,53 @@
+{
+  "store.custom#login-page": {
+    // "parent": {
+    //   "header": "header#1234",
+    //   "footer": "footer#1234"
+    // },
+    "blocks": [
+      "rich-text#home__title",
+      "rich-text#home__subtitle",
+      "login-content"
+    ]
+  },
+  // "header#1234" : {
+  //   "blocks" : [
+  //     "header-layout.desktop#1234",
+  //     "header-layout.mobile#12345"
+  //   ]
+  // },
+  // "header-layout.desktop#1234" : {
+  //   "children" : []
+  // },
+  // "header-layout.mobile#12345" : {
+  //   "children" : []
+  // },
+  // "footer#1234" : {
+  //   "blocks" : [
+  //     "footer-layout.desktop#1234",
+  //     "footer-layout.mobile#12345"
+  //   ]
+  // },
+  // "footer-layout.desktop#1234" : {
+  //   "children" : []
+  // },
+  // "footer-layout.mobile#12345" : {
+  //   "children" : []
+  // },
+  "rich-text#home__title": {
+    "props": {
+      "text": "# Bienvenidos a Tire Depot",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__title"
+    }
+  },
+  "rich-text#home__subtitle": {
+    "props": {
+      "text": "Ingresa con tu usuario y contraseña o Registrate",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__title"
+    }
+  }
+}

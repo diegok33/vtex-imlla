@@ -1,0 +1,250 @@
+{
+    "footer-layout.desktop": {
+      "title": "Footer Desktop",
+        "children": ["flex-layout.row#footer"],
+        "props": {
+          "blockClass": "footer-general"
+        }
+      },
+
+      "flex-layout.row#footer": {
+        "children": [
+          "flex-layout.row#icons__socialmedia",
+          "flex-layout.row#row1-footer",
+          "flex-layout.row#row2-footer"
+        ],
+        "props": {
+          "blockClass": "footer"
+        }
+      },
+      "flex-layout.row#icons__socialmedia":{
+      "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "fullWidth": true
+      }},
+      //Row 1
+      "flex-layout.row#row1-footer": {
+        "title": "Seccion de Conocenos y Nuestras politicas",
+        "children": [
+          "flex-layout.col#conocenos",
+          "flex-layout.col#nuestras-politicas"
+        ],
+        "props": {
+          "blockClass": "footer-row1",
+          "width": "100%"
+        }
+      },
+
+      //Conocenos
+      "flex-layout.col#conocenos": {
+        "title": "Columna Conocenos",
+        "children": [
+          "rich-text#title-conocenos",
+          "rich-text#link-blog",
+          "rich-text#link-TireDepot"
+         // "rich-text#link-contacto"
+        ]
+      },
+      "rich-text#title-conocenos": {
+        "title": "Titulo Conocenos",
+        "props": {
+          "textAlignment": "LEFT",
+          "text": "### CONÓCENOS",
+          "blockClass": "title-footer"
+        }
+      },
+      "rich-text#link-blog": {
+        "title": "Item Blog",
+        "props": {
+          "textAlignment": "LEFT",
+          "text": "[Blog](/blog)",
+          "url":"/blog",
+          "blockClass": "link-footer"
+        }
+      },
+      "rich-text#link-TireDepot": {
+        "title": "Item Sobre Tire Depot",
+        "props": {
+          "textAlignment": "LEFT",
+          "text": "[Sobre Tire Depot](/institucional/quienes-somos)",
+          "url":"/institucional/quienes-somos",
+          "blockClass": "link-footer"
+        }
+      },
+      //"rich-text#link-contacto": {
+        //"title": "Item Contacto",
+        //"props": {
+          //"textAlignment": "LEFT",
+          //"text": "[Contacto](/institucional/contactenos)",
+          //"url": "/institucional/contactenos",
+          //"blockClass": "link-footer"
+        //}
+      //},
+
+      //Nuestras Politicas
+      "flex-layout.col#nuestras-politicas": {
+        "title": "Columna Nuestras Politicas",
+        "children": [
+          "rich-text#title-nuestras-politicas",
+          "rich-text#link-terminos",
+          "rich-text#link-politicas",
+          "rich-text#link-preguntas"
+        ],
+        "props": {
+          "blockClass": "col-footer"
+        }
+      },
+      "rich-text#title-nuestras-politicas": {
+        "title": "Titulo Nuestras Politicas",
+        "props": {
+          "textAlignment": "LEFT",
+          "text": "### NUESTRAS POLÍTICAS",
+          "blockClass": "title-footer"
+        }
+      },
+
+      "rich-text#link-terminos": {
+        "title": "Item Terminos y Condiciones",
+        "props": {
+          "textAlignment": "LEFT",
+          "text": "[Terminos y Condiciones](/institucional/terminos-y-condiciones)",
+          "url": "/institucional/terminos-y-condiciones",
+          "blockClass": "link-footer"
+        }
+      },
+
+      "rich-text#link-politicas": {
+        "title": "Item Politicas de privacidad",
+        "props": {
+          "textAlignment": "LEFT",
+          "text": "[Políticas de privacidad](/institucional/politicas)",
+          "url": "/institucional/politicas",
+          "blockClass": "link-footer"
+        }
+      },
+
+      "rich-text#link-preguntas": {
+        "title": "Item Preguntas Frecuentes",
+        "props": {
+          "textAlignment": "LEFT",
+          "text": "[Preguntas Frecuentes](/preguntas-frecuentes)",
+          "url":"/preguntas-frecuentes",
+          "blockClass": "link-footer"
+        }
+      },
+
+      //Row 2
+      "flex-layout.row#row2-footer": {
+        "title": "Seccion TireDepot e iconos metodos de pagos",
+        "children": [
+          "rich-text#TireDepot",
+          "flex-layout.col#col__pagos"
+        ],
+        "props": {
+          "blockClass": "footer-row2",
+          "width": "100%"
+        }
+      },
+
+      "rich-text#TireDepot": {
+        "title": "Texto TireDepot 2021 DK",
+        "props": {
+          "textAlignment": "LEFT",
+          "text": "© TireDepot 2021 DK",
+          "color":"#fefefe",
+          "blockClass": "Tire__text"
+        }
+      },
+
+      // Formas de Pago
+      "flex-layout.col#col__pagos": {
+        "title": "Contenedor Formas de pago",
+        "children": [
+          "image#bancolombia",
+          "image#nequi",
+          "image#davivienda",
+          "image#daviplata",
+          "image#pse",
+          "image#mastercard",
+          "image#visa",
+          "image#dinner"
+        ],
+        "props": {
+          "blockClass": "col__pagos",
+          "width": "100%"
+        }
+      },
+      "image#bancolombia": {
+        "title": "Icono Bancolombia",
+        "props": {
+          "src": "assets/img/footer/bancolombia.png",
+          "alt": "bancolombia",
+          "width": "55px",
+          "blockClass": "img-bancolombia"
+        }
+      },
+      "image#nequi": {
+        "title": "Icono Nequi",
+        "props": {
+          "src": "assets/img/footer/nequi.png",
+          "alt": "nequi",
+          "width": "40px"
+        }
+      },
+      "image#davivienda": {
+        "title": "Icono Davivienda",
+        "props": {
+          "src": "assets/img/footer/davivienda.png",
+          "alt": "davivienda",
+          "width": "82px"
+        }
+      },
+      "image#daviplata": {
+        "title": "Icono DaviPlata",
+        "props": {
+          "src": "assets/img/footer/daviplata.png",
+          "alt": "daviplata",
+          "width": "75px",
+          "blockClass": "img-daviplata"
+        }
+      },
+      "image#pse": {
+        "title": "Icono PSE",
+        "props": {
+          "src": "assets/img/footer/pse.png",
+          "alt": "pse",
+          "width": "46px",
+          "blockClass": "img-pse"
+        }
+      },
+      "image#mastercard": {
+        "title": "Icono Mastercard",
+        "props": {
+          "src": "assets/img/footer/mastercard.png",
+          "alt": "mastercard",
+          "width": "50px",
+          "blockClass": "img-mastercard"
+        }
+      },
+      "image#visa": {
+        "title": "Icono Visa",
+        "props": {
+          "src": "assets/img/footer/visa.png",
+          "alt": "visa",
+          "width": "55px",
+          "blockClass": "img-visa"
+        }
+      },
+      "image#dinner": {
+        "title": "Icono Diners Club",
+        "props": {
+          "src": "assets/img/footer/dinners.png",
+          "alt": "dinner",
+          "width": "88px",
+          "blockClass": "img-dinner"
+        }
+      }
+}

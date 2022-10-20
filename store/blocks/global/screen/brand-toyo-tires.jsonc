@@ -1,0 +1,254 @@
+{
+  "store.custom#desktop__brand--toyo-tire": {
+    "blocks": ["info-card#toyo","flex-layout.row#container__brand--toyo-tire","image#toyo3","image#toyo4","image#toyo5","image#toyo6","image#toyo7","image#toyo9","image#toyo10","image#toyo11","image#toyo12","image#toyo13","image#toyo14","image#toyo15","image#toyo16","image#toyo17","image#toyo18","image#toyo22","image#toyo23","image#toyo24","image#toyo25","image#toyo26","image#toyo27","image#toyo28","image#toyo29","image#toyo30","image#toyo31","image#toyo32","image#toyo33"]
+
+
+  },
+
+
+
+  "flex-layout.row#container__brand--toyo-tire": {
+    "title":"Pagina Toyo-Tires",
+    "children": [
+      //"rich-text#toyo-tire__brand-title",
+      //"rich-text#toyo-tire__brand-content",
+      //"image#img__toyo-tire",
+      //"rich-text#toyo-tire__brand-content2",
+      //"video#ivideo__toyo-tire"
+    ],
+    "props": {
+      "blockClass": "container__content--tpyo-tire"
+    }
+  },
+  "rich-text#toyo-tire__brand-title": {
+    "title":"Titulo Calidad y Rendimiento",
+    "props": {
+      "text": "LA CALIDAD Y RENDIMIENTO QUE NECESITA TU VEHÍCULO",
+      "font": "t-heading-2",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "width-articles--title"
+    }
+  },
+  "rich-text#toyo-tire__brand-content": {
+    "title":"Contenido Calidad y Rendimiento",
+    "props": {
+      "text": "Toyo Tires ha sido sinónimo de innovación, calidad, rendimiento y de un excelente servicio durante 65 años, incluyendo cerca de 45 años en los Estados Unidos. Combinado, el grupo de empresas Toyo ha desarrollado, fabricado, realizado pruebas, distribuido, y realizado operaciones de comercialización en toda América, Europa, Asia, Oriente Medio y Oceanía.",
+      "blockClass": "width-articles"
+    }
+  },
+  "image#img__toyo-tire": {
+    "title":"Imagen Calidad y Rendimiento",
+    "props": {
+      "src": "/",
+      "maxHeight": "600px",
+      "blockClass": "width-articles-img"
+    }
+  },
+  "rich-text#toyo-tire__brand-content2": {
+    "title":"Segundo contenido Calidad y Rendimiento",
+    "props": {
+      "text": "Como resultado de todo ello, Toyo Tires ha construido una sólida reputación en todo el mundo. ¿Y quién conocerá mejor los neumáticos que las mismas personas que se dedican a su venta todos los días? En los Estados Unidos, Toyo Tires ha sido nombrado el nº 1 de Marca Mundial una y otra vez por los distribuidores de neumáticos de Norteamérica en el \"Estudio Anual de Marca de Neumáticos\" de la revista \"Tire Review\". \n De hecho, nuestros neumáticos usados por los consumidores han sido votados nº1 en la clasificación de Marca Mundial por los distribuidores de neumáticos de Norteamérica en un hecho sin precedentes, consiguiendo este ranking consecutivo siete veces desde 2000. Desde 2002, nuestros neumáticos para camiones de tonelaje medio han recibido dicho honor de seis veces. \n La visión para la fabricación de grandes neumáticos se inició en agosto de 1945, cuando el presidente fundador, el Sr. Rikimatsu Tomihisa, estableció la compañía Toyo Tire & Rubber Co, Ltd. en Japón. \n En 1966, Toyo Tires se convirtió en el primer fabricante japonés de neumáticos en establecer una filial en los Estados Unidos. Desde una pequeña oficina en el sur de California, la Corporación Toyo Tire (EE.UU.) -como se conocía entonces- comenzó con el almacenamiento y distribución de neumáticos para camiones comerciales.",
+      "blockClass": "width-articles"
+    }
+  },
+  "video#ivideo__toyo-tire": {
+    "title":"Video Calidad y Rendimiento",
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=HkBpgB4hbnI",
+      "blockClass": "video__toyo-tire"
+    }
+  },
+
+  "image#toyo3": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 3.jpg"
+
+    }
+  },
+  "image#toyo4": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 4.jpg"
+
+    }
+  },
+
+  "image#toyo5": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 5.jpg"
+
+    }
+  },
+
+  "image#toyo6": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 6.jpg"
+    }
+    },
+
+    "image#toyo7": {
+      "props": {
+        "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 7.jpg"
+    }
+  },
+
+  "image#toyo9": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 9.jpg"
+
+    }
+  },
+
+  "image#toyo10": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 10.jpg"
+
+    }
+  },
+
+  "image#toyo11": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 11.jpg"
+
+    }
+  },
+
+  "image#toyo12": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 12.jpg"
+
+    }
+  },
+
+  "image#toyo13": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 13.jpg"
+
+    }
+  },
+
+  "image#toyo14": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 14.jpg"
+
+    }
+  },
+
+  "image#toyo15": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 15.jpg"
+
+    }
+  },
+
+  "image#toyo16": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 16.jpg"
+
+    }
+  },
+
+  "image#toyo17": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 17.jpg"
+
+    }
+  },
+
+  "image#toyo18": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 18.jpg"
+
+    }
+  },
+
+  "image#toyo22": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 22.jpg"
+
+    }
+  },
+
+  "image#toyo23": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 23.jpg"
+
+    }
+  },
+
+  "image#toyo24": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 24.jpg"
+
+    }
+  },
+
+  "image#toyo25": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 25.jpg"
+
+    }
+  },
+
+  "image#toyo26": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 26.jpg"
+
+    }
+  },
+
+  "image#toyo27": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 27.jpg"
+
+    }
+  },
+
+  "image#toyo28": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 28.jpg"
+
+    }
+  },
+
+  "image#toyo29": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 29.jpg"
+
+    }
+  },
+
+  "image#toyo30": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 30.jpg"
+
+    }
+  },
+
+  "image#toyo31": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 31.jpg"
+
+    }
+  },
+
+  "image#toyo32": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 32.jpg"
+
+    }
+  },
+
+  "image#toyo33": {
+    "props": {
+      "src": "assets/img/brandtoyo/Toyo_Catalogue_2021 33.jpg"
+
+    }
+  }
+}
+

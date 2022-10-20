@@ -1,0 +1,15 @@
+{
+  "menu-item#department-desktop-item-contact": {
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "blockClass": "item-menu-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/contactenos",
+        "noFollow": true,
+        "text": "Contáctenos"
+      }
+    }
+  }
+}

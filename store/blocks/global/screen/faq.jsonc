@@ -1,0 +1,217 @@
+{
+  "store.custom#faq": {
+    "children": [
+      "flex-layout.row#content"
+
+    ]
+  },
+  "flex-layout.row#content":{
+    "children":[
+      "flex-layout.col#col-title",
+      "flex-layout.col#col-preguntas"
+    ],
+    "props":{
+      "blockClass":["container-static","content-faq"]
+    }
+  },
+
+  "flex-layout.col#col-title":{
+    "children":["rich-text#title-faq"]
+  },
+
+  "rich-text#title-faq":{
+    "props":{
+      "text":"# PREGUNTAS FRECUENTES",
+      "blockClass":"title-faq"
+    }
+  },
+
+  /* SECCION DE PREGUNTAS */
+  "flex-layout.col#col-preguntas":{
+    "children":["disclosure-layout-group#group"]
+  },
+
+  "disclosure-layout-group#group": {
+    "children": [
+      "disclosure-layout#first",
+      "disclosure-layout#second",
+      "disclosure-layout#third",
+      "disclosure-layout#fourth",
+      "disclosure-layout#five"
+    ]
+  },
+
+  "disclosure-layout#first": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+  },
+  "disclosure-trigger#first": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question1"]
+  },
+  "disclosure-content#first": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer1"]
+  },
+  "rich-text#question1": {
+    "props": {
+      "text": "¿CADA CUANTO DEBO CAMBIAR MIS LLANTAS?"
+    }
+  },
+  "rich-text#answer1": {
+    "props": {
+      "text": "Generalmente las llantas deben revisarse regularmente, como mínimo una vez al mes, y debe realizarse cambio de los mismos si se detecta alguno de los siguientes problemas: \n- Indicadores de desgaste de la banda de rodadura: la mayoría de neumáticos cuentan con indicadores de desgaste de la banda de rodadura. Consisten en barras de caucho rígido que solo pueden apreciarse en el neumático cuando la profundidad de su banda de rodadura se ha desgastado y no llega al límite de conducción segura, el cual suele ser de 1,6 mm. \n- Dibujos desiguales de desgaste: también hay que comprobar las bandas de rodadura para verificar si presentan un dibujo en el desgaste que pueda indicar otros problemas en los neumáticos o su vehículo. \n- Presencia de bultos o ampollas en el flanco del neumático. Estos defectos pueden provocar un fallo del neumático y poner en peligro la seguridad de los ocupantes del vehículo. \n- Pérdida total del aire a causa de un reventón. \n- Presencia de desgarros u otros daños graves. \n- Pinchazos de más de 0,64 cm en la corona de la banda de rodaje. Los pinchazos de mayor profundidad no pueden repararse, y en ningún caso deberán repararse aquellos neumáticos que se hayan desgastado por debajo de 1,6 mm. Cabe aclarar que esto depende de varios factores como, sus hábitos de conducción, el clima en el que circula y su mantenimiento",
+      "blockClass": ["about__us--icon-list", "faq__answer--list"]
+    }
+  },
+
+  "disclosure-layout#second": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#second", "disclosure-content#second"]
+  },
+  "disclosure-trigger#second": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question2"]
+  },
+  "disclosure-content#second": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question2": {
+    "props": {
+      "text": "GARANTIA DE LLANTAS"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "text": "Las llantas adquiridas por medio de Tire Depot cuentan con una garantía por defectos de materiales y/o mano de obra hasta por 5 años. \n \n La efectividad de la garantía está condicionada a que el daño sufrido por la llanta provenga exclusivamente de defectos en los materiales utilizados en su fabricación o mano de obra debiendo iniciarse dicho proceso mediante la presentación de la llanta y mediante un análisis técnico que determinará la causa del problema. \n \n El hecho de iniciar el proceso no constituye una promesa de reconocimiento de garantía. Si del análisis técnico se concluye que el producto fallo por causas atribuibles a materiales y/o mano de obra, se reconocerá la garantía como porcentaje que se hará dividiendo la profundidad del diseño de la llanta al momento de ser presentada para revisión sobre la profundidad original reconociendo de esta forma el permanente de vida útil del producto. \n \n Si el análisis técnico concluye que la llanta fallo por causas no atribuibles a materiales y/o mano de obra no se hará ningún reconocimiento y se devolverá al cliente el bien entregado para su análisis. Sin embargo, cabe resaltar que el cliente es quien deberá incurrir en los costos de envío. \n \n Exclusiones a la Garantía: \n- Daños ocasionados por condiciones diferentes a materiales y/o mano de obra. \n- Llantas con más de 5 años contados a partir de la fecha de fabricación. \n- Profundidad del diseño de la llanta inferior a 2/32 de pulgada al momento de presentarse el reclamo. \n- No presentar la llanta para solicitar la garantía. \n- Llantas con reparaciones que no permitan establecer la causa original de la falla. \n- Llantas utilizadas para carreras o competencias de cualquier tipo. \n- Perdida o daño del producto por incendio, robo, choque o siniestro. \n- Daños causados por condiciones mecánicas del vehículo o uso inadecuado del producto.",
+      "blockClass": ["about__us--icon-list", "faq__answer--list"]
+    }
+  },
+
+
+  "disclosure-layout#third": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#third", "disclosure-content#third"]
+  },
+  "disclosure-trigger#third": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question3"]
+  },
+  "disclosure-content#third": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer3"]
+  },
+  "rich-text#question3": {
+    "props": {
+      "text": "¿DONDE INSTALAR MIS LLANTAS?"
+    }
+  },
+  "rich-text#answer3": {
+    "props": {
+      "text": "En cualquiera de nuestros puntos ubicados en Bogotá, Cartagena y Barranquilla. Allí se presta el servicio de instalación a inflado con Nitrógeno totalmente gratis por su compra realizada a través de nuestros canales y adicionalmente un descuento en los servicios de Alineación y balanceo."
+    }
+  },
+
+
+  "disclosure-layout#fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+  },
+  "disclosure-trigger#fourth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question4"]
+  },
+  "disclosure-content#fourth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer4"]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "FORMAS DE PAGO"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "En TireDepot tienes las siguientes formas de pago habilitadas: \n - Tarjeta de Crédito (Visa, Master Card, American Express, Diners Club) \n - Tarjetas Debito. \n - PSE \n - NEQUI \n - DAVIPLATA \n - Cheque personal o de la Compañía (Se verificará el cheque antes de enviarle su pedido)\n - Efectivo.",
+      "blockClass": ["about__us--icon-list", "faq__answer--list"]
+    }
+  },
+
+  "disclosure-layout#five": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#five", "disclosure-content#five"]
+  },
+  "disclosure-trigger#five": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question5"]
+  },
+  "disclosure-content#five": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer5"]
+  },
+  "rich-text#question5": {
+    "props": {
+      "text": "IMPUESTOS (IVA)"
+    }
+  },
+  "rich-text#answer5": {
+    "props": {
+      "text": "Todos los precios ofrecidos en la página incluyen IVA del 19%. En las facturas de venta se discrimina el IVA cobrado para cada producto."
+    }
+  },
+
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  }
+
+}
