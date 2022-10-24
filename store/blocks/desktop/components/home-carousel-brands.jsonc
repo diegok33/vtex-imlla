@@ -11,7 +11,7 @@
 
       "images": [
         {
-          "image": "assets/img/global/dunlop.png",
+          "image": "assets/img/desktop/dunlop.png",
           "mobileImage": "assets/img/global/dunlop.png",
           "link": {
             // "url": "/toyo-tires?_q=toyo-tires&map=ft"
@@ -19,15 +19,15 @@
           }
         },
         {
-          "image": "assets/img/global/llantatoyotires.jpg",
-          "mobileImage": "assets/img/global/llantatoyotires.jpg",
+          "image": "assets/img/desktop/ll toyo.png",
+          "mobileImage": "assets/img/desktop/ll toyo.png",
           "link": {
             // "url": "/dunlop?_q=dunlop&map=ft"
             "url": "/toyo?_q=toyo&map=ft"
           }
         },
         {
-          "image": "assets/img/global/llantafalken.png",
+          "image": "assets/img/desktop/llantafalken.png",
           "mobileImage": "assets/img/global/llantafalken.png",
           "link": {
             // "url": "/dunlop?_q=dunlop&map=ft"
@@ -35,14 +35,15 @@
           }
         },
         {
-          "image": "assets/img/global/llantamaxxis.png",
-          "mobileImage": "#",
+          "image": "assets/img/desktop/llantamaxxis.png",
+          "mobileImage": "assets/img/desktop/llantamaxxis.png",
           "link": {
             "url": "/nuestras-marcas/maxxis"
           }
         }
       ]
     }
+
   },
   "slider-layout#carousel-images": {
     "title": "Configuracion de Carrusel de marcas",

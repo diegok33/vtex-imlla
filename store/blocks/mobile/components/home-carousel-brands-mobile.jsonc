@@ -5,42 +5,45 @@
       "slider-layout#carousel-images-mobile"
     ],
     "props": {
-      "height": 340,
+      "height": 200,
+
+
+
       "images": [
         {
-          "image": "#",
-          "mobileImage": "#",
+          "image": "assets/img/desktop/dunlop.png",
+          "mobileImage": "assets/img/desktop/dunlop.png",
           "link": {
             // "url": "/toyo-tires?_q=toyo-tires&map=ft"
-            "url": "/nuestras-marcas/toyo-tire"
+            "url": "/dunlop?_q=dunlop&map=ft"
           }
         },
         {
-          "image": "#",
-          "mobileImage": "#",
+          "image": "assets/img/desktop/ll toyo.png",
+          "mobileImage": "assets/img/desktop/ll toyo.png",
           "link": {
             // "url": "/dunlop?_q=dunlop&map=ft"
-            "url": "/nuestras-marcas/dunlop"
+            "url": "/toyo?_q=toyo&map=ft"
           }
         },
         {
-          "image": "#",
-          "mobileImage": "#",
+          "image": "assets/img/desktop/llantafalken.png",
+          "mobileImage": "assets/img/desktop/llantafalken.png",
           "link": {
             // "url": "/dunlop?_q=dunlop&map=ft"
-            "url": "/nuestras-marcas/llantafalken"
+            "url": "/falken?_q=falken&map=ft"
           }
         },
         {
-          "image": "#",
-          "mobileImage": "#",
+          "image": "assets/img/desktop/llantamaxxis.png",
+          "mobileImage": "assets/img/desktop/llantamaxxis.png",
           "link": {
-            // "url": "/flanken?_q=flanken&map=ft"
-            "url": "/nuestras-marcas/maxxisfalken"
+            "url": "/nuestras-marcas/maxxis"
           }
         }
       ]
     }
+
   },
   "slider-layout#carousel-images-mobile": {
     "title": "Configuracion de Carrusel de marcas",
@@ -48,7 +51,20 @@
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 2,
-        "phone": 1
+        "phone": 2
+
+
+      },
+      "display": "flex",
+      "slide transition":{
+      "speed":5800,
+      "delay":5800
+      },
+      "autoplay":{
+        "timeout":4800,
+        "stopOnHover": true
+
+
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",

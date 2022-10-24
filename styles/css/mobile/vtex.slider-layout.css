@@ -2,11 +2,10 @@
   margin-bottom: 28px;
 }
 
+.imageElement--carousel-mobile{
+margin: 10px;
 
-.imageElement--carousel__main--images--mobile{
-  max-height: initial !important;
-  height: 300px;
-  width: 300px;
+
 }
 /* .sliderTrackContainer--carousel__main--images{
   max-width: 1440px;

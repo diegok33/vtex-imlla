@@ -33,7 +33,25 @@
   .wrapper--title-promotions-mobile {
     margin-top: 16px;
   }
-  .paragraph--title-brands-mobile,
+
+  .paragraph--title-brands-mobile {
+    color: rgb(255, 255, 255);
+
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 20%;
+    padding-top: 10;
+    width: 200px;
+  }
+
+  .container--title-brands-mobile{
+    background-color: #2a2a2f;
+    padding-left:-80%;
+    width: 100%;
+    height: 40px;
+
+  }
+
   .paragraph--title-promotions-mobile {
     text-align: center;
     border: 1px solid #373435;

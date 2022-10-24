@@ -9,6 +9,22 @@
   width: 186% !important;
 }
 
+.imageElement--carousel__main--images--mobile {
+  width: 286px;
+  height: 180px;
+}
+
+.imageElement--carousel-mobile {
+
+
+  height: 104px;
+  width: 100px;
+  margin-top: 5px;
+
+
+}
+
+
 .container--description__mobile
   :global(.vtex-store-components-3-x-pointerEventsNone) {
   display: none;
@@ -26,12 +42,25 @@
   white-space: pre-line;
 
 }
-.infoCardCallActionContainer--info-card-home-sull{
 
-  width:378px;
-  height:161px;
+.infoCardCallActionContainer--info-card-home-sullmobile{
+
+  margin-left:30%;
+  margin-top: 0px;
+  padding-top: 10px;
+  width: 100PX;
 
 }
+
+
+
+.infoCardContainer--info-card-home-sullmobile {
+
+  width: 100%;
+
+
+
+
 
 @media screen and (min-width: 1026px){
   .imageElement--icons__socialmedia{
@@ -45,4 +74,5 @@
   .imageElement--icons__socialmedia:hover {
     filter: brightness(1.5)
   }
+}
 }

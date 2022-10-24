@@ -29,17 +29,6 @@
     "blockClass": "info-card-home-sull"
 }},
 
-"info-card#sullmobile": {
-  "props": {
-    "id": "info-card-home-sullmobile",
-    "isFullModeStyle": true,
-    "textPosition": "CENTER",
-    "imageUrl": "assets/img/desktop/solicita una llamada.png",
-    "callToActionText": "SOLICITAR",
-    "callToActionUrl": "/institucional/contactenos",
-    "textAlignment": "CENTER",
-    "blockClass": "info-card-home-sullmobile"
-}},
 "info-card#toyo": {
   "props": {
     "id": "info-card-toyo",

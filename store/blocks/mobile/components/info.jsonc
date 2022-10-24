@@ -1,0 +1,12 @@
+{"info-card#sullmobile": {
+  "props": {
+    "id": "info-card-home-sullmobile",
+    "isFullModeStyle": false,
+    "display": "flex",
+    "textPosition": "CENTER",
+    "imageUrl": "assets/img/desktop/solicita una llamada.png",
+    "callToActionText": "CONTÁCTANOS",
+    "callToActionUrl": "/institucional/contactenos",
+    "textAlignment": "CENTER",
+    "blockClass": "info-card-home-sullmobile"
+}}}

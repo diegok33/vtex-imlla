@@ -4,7 +4,7 @@
         "children":[
           "list-context.image-list#carousel__main--mobile",
           //"info-card",
-          "list-context.image-list#carousel__brands",
+          "list-context.image-list#carousel__brands--mobile",
           "rich-text#productos mas vendidos-mobile",
           "shelf",
           //"rich-text#selecciona-mobile",
@@ -24,7 +24,7 @@
           "textAlignment": "center",
           "textPosition": "center",
           "font": "Roboto-Black",
-          "blockClass": "title-brands"
+          "blockClass": "title-brands-mobile"
         }
       },
       "rich-text#selecciona-mobile": {
