@@ -169,5 +169,17 @@
         "props": {
           "blockClass": "container__items-menu"
         }
+      },
+
+      "vtex.menu@2.x:menu#menu__mobile":{
+        "children": [
+          "menu-item#department-desktop-item-home",
+          "menu-item#department-desktop-item-product-services",
+          "menu-item#department-desktop-servitecas"
+
+        ],
+        "props": {
+          "blockClass": "container__items-menu-mobile"
+        }
       }
 }

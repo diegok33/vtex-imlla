@@ -13,6 +13,7 @@
       "textPosition":"center",
       "textAlignment": "center",
       "CallToAactionMode": "link",
+      "showPaginationDots": "never",
       "blockClass":"servicios1"
     }
     },
@@ -38,6 +39,7 @@
     "textAlignment": "center",
     "CallToAactionMode": "link",
     "imageUrl": "assets/img/desktop/frentetd.jpg",
+    "showPaginationDots": "never",
     "blockClass":"servicios2"
   }
 
@@ -56,6 +58,7 @@
   "textPosition":"center",
   "textAlignment": "center",
   "CallToAactionMode": "link",
+  "showPaginationDots": "never",
   "blockClass":"servicios3"
 
 }}}

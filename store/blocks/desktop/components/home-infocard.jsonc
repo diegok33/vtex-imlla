@@ -9,6 +9,7 @@
    // "subhead":"No te pierdas los mejores precios ",
     //"callToActionText": "Compra ahora",
     //"callToActionUrl": "/dunlop?_q=dunlop&map=ft",
+    "showPaginationDots": "never",
     "textAlignment": "CENTER",
     "blockClass": "info-card-home"
 
@@ -25,6 +26,7 @@
     "imageUrl": "assets/img/desktop/solicita una llamada.png",
     "callToActionText": "SOLICITAR",
     "callToActionUrl": "/institucional/contactenos",
+    "showPaginationDots": "never",
     "textAlignment": "CENTER",
     "blockClass": "info-card-home-sull"
 }},
@@ -38,6 +40,7 @@
     "headline":  "<p>Toyo Tires</p> <p>Ha sido sinónimo de innovación, calidad, rendimiento y de un excelente servicio durante 65 años, incluyendo cerca de 45 años en los Estados Unidos. Combinado, el grupo de empresas Toyo ha desarrollado, fabricado, realizado pruebas, distribuido, y realizado operaciones de comercialización en toda América, Europa, Asia, Oriente Medio y Oceanía. </p> <p> Como resultado de todo ello, Toyo Tires ha construido una sólida reputación en todo el mundo. ¿Y quién conocerá mejor los neumáticos que las mismas personas que se dedican a su venta todos los días? En los Estados Unidos, Toyo Tires ha sido nombrado el nº 1 de Marca Mundial una y otra vez por los distribuidores de neumáticos de Norteamérica en el Estudio Anual de Marca de Neumáticos de la revista Tire Review. </p><p> De hecho, nuestros neumáticos usados por los consumidores han sido votados nº1 en la clasificación de Marca Mundial por los distribuidores de neumáticos de Norteamérica en un hecho sin precedentes, consiguiendo este ranking consecutivo siete veces desde 2000. Desde 2002, nuestros neumáticos para camiones de tonelaje medio han recibido dicho honor de seis veces. La visión para la fabricación de grandes neumáticos se inició en agosto de 1945, cuando el presidente fundador, el Sr. Rikimatsu Tomihisa, estableció la compañía Toyo Tire & Rubber Co, Ltd. en Japón. </p><p> En 1966, Toyo Tires se convirtió en el primer fabricante japonés de neumáticos en establecer una filial en los Estados Unidos. Desde una pequeña oficina en el sur de California, la Corporación Toyo Tire (EE.UU.) -como se conocía entonces- comenzó con el almacenamiento y distribución de neumáticos para camiones comerciales.</p>",
     "callToActionText": "COMPRAR",
     "callToActionUrl": "/toyo?_q=toyo&map=ft",
+    "showPaginationDots": "never",
     "textAlignment": "CENTER",
     "blockClass": "info-card-toyo"
 }
@@ -52,6 +55,7 @@
     "headline":  "<p>Dunlop</p> <p>John Boyd Dunlop, veterinario escocés, inventó el primer neumático con cámara de aire. Él observó a su hijo conducir un triciclo sobre un pavimento en mal estado. Este estaba equipado con neumáticos de goma dura, lo que impedía tomar velocidad y hacía la conducción incómoda. Con la intención de mejorar la vida de su hijo, Dunlop infló unos tubos de goma con una bomba de aire para inflar balones. Después envolvió los tubos de goma con una lona para protegerlos y los pegó sobre las llantas de las ruedas del triciclo. A partir de ese momento, la forma en que giraría el mundo, cambió. </p> <p>El 7 de diciembre de 1888 recibe la patente del neumático con cámara de aire.</p><p> Cuanto más siente la carretera, más control tiene sobre su vehículo, y cuanto mayor es su control, mayores son sus posibilidades de explorar nuevas cotas de rendimiento. En este preciso momento, la conducción se convierte en un auténtico placer. </p><p> La necesidad de alcanzar nuevas cotas de rendimiento es el reto que motiva a Dunlop en la fabricación de cada nuevo neumático. Por eso, nuestra marca hace lo posible por maximizar la sensación de control de los conductores en todos sus productos, desde nuestros neumáticos de competición hasta nuestros modelos más conocidos por el cliente. </p><p> Los principales fabricantes de automóviles instalan nuestros neumáticos de serie porque conocen el rendimiento que ofrece Dunlop, y el hecho de que nunca dejamos de introducir nuevas tecnologías en el sector con el fin de mejorar la eficiencia, el control y el placer en la conducción.</p>",
     "callToActionText": "COMPRAR",
     "callToActionUrl": "dunlop?_q=dunlop&map=ft",
+    "showPaginationDots": "never",
     "textAlignment": "CENTER",
     "blockClass": "info-card-dunlop"
 }
@@ -66,6 +70,7 @@
     "headline":  "<p>Falken</p> <p>La marca Falken nace en el año 1983, y nace su primera llanta. En 1988 se hace la inauguración de la sede de Offebach, en Europa.</p> <p>En el año 1991 se establece en Estados Unidos, y en el año 1999 Falken presenta el diseño FK451, en este mismo año el equipo Falken comienza a competir en la carrera ADAC 24h de Nürburgring.</p><p>En el 2001 Falken se convierte en el patrocinador principal en el Nürbur-gring. En el año 2005 obtiene vitoria de clase y 5° puesto en la clasificación total de la carrera del 24 h en el Nürburgring.</p><p>Falken empieza a participar en la carrera de 24 h con el Nissan Z33, en el año 2007.</p>",
     "callToActionText": "COMPRAR",
     "callToActionUrl": "/falken?_q=falken&map=ft",
+    "showPaginationDots": "never",
     "textAlignment": "CENTER",
     "blockClass": "info-card-falken"
 }
@@ -80,6 +85,7 @@
     "callToActionText": "COMPRAR",
     "callToActionUrl": "dunlop?_q=dunlop&map=ft",
     "textAlignment": "CENTER",
+    "showPaginationDots": "never",
     "blockClass": "info-card-who"
 }
 }

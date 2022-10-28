@@ -42,9 +42,9 @@
 }
   .submenu--container-menu :global(.vtex-menu-2-x-menuItem){
     background-color: #ffffff;
-    
 
-  
+
+
 }
 .submenu--container-menu :global(.vtex-menu-2-x-menuContainerNav) {
   width: 100%;
@@ -67,8 +67,25 @@
   padding: 16px 36px;
   width: 100%;
 }
+.menuContainer{
+  align-items: flex;
+  justify-content: center;
+}
+
+.menuContainer--container__items-menu{
+  align-items: flex;
+  justify-content: center;
+}
 .styledLinkContent--item-drawer-mobile {
   font-size: 1.5rem;
+}
+.styledLinkContainer{
+  align-items: flex;
+  justify-content: center;
+}
+.styledLinkContent--items-menu-desktop {
+  align-items: flex;
+  justify-content: center;
 }
 .menuContainer--container__items-menu {
   align-items: flex;

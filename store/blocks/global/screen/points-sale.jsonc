@@ -1,13 +1,20 @@
 {
     "store.custom#servitecas":{
         "blocks":[
-          "info-card",
-            "flex-layout.row#points__sale"
+
+          "image#imgserv",
+          "flex-layout.row#points__sale"
+
+
 
         ]
-    },
+      },
+
+
+
     "flex-layout.row#points__sale":{
         "children":[
+
             "flex-layout.col#points__sale--container"
         ],
         "props": {
@@ -29,24 +36,37 @@
     },
     "flex-layout.row#points__sale--content":{
         "children":[
+
             "flex-layout.col#points__sale--info",
+
             "flex-layout.col#points__sale--photos"
         ]
+      },
+        "image#imgserv": {
+          "title":"Imagen Placer de Conducir",
+          "props": {
+            "src": "https://imllaco.vteximg.com.br/arquivos/dunlop-banner-15.jpg?v=637474645304000000",
+            "maxHeight": "400px,1200px",
+
+            "blockClass": "width-articles-img"
+          }
     },
     "flex-layout.col#points__sale--info":{
         "children":[
-            "rich-text#points__sale--subtitle-bogota",
+
             "disclosure-layout-group#points__sale--group"
 
         ]
     },
     "rich-text#points__sale--subtitle-bogota":{
         "props":{
-            "text":"**EN BOGOTÁ TENEMOS 6 PUNTOS UBICADOS EN:**"
+            "text":"**BOGOTÁ**"
         }
     },
     "disclosure-layout-group#points__sale--group":{
         "children":[
+          "image#fachada",
+           "rich-text#points__sale--subtitle-bogota",
             "disclosure-layout#points__sale--group-first",
             "disclosure-layout#points__sale--group-second",
             "disclosure-layout#points__sale--group-third",
@@ -478,6 +498,7 @@
     // Columna Dos
     "flex-layout.col#points__sale--photos":{
         "children":[
+          "image#fachada",
           "rich-text#points__sale--subtitle-cartagena",
           "rich-text#points__sale--cartagena-address",
           "rich-text#points__sale--cartagena-phone",
@@ -486,5 +507,13 @@
           "rich-text#points__sale--barranquilla-phone"
 
         ]
-    }}
+      },
+        "image#fachada": {
+          "title":"Imagen Placer de Conducir",
+          "props": {
+            "src": "assets/img/desktop/Fachadatd.jpg",
+            "maxHeight": "200%",
+            "blockClass": "width-articlesss-img"
+
+    }}}
 

@@ -65,7 +65,7 @@
 
       },
       "infinite": true,
-      "showPaginationDots":"false",
+      "showPaginationDots":"never",
       "showNavigationArrows": "always",
       "blockClass": "carousel-llantas"
     }

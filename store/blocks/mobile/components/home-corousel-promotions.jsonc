@@ -29,6 +29,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "false",
       "blockClass": "carousel-promotions"
     }
   }
