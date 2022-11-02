@@ -2,8 +2,7 @@
   "store.custom#contact-us": {
     "title":"Pagina Contáctenos",
     "children": [
-      "flex-layout.row#contact-us",
-      "image#llantaarena"
+      "flex-layout.row#contact-us"
     ]
   },
 
@@ -109,24 +108,15 @@
   "flex-layout.col#contact-us": {
     "title":"Contenedor Formulario de contacto",
     "children": [
-      "image#llantaarena"
       //"rich-text#contact-us",
-      //"form#contact-us",
-
+      //"form#contact-us"
     ],
     "props":{
       "blockClass":"col-contact-us"
     }
   },
 
-  "image#llantaarena": {
-    "title":"llantaaarena",
-    "props": {
-      "src": "/assets/img/desktop/cambio aceite.jpg",
-      "maxHeight": "400px,1200px",
 
-      "blockClass": "width-articles-img"
-    }},
   "rich-text#contact-us": {
     "title":"Titulo Formulario de contacto",
     "props": {
@@ -144,7 +134,6 @@
     },
     "blocks": [
       "form-success#contact-us"
-
     ],
     "children": [
       "form-input.text#email",
