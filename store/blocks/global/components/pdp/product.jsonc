@@ -1,6 +1,7 @@
 {
   "store.product": {
     "children": [
+      "responsive-layout.mobile",
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#desktop__product-page--container",
       "flex-layout.row#product__description-specs",
@@ -76,7 +77,7 @@
   },
   "flex-layout.row#product__description-specs": {
     "children": [
-      "product-specifications", 
+      "product-specifications",
       "product-description#page__product"
     ],
     "props": {

@@ -2,7 +2,8 @@
   "store.custom#contact-us": {
     "title":"Pagina Contáctenos",
     "children": [
-      "flex-layout.row#contact-us"
+      "flex-layout.row#contact-us",
+      "image#llantaarena"
     ]
   },
 
@@ -43,6 +44,7 @@
       "rich-text#contact-info-address",
       "rich-text#contact-info-phone",
       "rich-text#contact-info-coordinadora",
+      "rich-text#contact-info-coordinador",
       "rich-text#contact-info-email",
       "rich-text#contact-info-web"
     ]
@@ -78,6 +80,14 @@
     }
   },
 
+  "rich-text#contact-info-coordinador":{
+    "title":"PBX Coordinadora Central",
+    "props": {
+      "text": "- Whatsapp -  [3157006112](tel:3157006112)",
+      "blockClass":["list-contact-info","phone"]
+    }
+  },
+
   "rich-text#contact-info-email":{
     "title":"Correo Informacion de contacto",
     "props": {
@@ -99,13 +109,24 @@
   "flex-layout.col#contact-us": {
     "title":"Contenedor Formulario de contacto",
     "children": [
-      "rich-text#contact-us",
-      "form#contact-us"
+      "image#llantaarena"
+      //"rich-text#contact-us",
+      //"form#contact-us",
+
     ],
     "props":{
       "blockClass":"col-contact-us"
     }
   },
+
+  "image#llantaarena": {
+    "title":"llantaaarena",
+    "props": {
+      "src": "/assets/img/desktop/cambio aceite.jpg",
+      "maxHeight": "400px,1200px",
+
+      "blockClass": "width-articles-img"
+    }},
   "rich-text#contact-us": {
     "title":"Titulo Formulario de contacto",
     "props": {
@@ -123,6 +144,7 @@
     },
     "blocks": [
       "form-success#contact-us"
+
     ],
     "children": [
       "form-input.text#email",

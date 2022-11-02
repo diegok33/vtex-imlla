@@ -1,7 +1,7 @@
 {
   "product-summary.shelf": {
     "children": [
-
+      "responsive-layout.mobile",
       "stack-layout#prodsum",
       "product-summary-name",
       "product-summary-description",
@@ -64,13 +64,17 @@
 
   "product-list-price#summary": {
     "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": false,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4  ,
       "blockClass": "summary"
     }
   },
   "flex-layout.row#selling-price-savings": {
     "props": {
       "colGap": 2,
-      "preserveLayoutOnMobile": true,
+      "preserveLayoutOnMobile": false,
       "preventHorizontalStretch": true,
       "marginBottom": 4
     },

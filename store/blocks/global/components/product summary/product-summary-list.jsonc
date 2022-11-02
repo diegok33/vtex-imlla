@@ -4,6 +4,7 @@
       "blockClass": "listLayout"
     },
     "children": [
+      "responsive-layout.mobile",
       "responsive-layout.desktop#productSummaryList",
       "responsive-layout.mobile#productSummaryList"
     ]
@@ -78,6 +79,8 @@
   "add-to-cart-button#comprar": {
     "props": {
       "text": "COMPRAR",
+      "preserveLayoutOnMobile": false,
+      "display": "flex",
       "isOneClickBuy": true,
       "onClickEventPropagation": "enabled",
       "blockClass": "comprar"
@@ -134,7 +137,7 @@
   },
   "flex-layout.row#summaryListMobile": {
     "props":{
-      "preserveLayoutOnMobile": true,
+      "preserveLayoutOnMobile": false,
       "colSizing": "auto",
       "blockClass": "summaryListMobile",
       "colGap": 5

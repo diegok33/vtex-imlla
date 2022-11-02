@@ -8,7 +8,11 @@
     "paginationDotsVisibility":"desktop only",
     "productlist":{
       "maxItems": 5,
-      "itemsPerPage":5,
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
       "minitemsPerPage":1,
       "scroll": "BY_PAGE",
       "arrows": true,

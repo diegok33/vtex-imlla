@@ -3,8 +3,7 @@
     "title": "Header Mobile",
     "children": [
       "sticky-layout#mobile",
-      "flex-layout.row#search__bar",
-      "chatbot-whatsapp"
+      "flex-layout.row#search__bar"
     ]
   },
   "sticky-layout#mobile": {
