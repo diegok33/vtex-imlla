@@ -20,10 +20,16 @@
       },
       "vtex.menu@2.x:menu#category-desktop-product&service": {
         "children": [
-          "menu-item#desktop-tires",
-          "menu-item#baterias",
-          "menu-item#aceites-y-liquidos",
-          "menu-item#Servicios"
+          //"menu-item#desktop-tires"
+          //"menu-item#baterias",
+          //"menu-item#aceites-y-liquidos",
+          //"menu-item#Servicios"
+          "menu-item#desktop-car",
+          "menu-item#desktop-pickup-truck",
+          "menu-item#desktop-suv",
+          "menu-item#desktop-van-carga",
+          "menu-item#desktop-camion-ligero",
+          "menu-item#desktop-camion-pesado"
         ],
 
         "props": {

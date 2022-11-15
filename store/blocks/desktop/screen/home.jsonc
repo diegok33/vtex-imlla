@@ -6,7 +6,7 @@
       //"info-card",
       "list-context.image-list#carousel__brands",
       "rich-text#productos mas vendidos",
-      "shelf",
+      "shelf#home",
       //"rich-text#selecciona",
       //"flex-layout.row#home",
       "info-card#col-left",

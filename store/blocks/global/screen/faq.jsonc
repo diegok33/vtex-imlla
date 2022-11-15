@@ -161,7 +161,7 @@
   },
   "rich-text#answer4": {
     "props": {
-      "text": "En TireDepot tienes las siguientes formas de pago habilitadas: \n - Tarjeta de Crédito (Visa, Master Card, American Express, Diners Club) \n - Tarjetas Debito. \n - PSE \n - NEQUI \n - DAVIPLATA \n - Cheque personal o de la Compañía (Se verificará el cheque antes de enviarle su pedido)\n - Efectivo.",
+      "text": "En IMLLA tienes las siguientes formas de pago habilitadas: \n - Tarjeta de Crédito (Visa, Master Card, American Express, Diners Club) \n - Tarjetas Debito. \n - PSE \n - NEQUI \n - DAVIPLATA \n - Cheque personal o de la Compañía (Se verificará el cheque antes de enviarle su pedido)\n - Efectivo.",
       "blockClass": ["about__us--icon-list", "faq__answer--list"]
     }
   },

@@ -4,12 +4,12 @@
   "info-card#col-left":{
     "props":{
       "id": "servicios1",
-      "imageUrl": "assets/img/desktop/cambiollanta.jpg",
+      "imageUrl": "https://imllab2b.vteximg.com.br/arquivos/carrotoyollanta.jpg",
       "isFullMNodeStyle": true,
-      "headline": "Instalación Gratis con nuestros especialistas",
-      "subhead":"Retira tu producto en tienda y solicita la instalación en el momento, si pides que te llegue a casa llevalas a cualquiera de nuestra red de servitecas y te las instalamos.",
+      "headline": "CONOCE EL CATALOGO DE TOYO",
+      "subhead":"Últimas novedades, caracteristicas y especificaciones de la marca",
       "callToActionText":"Mas info",
-      "callToActionUrl": "/institucional/servitecas",
+      "callToActionUrl": "/nuestras-marcas/toyo-tire",
       "textPosition":"center",
       "textAlignment": "center",
       "CallToAactionMode": "link",
@@ -31,14 +31,14 @@
   "props":{
     "id": "servicios2",
     "isFullMNodeStyle": true,
-    "headline": "Conoce nuestra Red de Servitecas",
-    "subhead":"Toda una red a tu disposición",
+    "headline": "CONOCE EL CATALOGO DE DUNLOP",
+    "subhead":"Últimas novedades, caracteristicas y especificaciones de la marca",
     "callToActionText":"Mas info",
-    "callToActionUrl": "/institucional/servitecas",
+    "callToActionUrl": "/nuestras-marcas/dunlop",
     "textPosition":"right",
     "textAlignment": "center",
     "CallToAactionMode": "link",
-    "imageUrl": "assets/img/desktop/frentetd.jpg",
+    "imageUrl": "https://imllab2b.vteximg.com.br/arquivos/carrodunloparco.jpg",
     "showPaginationDots": "never",
     "blockClass":"servicios2"
   }
@@ -49,12 +49,12 @@
 "props":{
   "id": "servicios3",
 
-  "imageUrl": "assets/img/desktop/cambio aceite.jpg",
+  "imageUrl": "https://imllab2b.vteximg.com.br/arquivos/falkenpanoramica.jpg",
   "isFullMNodeStyle": true,
-  "headline": "Obten servicios adicionales",
-  "subhead":"Alineacion, Balanceo,Cambio de aceite, revisión punto a punto...",
+  "headline": "CONOCE EL CATALOGO DE FALKEN",
+  "subhead":"Últimas novedades, caracteristicas y especificaciones de la marca",
   "callToActionText":"Mas info",
-  "callToActionUrl": "/servicios",
+  "callToActionUrl": "/nuestras-marcas/falken",
   "textPosition":"center",
   "textAlignment": "center",
   "CallToAactionMode": "link",

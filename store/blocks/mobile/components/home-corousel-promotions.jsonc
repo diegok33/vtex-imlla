@@ -1,36 +1,36 @@
 {
-  "list-context.image-list#mobile__carousel--promotions": {
-    "title": "Imagenes de Carrusel de Promociones",
-    "children": [
-      "slider-layout#mobile__carousel-images--promotions"
-    ],
-    "props": {
-      "width": "90%",
-      "height": 330,
-      "images": [
-        {
-          "image": "assets/img/global/Desktop1.jpg",
-          "mobileImage": "assets/img/global/Desktop1.jpg"
-        },
-        {
-          "image": "assets/img/global/Desktop3.jpg",
-          "mobileImage": "assets/img/global/Desktop3.jpg"
-        }
-      ]
-    }
-  },
-  "slider-layout#mobile__carousel-images--promotions": {
-    "title": "Configuracion de Carrusel de Promociones",
-    "props": {
-      "itemsPerPage": {
-        "desktop": 3,
-        "tablet": 2,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "showPaginationDots": "false",
-      "blockClass": "carousel-promotions"
-    }
-  }
+  //"list-context.image-list#mobile__carousel--promotions": {
+    //"title": "Imagenes de Carrusel de Promociones",
+    //"children": [
+      //"slider-layout#mobile__carousel-images--promotions"
+    //],
+    //"props": {
+      //"width": "90%",
+      //"height": 330,
+      //"images": [
+        //{
+          //"image": "assets/img/desktop/Desktop1.jpg",
+          //"mobileImage": "assets/img/llanta.jpg"
+        //},
+        //{
+          //"image": "assets/img/global/Desktop3.jpg",
+          //"mobileImage": "assets/img/global/Desktop3.jpg"
+        //}
+      //]
+    //}
+  //},
+  //"slider-layout#mobile__carousel-images--promotions": {
+    //"title": "Configuracion de Carrusel de Promociones",
+    //"props": {
+      //"itemsPerPage": {
+        //"desktop": 3,
+        //"tablet": 2,
+        //"phone": 1
+      //},
+      //"infinite": true,
+      //"showNavigationArrows": "desktopOnly",
+      //"showPaginationDots": "false",
+      //"blockClass": "carousel-promotions"
+   // }
+ // }
 }

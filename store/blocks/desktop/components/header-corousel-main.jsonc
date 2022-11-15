@@ -3,20 +3,21 @@
     "title": "Seccion de Carrusel principal",
     "children": ["slider-layout#carousel__main--images"],
     "props": {
-      "height": 500,
+      "height": 550,
       "preload": true,
       "images": [
         {
-          "image": "assets/img/desktop/tdbanner.jpg"
+
+          "src": "https://imllab2b.vteximg.com.br/arquivos/bannerweb2.jpg"
         },
         {
-          "image": "assets/img/desktop/web-carrodunlop.jpg"
+          "src": "https://imllab2b.vteximg.com.br/arquivos/bannerweb1.jpg"
         },
         {
           "image": "assets/img/desktop/bannertoyo.jpg"
         },
         {
-          "image": "assets/img/desktop/casco moto.png"
+          "src": "https://imllab2b.vteximg.com.br/arquivos/bannerweb3.jpg"
          }
       ]
     }

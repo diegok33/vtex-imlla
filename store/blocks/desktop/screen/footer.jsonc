@@ -69,7 +69,7 @@
         "title": "Item Sobre Tire Depot",
         "props": {
           "textAlignment": "LEFT",
-          "text": "[Sobre Tire Depot](/institucional/quienes-somos)",
+          "text": "[Sobre Tire Imlla](/institucional/quienes-somos)",
           "url":"/institucional/quienes-somos",
           "blockClass": "link-footer"
         }
@@ -153,7 +153,7 @@
         "title": "Texto TireDepot 2021 DK",
         "props": {
           "textAlignment": "LEFT",
-          "text": "© TireDepot 2021 DK",
+          "text": "© IMLLA 2021 DK",
           "color":"#fefefe",
           "blockClass": "Tire__text"
         }

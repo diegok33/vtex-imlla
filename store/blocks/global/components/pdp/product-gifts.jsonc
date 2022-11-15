@@ -6,7 +6,7 @@
         "mobile": 1
       }
     },
-    "children": ["responsive-layout.mobile","flex-layout.row#product-gifts-text", "product-gift-list"]
+    "children": ["responsive-layout.mobile","flex-layout.row#product-gifts-text", "product-gift-list","challenge.trade-policy-condition#b2b"]
   },
 
   "flex-layout.row#product-gifts-text": {

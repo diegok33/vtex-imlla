@@ -3,7 +3,8 @@
         "title":"Header Desktop",
         "children":[
 
-          "sticky-layout.stack-container#header__desktop"
+          "sticky-layout.stack-container#header__desktop",
+          "chatbot-whatsapp"
         ]
       },
 
@@ -142,8 +143,8 @@
         "props": {
           "title": "Logo",
           "href": "/",
-          "url": "assets/img/desktop/tire depot DEFINITIVO ROJO BLANCO.png",
-          "width": "280",
+          "url": "assets/img/desktop/Logoimllamarcas.jpg",
+          "width": "40%",
 
 
           "blockClass": "logo__desktop"
@@ -160,7 +161,7 @@
         "children": [
           "menu-item#department-desktop-item-home",
           "menu-item#department-desktop-item-product-services",
-          "menu-item#department-desktop-servitecas",
+          //"menu-item#department-desktop-servitecas",
           "menu-item#department-desktop-item-we-brand",
           //"menu-item#department-desktop-item-about-us",
           "menu-item#department-desktop-item-contact"
@@ -173,8 +174,8 @@
       "vtex.menu@2.x:menu#menu__mobile":{
         "children": [
           "menu-item#department-desktop-item-home",
-          "menu-item#department-desktop-item-product-services",
-          "menu-item#department-desktop-servitecas"
+          "menu-item#department-desktop-item-product-services"
+          //"menu-item#department-desktop-servitecas"
 
         ],
         "props": {

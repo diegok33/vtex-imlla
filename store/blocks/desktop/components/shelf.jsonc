@@ -1,7 +1,7 @@
 
 {
 
-"shelf": {
+"shelf#home": {
   "blocks":["product-summary.shelf"],
   "props":{
     "orderBy":"OrderbyBestDiscountDESC",

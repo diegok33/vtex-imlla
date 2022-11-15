@@ -37,7 +37,7 @@
         "title": "tiredepot Footer Mobile",
         "props":{
           "textAlignment": "CENTER",
-          "text": "© TireDepot 2021  DK",
+          "text": "© IMLLA 2021  DK",
           "blockClass": "tiredepot__mobile"
           // "width": "100%"
         }

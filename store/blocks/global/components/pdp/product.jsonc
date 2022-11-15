@@ -5,7 +5,9 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#desktop__product-page--container",
       "flex-layout.row#product__description-specs",
-      "shelf.relatedProducts"
+      "shelf.relatedProducts",
+      "challenge.trade-policy-condition#b2b"
+
     ],
     "props": {
       "blockClass": "Container__product"

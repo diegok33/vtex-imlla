@@ -3,9 +3,18 @@
     "children": [
       "responsive-layout.desktop#home",
       "responsive-layout.mobile#home"
+
     ]
-    // "parent": {
+      // "parent": {
+    //   "challenge": "challenge.trade-policy-condition#b2b"
+    // }
+  },
 
-
+  "challenge.trade-policy-condition#b2b": {
+    "props": {
+      "redirectPath": "/login-page",
+      "forbiddenRedirectPath": "/user-not-found",
+      "defaultContentVisibility": "hidden"
+    }
   }
 }

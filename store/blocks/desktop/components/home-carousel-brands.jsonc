@@ -12,7 +12,7 @@
       "images": [
         {
           "image": "assets/img/desktop/dunlop.png",
-          "mobileImage": "assets/img/global/dunlop.png",
+          "mobileImage": "assets/img/desktop/dunlop.png",
           "link": {
             // "url": "/toyo-tires?_q=toyo-tires&map=ft"
             "url": "/dunlop?_q=dunlop&map=ft"
@@ -28,19 +28,14 @@
         },
         {
           "image": "assets/img/desktop/llantafalken.png",
-          "mobileImage": "assets/img/global/llantafalken.png",
+          "mobileImage": "assets/img/desktop/llantafalken.png",
           "link": {
             // "url": "/dunlop?_q=dunlop&map=ft"
             "url": "/falken?_q=falken&map=ft"
           }
-        },
-        {
-          "image": "assets/img/desktop/llantamaxxis.png",
-          "mobileImage": "assets/img/desktop/llantamaxxis.png",
-          "link": {
-            "url": "/nuestras-marcas/maxxis"
-          }
         }
+
+
       ]
     }
 

@@ -6,7 +6,8 @@
     "children": [
       "responsive-layout.mobile",
       "responsive-layout.desktop#productSummaryList",
-      "responsive-layout.mobile#productSummaryList"
+      "responsive-layout.mobile#productSummaryList",
+      "challenge.trade-policy-condition#b2b"
     ]
   },
   "responsive-layout.desktop#productSummaryList": {

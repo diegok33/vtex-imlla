@@ -43,7 +43,6 @@
       "rich-text#contact-info-address",
       "rich-text#contact-info-phone",
       "rich-text#contact-info-coordinadora",
-      "rich-text#contact-info-coordinador",
       "rich-text#contact-info-email",
       "rich-text#contact-info-web"
     ]
@@ -74,15 +73,7 @@
   "rich-text#contact-info-coordinadora":{
     "title":"PBX Coordinadora Central",
     "props": {
-      "text": "- SAC -  [3157006112](tel:3157006112)",
-      "blockClass":["list-contact-info","phone"]
-    }
-  },
-
-  "rich-text#contact-info-coordinador":{
-    "title":"PBX Coordinadora Central",
-    "props": {
-      "text": "- Whatsapp -  [3157006112](tel:3157006112)",
+      "text": "- Coordinadora Comercial - Victoria Dacosta:[3118109329](tel:3118109329)",
       "blockClass":["list-contact-info","phone"]
     }
   },
@@ -90,7 +81,7 @@
   "rich-text#contact-info-email":{
     "title":"Correo Informacion de contacto",
     "props": {
-      "text": "- store@tiredepot.com.co",
+      "text": "- info@imlla.com",
       "blockClass":["list-contact-info","email"]
     }
   },
@@ -98,7 +89,7 @@
   "rich-text#contact-info-web":{
     "title":"Web Informacion de contacto",
     "props": {
-      "text": "- http://www.tiredepot.com.co",
+      "text": "- http://www.imllab2b.com",
       "blockClass":["list-contact-info","web"]
     }
   },
@@ -108,15 +99,13 @@
   "flex-layout.col#contact-us": {
     "title":"Contenedor Formulario de contacto",
     "children": [
-      //"rich-text#contact-us",
-      //"form#contact-us"
+      "rich-text#contact-us",
+      "form#contact-us"
     ],
     "props":{
       "blockClass":"col-contact-us"
     }
   },
-
-
   "rich-text#contact-us": {
     "title":"Titulo Formulario de contacto",
     "props": {
