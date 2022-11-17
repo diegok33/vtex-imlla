@@ -36,7 +36,7 @@
   // },
   "rich-text#home__title": {
     "props": {
-      "text": "# Bienvenidos a Tire Depot",
+      "text": "# Bienvenidos a IMLLA",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "home__title"
@@ -44,7 +44,7 @@
   },
   "rich-text#home__subtitle": {
     "props": {
-      "text": "Ingresa con tu usuario y contraseña o Registrate",
+      "text": "Ingresa con tu usuario y contraseña",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "home__title"

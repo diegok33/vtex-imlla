@@ -3,7 +3,8 @@
     "title": "Header Mobile",
     "children": [
       "sticky-layout#mobile",
-      "flex-layout.row#search__bar"
+      "flex-layout.row#search__bar",
+      "chatbot-whatsapp"
     ]
   },
   "sticky-layout#mobile": {
@@ -24,10 +25,10 @@
     "title": "Logo en Mobile",
     "props": {
       "title": "Logo",
-      "color": "red",
+      "color": "white",
       "href": "/",
-      "url": "assets/img/desktop/tire depot DEFINITIVO.png",
-      "width": "160"
+      "url": "assets/img/desktop/Logoimllamarcas.jpg",
+      "width": "10%"
     }
   },
   "flex-layout.row#search__bar": {

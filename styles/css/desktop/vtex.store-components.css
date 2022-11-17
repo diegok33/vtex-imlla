@@ -14,6 +14,7 @@
 .productDescriptionText--description-product {
   width: 100%;
   padding-left: 15px;
+  color: rgb(37, 34, 35);
 }
 
 .flexRowContent--product__description-specs

@@ -24,10 +24,16 @@
   "vtex.menu@2.x:menu#category-product-service": {
     "title": "SubItem Tires",
     "children": [
-      "menu-item#mobile-tires",
-      "menu-item#mobilebaterias",
-      "menu-item#mobileaceites-y-liquidos",
-      "menu-item#mobileServicios"
+      //"menu-item#mobile-tires"
+      //"menu-item#mobilebaterias",
+      //"menu-item#mobileaceites-y-liquidos",
+      //"menu-item#mobileServicios"
+      "menu-item#desktop-car",
+      "menu-item#desktop-pickup-truck",
+      "menu-item#desktop-suv",
+      "menu-item#desktop-van-carga",
+      "menu-item#desktop-camion-ligero",
+      "menu-item#desktop-camion-pesado"
     ],
     "props": {
       "orientation": "vertical"

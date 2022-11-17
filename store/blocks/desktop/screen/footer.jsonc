@@ -69,7 +69,7 @@
         "title": "Item Sobre Tire Depot",
         "props": {
           "textAlignment": "LEFT",
-          "text": "[Sobre Tire Imlla](/institucional/quienes-somos)",
+          "text": "[Sobre Imlla](/institucional/quienes-somos)",
           "url":"/institucional/quienes-somos",
           "blockClass": "link-footer"
         }
