@@ -1,195 +1,146 @@
 {
-    "menu-item#department-desktop-item-product-services": {
-        "props": {
-          "id": "menu-item-department",
-          "type": "custom",
-          "blockClass": "item-menu-desktop",
-          "itemProps": {
-            "type": "internal",
-            "noFollow": true,
-            "text": "Tienda"
-          }
-        },
-        "blocks": ["vtex.menu@2.x:submenu#submenu-desktop-product-service"]
-      },
-      "vtex.menu@2.x:submenu#submenu-desktop-product-service": {
-        "children": ["vtex.menu@2.x:menu#category-desktop-product&service"],
-        "props": {
-          "blockClass": "container-menu"
+  "menu-item#department-desktop-item-product-services": {
+      "props": {
+        "id": "menu-item-department",
+        "type": "custom",
+        "blockClass": "item-menu-desktop",
+        "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "text": "Tienda"
         }
       },
-      "vtex.menu@2.x:menu#category-desktop-product&service": {
-        "children": [
-          //"menu-item#desktop-tires"
-          //"menu-item#baterias",
-          //"menu-item#aceites-y-liquidos",
-          //"menu-item#Servicios"
-          "menu-item#desktop-car",
-          "menu-item#desktop-pickup-truck",
-          "menu-item#desktop-suv",
-          "menu-item#desktop-van-carga",
-          "menu-item#desktop-camion-ligero",
-          "menu-item#desktop-camion-pesado"
-        ],
-
-        "props": {
-          "orientation": "vertical"
+      "blocks": ["vtex.menu@2.x:submenu#submenu-desktop-product-service"]
+    },
+    "vtex.menu@2.x:submenu#submenu-desktop-product-service": {
+      "children": ["vtex.menu@2.x:menu#category-desktop-product&service"],
+      "props": {
+        "blockClass": "container-menu"
+      }
+    },
+    "vtex.menu@2.x:menu#category-desktop-product&service": {
+      "children": [
+        //"menu-item#desktop-tires"
+        "menu-item#desktop-car",
+        "menu-item#desktop-pickup-truck",
+        "menu-item#desktop-suv",
+        "menu-item#desktop-van-carga",
+        "menu-item#desktop-camion-ligero",
+        "menu-item#desktop-camion-pesado"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+    "menu-item#desktop-tires": {
+      "props": {
+        "id": "menu-item-category",
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "tires",
+          "text": "Llantas▸"
         }
       },
-
-
-        "menu-item#baterias": {
-          "props": {
-            "id": "menu-item-category",
-            "type": "custom",
-            "itemProps": {
-              "type": "internal",
-              "href": "baterias?_q=baterias&map=ft",
-              "noFollow": true,
-              "tagTitle": "baterias",
-              "text": "Baterias▸"
-            }
-          }
-          },
-          "menu-item#aceites-y-liquidos": {
-            "props": {
-              "id": "menu-item-category",
-              "type": "custom",
-              "itemProps": {
-                "type": "internal",
-                "href": "motul?_q=motul&map=ft",
-                "noFollow": true,
-                "tagTitle": "aceites",
-                "text": "Aceites y Liquidos▸"
-              }}
-            },
-
-            "menu-item#Servicios": {
-              "props": {
-                "id": "menu-item-category",
-                "type": "custom",
-                "itemProps": {
-                  "type": "internal",
-                  "href": "/Servicios",
-                  "noFollow": true,
-                  "tagTitle": "Servicios",
-                  "text": "Servicios▸"
-                }}
-              },
-
-            "menu-item#desktop-tires": {
-              "props": {
-                "id": "menu-item-category",
-                "type": "custom",
-                "itemProps": {
-                  "type": "internal",
-                  "href": "/",
-                  "noFollow": true,
-                  "tagTitle": "tires",
-                  "text": "Llantas▸"
-                }
-
-              },
-
-
-        "blocks": ["vtex.menu@2.x:submenu#submenu-desktop-tires"]
-      },
-      "vtex.menu@2.x:submenu#submenu-desktop-tires": {
-        "children": ["vtex.menu@2.x:menu#category-desktop-tires"],
-        "props": {
-          "blockClass": "header__submenu-container"
-        }
-      },
-      "vtex.menu@2.x:menu#category-desktop-tires": {
-        "children": [
-          "menu-item#desktop-car",
-          "menu-item#desktop-pickup-truck",
-          "menu-item#desktop-suv",
-          "menu-item#desktop-van-carga",
-          "menu-item#desktop-camion-ligero",
-          "menu-item#desktop-camion-pesado"
-        ],
-        "props": {
-          "orientation": "vertical"
-        }
-      },
-      "menu-item#desktop-car": {
-        "props": {
-          "id": "menu-item-category",
-          "type": "custom",
-          "itemProps": {
-            "type": "internal",
-            "href": "/carros",
-            "noFollow": true,
-            "tagTitle": "car",
-            "text": "Automóvil"
-          }
-        }
-      },
-      "menu-item#desktop-pickup-truck": {
-        "props": {
-          "id": "menu-item-category",
-          "type": "custom",
-          "itemProps": {
-            "type": "internal",
-            "href": "/camionetas",
-            "noFollow": true,
-            "tagTitle": "pickup-truck",
-            "text": "Camioneta"
-          }
-        }
-      },
-      "menu-item#desktop-suv": {
-        "props": {
-          "id": "menu-item-category",
-          "type": "custom",
-          "itemProps": {
-            "type": "internal",
-            "href": "/suv",
-            "noFollow": true,
-            "tagTitle": "suv",
-            "text": "SUV"
-          }
-        }
-      },
-      "menu-item#desktop-van-carga": {
-        "props": {
-          "id": "menu-item-category",
-          "type": "custom",
-          "itemProps": {
-            "type": "internal",
-            "href": "/van",
-            "noFollow": true,
-            "tagTitle": "van-carga",
-            "text": "VAN/Carga"
-          }
-        }
-      },
-      "menu-item#desktop-camion-ligero": {
-        "props": {
-          "id": "menu-item-category",
-          "type": "custom",
-          "itemProps": {
-            "type": "internal",
-            "href": "/camion%20ligero",
-            "noFollow": true,
-            "tagTitle": "camion-ligero",
-            "text": "Camion Ligero"
-          }
-        }
-      },
-      "menu-item#desktop-camion-pesado": {
-        "props": {
-          "id": "menu-item-category",
-          "type": "custom",
-          "itemProps": {
-            "type": "internal",
-            "href": "/camion",
-            "noFollow": true,
-            "tagTitle": "camion-pesado",
-            "text": "Camion Pesado"
-          }
+      "blocks": ["vtex.menu@2.x:submenu#submenu-desktop-tires"]
+    },
+    "vtex.menu@2.x:submenu#submenu-desktop-tires": {
+      "children": ["vtex.menu@2.x:menu#category-desktop-tires"],
+      "props": {
+        "blockClass": "header__submenu-container"
+      }
+    },
+    "vtex.menu@2.x:menu#category-desktop-tires": {
+      "children": [
+        "menu-item#desktop-car",
+        "menu-item#desktop-pickup-truck",
+        "menu-item#desktop-suv",
+        "menu-item#desktop-van-carga",
+        "menu-item#desktop-camion-ligero",
+        "menu-item#desktop-camion-pesado"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+    "menu-item#desktop-car": {
+      "props": {
+        "id": "menu-item-category",
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/carros",
+          "noFollow": true,
+          "tagTitle": "car",
+          "text": "Automóvil"
         }
       }
+    },
+    "menu-item#desktop-pickup-truck": {
+      "props": {
+        "id": "menu-item-category",
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/camionetas",
+          "noFollow": true,
+          "tagTitle": "pickup-truck",
+          "text": "Camioneta"
+        }
+      }
+    },
+    "menu-item#desktop-suv": {
+      "props": {
+        "id": "menu-item-category",
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/suv",
+          "noFollow": true,
+          "tagTitle": "suv",
+          "text": "SUV"
+        }
+      }
+    },
+    "menu-item#desktop-van-carga": {
+      "props": {
+        "id": "menu-item-category",
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/van",
+          "noFollow": true,
+          "tagTitle": "van-carga",
+          "text": "VAN/Carga"
+        }
+      }
+    },
+    "menu-item#desktop-camion-ligero": {
+      "props": {
+        "id": "menu-item-category",
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/camion%20ligero",
+          "noFollow": true,
+          "tagTitle": "camion-ligero",
+          "text": "Camion Ligero"
+        }
+      }
+    },
+    "menu-item#desktop-camion-pesado": {
+      "props": {
+        "id": "menu-item-category",
+        "type": "custom",
+        "itemProps": {
+          "type": "internal",
+          "href": "/camion",
+          "noFollow": true,
+          "tagTitle": "camion-pesado",
+          "text": "Camion Pesado"
+        }
+      }
+    }
 }
-

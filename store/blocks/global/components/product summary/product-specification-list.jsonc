@@ -1,7 +1,7 @@
 {
   "product-specification-group#summary": {
     "children": [
-      "responsive-layout.mobile","product-specification#summary","challenge.trade-policy-condition#b2b"
+      "product-specification#summary"
     ]
   },
   "product-specification#summary": {

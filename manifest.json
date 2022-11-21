@@ -65,9 +65,9 @@
     "imllab2b.whatsapp-button": "0.x",
     "vtex.challenge-tp-condition": "0.x",
     "vtex.auth-challenge": "1.x",
-    "vtex.locale-switcher": "0.x",
+    "vtex.css-handles": "1.x",
     "vtex.condition-layout": "2.x",
-    "vtex.css-handles": "1.x"
+    "vtex.locale-switcher": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

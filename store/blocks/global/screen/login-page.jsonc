@@ -44,7 +44,7 @@
   },
   "rich-text#home__subtitle": {
     "props": {
-      "text": "Ingresa con tu usuario y contraseña",
+      "text": "Para ingresar debes estar Registrado, si no tienes registro solicita una llamada",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "home__title"
