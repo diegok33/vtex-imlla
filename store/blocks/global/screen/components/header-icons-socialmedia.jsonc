@@ -1,8 +1,8 @@
 {
-  "flex-layout.row#icons__socialmedia-hd": {
+  "flex-layout.row#icons__socialmedia": {
     "title": "Contenido de social media",
     "props": {
-      "blockClass": "icons__socialmedia-hd"
+      "blockClass": "icons__socialmedia"
     },
     "children": [
       "image#socialmedia__facebook",

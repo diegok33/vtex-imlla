@@ -3,7 +3,7 @@
     "title": "Header Mobile",
     "children": [
       "sticky-layout#mobile",
-      "flex-layout.row#search__bar",
+      "flex-layout.row#search__bar","challenge-block#description__loginn",
       "chatbot-whatsapp"
     ]
   },
@@ -13,12 +13,46 @@
   },
   "flex-layout.row#mobile": {
     // "title": "Drawer, Logo and Minicart Section",
-    "children": ["drawer", "logo#mobile", "minicart.v2"],
+    "children": ["drawer", "logo#mobile","minicart.v2"],
     "props": {
       "blockClass": "header__mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+  "challenge-block#description__loginn":{
+    "props":{
+      "blockClass": "description__loginn"
+    },
+    "blocks": [
+      "challenge-content#description__loginn--content",
+      "challenge-fallback#description__loginn--fallback"
+    ]
+  },
+  "challenge-content#description__loginn--content": {
+    "props": {
+      "blockClass": "description__loginn--content"
+    },
+    "children": ["login#mb"]
+  },
+  "login#mb":{
+    "props":{
+      "showIconProfile": "true",
+      "blockClass": "loginn__content"
+    }
+  },
+  "challenge-fallback#description__loginn--fallback":{
+    "children":[
+      "link#loginn__fallback--text"
+    ]
+  },
+  "link#loginn__fallback--text":{
+    "props":{
+      "label": "Iniciar sesión",
+      "showIconProfile": "true",
+      "href": "/login-page",
+      "blockClass": "login__fallback--text"
     }
   },
   "logo#mobile": {
@@ -28,8 +62,10 @@
       "color": "white",
       "href": "/",
       "url": "assets/img/desktop/Logoimllamarcas.jpg",
-      "width": "20%"
+      "width": "160"
+
     }
+
   },
   "flex-layout.row#search__bar": {
     "title": "Search Bar Section",
@@ -37,6 +73,7 @@
     "props": {
       "blockClass": "search__bar--section"
     }
+
 
 
 }}

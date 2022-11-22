@@ -36,7 +36,7 @@
   // },
   "rich-text#home__title": {
     "props": {
-      "text": "# Bienvenidos a IMLLA",
+      "text": "# Bienvenidos a Imlla",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "home__title"
@@ -44,10 +44,11 @@
   },
   "rich-text#home__subtitle": {
     "props": {
-      "text": "Para ingresar debes estar Registrado, si no tienes registro solicita una llamada",
+      "text": "Para poder ingresar, deberás estar registrado como un usuario, si deseas ser parte de nuestros clientes mayoristas, puedes llamar al número 333 222 4444",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "home__title"
     }
   }
 }
+

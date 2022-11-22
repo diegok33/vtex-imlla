@@ -60,14 +60,15 @@
     "vtex.store-link": "0.x",
     "vtex.search": "2.x",
     "vtex.checkout-summary": "0.x",
-    "vtex.login": "2.x",
     "vtex.list-context": "0.x",
     "imllab2b.whatsapp-button": "0.x",
     "vtex.challenge-tp-condition": "0.x",
     "vtex.auth-challenge": "1.x",
     "vtex.css-handles": "1.x",
     "vtex.condition-layout": "2.x",
-    "vtex.locale-switcher": "0.x"
+    "vtex.locale-switcher": "0.x",
+    "vtex.login": "2.x",
+    "vtex.product-comparison": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

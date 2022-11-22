@@ -1,22 +1,5 @@
 {
-"info-card": {
-  "props": {
-    "id": "info-card-home",
-    "isFullModeStyle": true,
-    "textPosition": "CENTER",
-    "imageUrl": "assets/img/desktop/Fachadatd.jpg",
-    //"headline": "Octubre con descuentos imperdibles",
-   // "subhead":"No te pierdas los mejores precios ",
-    //"callToActionText": "Compra ahora",
-    //"callToActionUrl": "/dunlop?_q=dunlop&map=ft",
-    "showPaginationDots": "never",
-    "textAlignment": "CENTER",
-    "blockClass": "info-card-home"
 
-
-
-  }
-},
 
 "info-card#sull": {
   "props": {

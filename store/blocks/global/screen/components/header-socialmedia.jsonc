@@ -4,12 +4,12 @@
     "props": {
       "socialNetworks": [
         {
-          "url": "https://www.facebook.com/imlla",
+          "url": "https://www.facebook.com/TireDepotColombia",
           "name": "Facebook"
         },
         { "url": "https://t.me/+4wqKufWreacwOGJh", "name": "youtube" },
         {
-          "url": "https://www.instagram.com/imlla/?hl=es-la",
+          "url": "https://www.instagram.com/tiredepotcolombia/?hl=es-la",
           "name": "Instagram"
         }
       ],

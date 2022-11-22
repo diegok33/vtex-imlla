@@ -25,6 +25,10 @@
   color: #373435;
 }
 
+.logoImage{
+  margin-top: 10px;
+}
+
 .swiperBullet--active {
   color: #ba0001;
 }

@@ -20,7 +20,6 @@
     "children": [
       "menu-item#department-desktop-item-home",
           "menu-item#department-mobile-item-product-services",
-          //"menu-item#department-desktop-servitecas",
           "menu-item#department-mobile-item-we-brand",
           //"menu-item#department-desktop-item-about-us"
           "menu-item#department-desktop-item-contact"

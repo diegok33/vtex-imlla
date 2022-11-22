@@ -84,7 +84,7 @@
     }
   },
   "flex-layout.row#name-price":{
-    "children":[
+    "children":[ 
       "product-summary-name#summaryListDesktop",
       "product-selling-price#summary"
     ],
