@@ -5,7 +5,15 @@
       "itemCountMode": "total",
       "blockClass": "minicart__mobile"
     },
-    "children": ["minicart-base-content"]
+
+    "children": ["minicart-base-content"],
+
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
+    }
+
+
+
   },
   "icon-cart#minicart-icon": {
     "props": {

@@ -40,6 +40,7 @@
         "search-bar",
         "flex-layout.row#icons&minicart"
       ]
+
     },
     "flex-layout.row#text__pbx":{
       "children": [
@@ -66,7 +67,11 @@
         "challenge-block#description__login",
         "minicart.v2"
         // "rich-text#mycart__header"
-      ]
+      ],
+
+      "parent": {
+        "challenge": "challenge.trade-policy-condition"
+      }
     },
 
     "challenge-block#description__login":{
