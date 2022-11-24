@@ -1,7 +1,7 @@
 {
   "vendor": "imllab2b",
   "name": "store-theme",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
