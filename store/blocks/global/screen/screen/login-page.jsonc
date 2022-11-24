@@ -44,11 +44,10 @@
   },
   "rich-text#home__subtitle": {
     "props": {
-      "text": "Para poder ingresar, deberás estar registrado como un usuario, si deseas ser parte de nuestros clientes mayoristas, puedes llamar al número 333 222 4444",
+      "text": "Para poder ingresar, deberás estar registrado como un usuario, si deseas ser parte de nuestros clientes mayoristas contáctanos.",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "home__title"
     }
   }
 }
-

@@ -65,6 +65,7 @@
         "orientation": "vertical"
       }
     },
+
     "menu-item#desktop-car": {
       "props": {
         "id": "menu-item-category",

@@ -169,8 +169,8 @@
           "image#daviplata",
           "image#pse",
           "image#mastercard",
-          "image#visa",
-          "image#dinner"
+          "image#visa"
+         // "image#dinner"
         ],
         "props": {
           "blockClass": "col__pagos",
