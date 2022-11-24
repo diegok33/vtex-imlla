@@ -9,9 +9,9 @@
     // }
   },
 
-  "challenge.trade-policy-condition#b2b": {
+  "challenge.trade-policy-condition": {
     "props": {
-      "redirectPath": "/login-page",
+      "redirectPath":"/login-page",
       "forbiddenRedirectPath": "/user-not-found",
       "defaultContentVisibility": "hidden"
     }

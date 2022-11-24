@@ -10,7 +10,7 @@
       }
     },
     "parent": {
-      "challenge": "challenge.trade-policy-condition#b2b"
+      "challenge": "challenge.trade-policy-condition"
     }
   },
 
@@ -28,7 +28,7 @@
       }
     },
     "parent": {
-      "challenge": "challenge.trade-policy-condition#b2b"
+      "challenge": "challenge.trade-policy-condition"
     }
   },
 
@@ -41,7 +41,7 @@
       }
     },
     "parent": {
-      "challenge": "challenge.trade-policy-condition#b2b"
+      "challenge": "challenge.trade-policy-condition"
     }
   },
 
@@ -54,7 +54,7 @@
       }
     },
     "parent": {
-      "challenge": "challenge.trade-policy-condition#b2b"
+      "challenge": "challenge.trade-policy-condition"
     }
   },
 
@@ -67,7 +67,7 @@
       }
     },
     "parent": {
-      "challenge": "challenge.trade-policy-condition#b2b"
+      "challenge": "challenge.trade-policy-condition"
     }
   },
 
