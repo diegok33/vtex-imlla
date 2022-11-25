@@ -6,12 +6,7 @@
       "blockClass": "minicart__mobile"
     },
 
-    "children": ["minicart-base-content"],
-
-    "parent": {
-      "challenge": "challenge.trade-policy-condition"
-    }
-
+    "children": ["minicart-base-content"]
 
 
   },

@@ -111,7 +111,7 @@
   "flex-layout.col#priceSummaryListDesktop": {
     "children": [
       "product-selling-price#summary",
-      "product-list-price#summary"
+      "product-list-price"
     ]
   },
   "stack-layout#summaryListDesktop": {

@@ -2,7 +2,7 @@
 {
 
 "shelf#home": {
-  "blocks":["product-summary.shelf"],
+  "blocks":["product-summary.shelf#hm"],
   "props":{
     "orderBy":"OrderbyBestDiscountDESC",
     "paginationDotsVisibility":"desktop only",
@@ -17,4 +17,43 @@
       "scroll": "BY_PAGE",
       "arrows": true,
       "titleText":"Más Vendidos"
-    }}}}
+    }}},
+
+      "shelf#home2": {
+        "blocks":["product-summary.shelf#hm"],
+        "props":{
+          "orderBy":"OrderByNameDESC",
+          "paginationDotsVisibility":"desktop only",
+          "productlist":{
+            "maxItems": 5,
+            "itemsPerPage": {
+              "desktop": 4,
+              "tablet": 3,
+              "phone": 1
+            },
+            "minitemsPerPage":1,
+            "scroll": "BY_PAGE",
+            "arrows": true,
+            "titleText":"Más Vendidos"
+
+  }}},
+
+  "shelf#home3": {
+    "blocks":["product-summary.shelf#hm"],
+    "props":{
+      "orderBy":"OrderByNameASC",
+      "paginationDotsVisibility":"desktop only",
+      "productlist":{
+        "maxItems": 5,
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 1
+        },
+        "minitemsPerPage":1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText":"Más Vendidos"
+
+
+}}}}

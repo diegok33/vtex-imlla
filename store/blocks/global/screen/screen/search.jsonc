@@ -282,12 +282,17 @@
     "props": {
       "layouts": [
         {
-          "name": "list",
-          "component": "ListSummary",
-          "itemsPerRow": 1
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1080px)":4,
+            "(min-width:623px) and (max-width:1007px)":3,
+            "(max-width:622px)":2
+          }
         }
       ],
-      "ListSummary": "product-summary.shelf#listLayout"
+      "ListSummary": "product-summary.shelf#listLayout",
+      "GridSummary": "product-summary.shelf"
     }
   },
   "gallery-layout-switcher": {

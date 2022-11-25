@@ -6,7 +6,6 @@
       "flex-layout.row#product__description-specs",
       "shelf.relatedProducts"
     ],
-
     "props": {
       "blockClass": "Container__product"
     },
@@ -71,7 +70,7 @@
   },
   "product-price": {
     "props": {
-
+      "showSavings": true,
       "showListPrice": true
     }
   },
