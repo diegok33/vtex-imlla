@@ -8,7 +8,7 @@
           //"info-card",
           "list-context.image-list#carousel__brands--mobile",
           "rich-text#productos mas vendidos-mobile",
-          "shelf",
+          "shelf#home",
           //"rich-text#selecciona-mobile",
           //"flex-layout.row#home",
           "info-card#col-left",
