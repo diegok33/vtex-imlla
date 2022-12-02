@@ -2,7 +2,7 @@
   "responsive-layout.desktop#home": {
     "title": "Home Desktop",
     "children": [
-      "list-context.image-list#carousel__main",
+      "video#background",
       //"info-card",
       "list-context.image-list#carousel__brands",
       "rich-text#productos mas vendidos",
@@ -14,11 +14,29 @@
       "info-card#col-right-2",
       "shelf#home2",
       "info-card#sull",
-      "shelf#home3"
+      "shelf#home3",
+      "list-context.image-list#carousel__main"
     ]
 
 
   },
+
+  "video#background": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "name": "Diegok Dunlop Toyo Tires Falken",
+      "description": "Diegok Dunlop Toyo Tires Falken",
+      "src": "https://youtu.be/MMCS44X3V3g?rel=0&showinfo=0&controls=1",
+      "controls": 0,
+      "showinfo": 0,
+      "blockClass": "videoEl"
+    }
+  },
+
   "rich-text#productos mas vendidos": {
     "title": "PRODUCTOS MÁS VENDIDOS",
     "props": {

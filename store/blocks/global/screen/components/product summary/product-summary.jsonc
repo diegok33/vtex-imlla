@@ -19,17 +19,25 @@
       "product-summary-space",
       "product-summary-description",
       "product-summary-space",
+      //*"product-price",
       "product-list-price",
       "product-selling-price#summary",
       "product-price-savings",
-
       "add-to-cart-button"
     ]
   },
-  "product-list-price":{
+
+  "product-price": {
     "props": {
-      "listPriceValue": "PVP",
-      "message": "PVP"
+      "showSavings": true,
+      "showListPrice": true,
+      "labelListPrice": "PVP",
+      "labelSellingPrice": "Precio",
+      "showLabels": true
+
+
+
+
     }
   },
 
@@ -75,6 +83,12 @@
     }
   },
 
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+
 
   "flex-layout.row#selling-price-savings": {
     "props": {
@@ -99,6 +113,7 @@
         "highlight"
       ],
       "message": "Precio: {sellingPriceValue}",
+      "alwaysShow": true,
       "blockClass": "summary"
     }
   },

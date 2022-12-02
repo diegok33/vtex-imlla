@@ -65,6 +65,7 @@
     "children": [
      "flex-layout.row#name-price",
      "product-description#description",
+     "product-price",
       "add-to-cart-button#comprar"
     ]
   },

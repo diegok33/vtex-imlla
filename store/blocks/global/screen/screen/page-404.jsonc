@@ -77,7 +77,8 @@
       "product-summary-name",
       // "product-rating-inline",
       "product-summary-space",
-      "product-summary-price",
+      "product-summary-description",
+      "product-price",
       // "product-identifier.summary",
       "add-to-cart-button"
     ],
