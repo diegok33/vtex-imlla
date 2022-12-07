@@ -23,8 +23,8 @@
         //"menu-item#desktop-tires"
         "menu-item#desktop-car",
         "menu-item#desktop-pickup-truck",
-        "menu-item#desktop-suv",
-        "menu-item#desktop-van-carga",
+        //"menu-item#desktop-suv",
+       // "menu-item#desktop-van-carga",
         "menu-item#desktop-camion-ligero",
         "menu-item#desktop-camion-pesado"
       ],
@@ -56,8 +56,8 @@
       "children": [
         "menu-item#desktop-car",
         "menu-item#desktop-pickup-truck",
-        "menu-item#desktop-suv",
-        "menu-item#desktop-van-carga",
+       // "menu-item#desktop-suv",
+        //"menu-item#desktop-van-carga",
         "menu-item#desktop-camion-ligero",
         "menu-item#desktop-camion-pesado"
       ],
@@ -92,39 +92,39 @@
         }
       }
     },
-    "menu-item#desktop-suv": {
-      "props": {
-        "id": "menu-item-category",
-        "type": "custom",
-        "itemProps": {
-          "type": "internal",
-          "href": "/suv",
-          "noFollow": true,
-          "tagTitle": "suv",
-          "text": "SUV"
-        }
-      }
-    },
-    "menu-item#desktop-van-carga": {
-      "props": {
-        "id": "menu-item-category",
-        "type": "custom",
-        "itemProps": {
-          "type": "internal",
-          "href": "/van",
-          "noFollow": true,
-          "tagTitle": "van-carga",
-          "text": "VAN/Carga"
-        }
-      }
-    },
+    //"menu-item#desktop-suv": {
+      //"props": {
+        //"id": "menu-item-category",
+        //"type": "custom",
+        //"itemProps": {
+          //"type": "internal",
+          //"href": "/suv",
+          //"noFollow": true,
+          //"tagTitle": "suv",
+          //"text": "SUV"
+        //}
+      //}
+    //},
+    //"menu-item#desktop-van-carga": {
+      //"props": {
+        //"id": "menu-item-category",
+        //"type": "custom",
+        //"itemProps": {
+          //"type": "internal",
+          //"href": "/van",
+          //"noFollow": true,
+          //"tagTitle": "van-carga",
+          //"text": "VAN/Carga"
+        //}
+      //}
+    //},
     "menu-item#desktop-camion-ligero": {
       "props": {
         "id": "menu-item-category",
         "type": "custom",
         "itemProps": {
           "type": "internal",
-          "href": "/camion%20ligero",
+          "href": "/CamionLigero",
           "noFollow": true,
           "tagTitle": "camion-ligero",
           "text": "Camion Ligero"

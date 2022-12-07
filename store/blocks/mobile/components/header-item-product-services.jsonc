@@ -30,8 +30,8 @@
       //"menu-item#mobileServicios"
       "menu-item#desktop-car",
       "menu-item#desktop-pickup-truck",
-      "menu-item#desktop-suv",
-      "menu-item#desktop-van-carga",
+      //"menu-item#desktop-suv",
+      //"menu-item#desktop-van-carga",
       "menu-item#desktop-camion-ligero",
       "menu-item#desktop-camion-pesado"
     ],
