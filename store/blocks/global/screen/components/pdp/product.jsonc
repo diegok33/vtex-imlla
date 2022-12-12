@@ -57,7 +57,6 @@
     },
     "children": [
       "vtex.store-components:product-name#product-page",
-      "product-summary-description",
       "product-price",
       "product-quantity",
       "add-to-cart-button"
@@ -68,7 +67,13 @@
       "showSku": true,
       "showBrandName": true
     }
+  },
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": true
 
+      }
   },
   "flex-layout.row#product__description-specs": {
     "children": [
