@@ -4,6 +4,7 @@
       "blockClass": "listLayout"
     },
     "children": [
+      "responsive-layout.mobile",
       "responsive-layout.desktop#productSummaryList",
       "responsive-layout.mobile#productSummaryList"
     ]
@@ -65,7 +66,6 @@
     "children": [
      "flex-layout.row#name-price",
      "product-description#description",
-     "product-price",
       "add-to-cart-button#comprar"
     ]
   },
@@ -79,6 +79,8 @@
   "add-to-cart-button#comprar": {
     "props": {
       "text": "COMPRAR",
+      "preserveLayoutOnMobile": false,
+      "display": "flex",
       "isOneClickBuy": true,
       "onClickEventPropagation": "enabled",
       "blockClass": "comprar"
@@ -112,7 +114,7 @@
   "flex-layout.col#priceSummaryListDesktop": {
     "children": [
       "product-selling-price#summary",
-      "product-list-price"
+      "product-list-price#summary"
     ]
   },
   "stack-layout#summaryListDesktop": {
@@ -135,7 +137,7 @@
   },
   "flex-layout.row#summaryListMobile": {
     "props":{
-      "preserveLayoutOnMobile": true,
+      "preserveLayoutOnMobile": false,
       "colSizing": "auto",
       "blockClass": "summaryListMobile",
       "colGap": 5
@@ -211,3 +213,4 @@
     }
   }
 }
+

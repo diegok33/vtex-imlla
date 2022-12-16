@@ -15,7 +15,8 @@
       "shelf#home2",
       "info-card#sull",
       "shelf#home3",
-      "list-context.image-list#carousel__main"
+      "list-context.image-list#carousel__main",
+      "image#clientes"
     ]
 
 
@@ -30,7 +31,7 @@
       "muted": true,
       "name": "Diegok Dunlop Toyo Tires Falken",
       "description": "Diegok Dunlop Toyo Tires Falken",
-      "src": "https://vimeo.com/777506515?allow;autoplay",
+      "src": "/",
 
       "blockClass": "videoEl"
     }
@@ -56,12 +57,17 @@
       "font": "helvetica",
       "blockClass": "selecciona"
 
+    }
+      },
 
-      }
+      "image#clientes": {
+        "props": {
+          "src": "/arquivos/marca-saliadas-1.jpg"
+      }}
 
 
 
 
-    }}
+    }
 
 

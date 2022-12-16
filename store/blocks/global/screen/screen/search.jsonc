@@ -85,6 +85,9 @@
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
+    },
     "props": {
       "pagination": "show-more",
       "preventRouteChange": false,
@@ -97,6 +100,7 @@
       }
     }
   },
+
   "flex-layout.row#searchbread": {
     "children": ["breadcrumb.search#test"],
     "props": {
@@ -104,6 +108,7 @@
       "fullWidth": true
     }
   },
+
   "breadcrumb.search#test": {
     "props": {
       "showOnMobile": true,
@@ -133,6 +138,9 @@
       "flex-layout.row#products",
       "flex-layout.row#fetchmore"
     ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
+    },
     "props": {
       "width": "grow",
       "preventVerticalStretch": true
@@ -143,12 +151,15 @@
       "flex-layout.col#productCount",
       "flex-layout.row#orderByAndSwitcher"
     ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
+    },
     "props": {
       "blockClass": "row-order-productCount"
     }
   },
   "flex-layout.row#orderByAndSwitcher": {
-    "children": ["order-by.v2","gallery-layout-switcher"],
+    "children": ["order-by.v2"],
     "props": {
       "horizontalAlign": "right",
       "preventHorizontalStretch": true,
@@ -223,8 +234,8 @@
   "flex-layout.row#searchinfomobile": {
     "children": [
       "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile",
-      "flex-layout.col#switcherMobile"
+      "flex-layout.col#filterMobile"
+      //"flex-layout.col#switcherMobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
@@ -294,6 +305,21 @@
       "ListSummary": "product-summary.shelf#listLayout",
       "GridSummary": "product-summary.shelf"
     }
+  },
+  "product-summary.shelf": {
+    "children": [
+
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-space",
+      "product-list-price",
+      "product-installments",
+      "product-price-savings",
+      "product-spot-price-savings",
+      "product-price",
+      "add-to-cart-button"
+    ]
   },
   "gallery-layout-switcher": {
     "children": [

@@ -1,6 +1,10 @@
 {
   "search-bar": {
     "blocks": ["autocomplete-result-list.v2"],
+
+    "parent": {
+       "challenge": "challenge.trade-policy-condition"
+  },
     "props": {
       "openAutocompleteOnFocus": true,
       "blockClass": "search__bar"

@@ -1,7 +1,7 @@
 {
   "product-specification-group#summary": {
     "children": [
-      "product-specification#summary"
+      "responsive-layout.mobile","product-specification#summary"
     ]
   },
   "product-specification#summary": {
@@ -27,3 +27,4 @@
     }
   }
 }
+

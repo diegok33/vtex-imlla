@@ -21,6 +21,8 @@
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 45%;
   margin-right: 15px;
+  color: rgb(37, 34, 35);
+
 }
 
 .infoCardContainer--info-card-home {

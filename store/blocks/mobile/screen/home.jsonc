@@ -16,7 +16,8 @@
           "info-card#col-right-2",
           "shelf#home2",
           "info-card#sullmobile",
-          "list-context.image-list#carousel__main--mobile"
+          "list-context.image-list#carousel__main--mobile",
+          "image#clientes"
         ]
 
 

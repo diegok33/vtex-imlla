@@ -11,7 +11,7 @@
     ]
   },
 
-  "product-summary.shelf": {
+  "product-summary.shelf#Dk": {
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
@@ -19,10 +19,8 @@
       "product-summary-space",
       "product-summary-description",
       "product-summary-space",
-      //*"product-price",
       "product-list-price",
-      "product-selling-price#summary",
-      "product-price-savings",
+      "product-price",
       "add-to-cart-button"
     ]
   },
@@ -92,6 +90,7 @@
 
   "flex-layout.row#selling-price-savings": {
     "props": {
+      "labelSellingPrice":"Precio",
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
@@ -109,6 +108,7 @@
   },
   "product-selling-price#summary": {
     "props": {
+      "labelSellingPrice":"Precio",
       "markers": [
         "highlight"
       ],
