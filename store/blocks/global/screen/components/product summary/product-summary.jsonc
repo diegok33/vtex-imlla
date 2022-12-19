@@ -5,8 +5,8 @@
       "product-summary-name",
       "flex-layout.col#productRating",
       "product-summary-space",
-      "product-summary-description",
-      "product-installments#summary"
+      "product-summary-description"
+
 
     ]
   },
@@ -19,9 +19,7 @@
       "product-summary-space",
       "product-summary-description",
       "product-summary-space",
-      "product-list-price",
-      "product-price",
-      "add-to-cart-button"
+      "product-price"
     ]
   },
 

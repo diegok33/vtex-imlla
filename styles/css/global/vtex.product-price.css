@@ -21,17 +21,17 @@
 
 .savings {
   font-weight: 500;
-  color: #fde722;
+  color: #5f5d4f;
 }
 
 .sellingPriceValue--summary {
   font-size: 1.5625rem;
   font-weight: 600;
-  color: #d11717;
+  color: #3a3030;
 }
 
 .savings--summary {
-  background: #fded0a;
+  background: #f7f7f7;
   border-radius: 1000px;
   align-items: center;
   display: flex;

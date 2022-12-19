@@ -9,5 +9,10 @@
       "openAutocompleteOnFocus": true,
       "blockClass": "search__bar"
     }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf#hm"]
   }
 }
+
+
